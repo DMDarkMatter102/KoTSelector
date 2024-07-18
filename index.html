@@ -14,11 +14,6 @@ table, th, td {
         font-family: "cafeteria";
         font-size: 1.5em;
       }
-select {
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
-}
 </style>
 <link href="DynamicSelect.css" rel="stylesheet" type="text/css">
 </head>
@@ -49,11 +44,7 @@ select {
   <tr style="height:96%">
     <th style="background-color:#87d132">Wooden<br>Kingdom</th>
     <th style="background-color:#c71616">
-    <label for="plant1"></label>
-<select id="plant1" name="plant1" data-placeholder="Select a plant" data-dynamic-select>
-    <option value="Wall-Nut" data-img="tileimage/Wall-Nut.png" data-img-width="96px" data-img-height="96px"></option>
-    <option value="Jugger-Nut" data-img="tileimage/Jugger-Nut.png" data-img-width="96px" data-img-height="96px"></option>
-</select>
+        <select id="plant1" name="plant1"></select>
     </th>
     <th style="background-color:#1245c7"></th>
      <th style="background-color:#e0cf0b"></th>
@@ -71,28 +62,27 @@ select {
      <th style="background-color:#860ac4"></th>
   </tr>
 </table>
-  <select id="photo" name="photo"></select>
   <script src="DynamicSelect.js"></script>
   <script>
         // Initialize the Dynamic Selects
-        new DynamicSelect('#photo', {
+        new DynamicSelect('#plant1', {
             columns: 3,
-            height: '100px',
-            width: '160px',
+            height: '96px',
+            width: '96px',
             dropdownWidth: '400px',
-            placeholder: 'Select a photo',
+            placeholder: 'choose plant',
             data: [
                 {
-                    value: 'Beach',
+                    value: 'Wall-Nut',
                     img: 'tileimage/Wall-Nut.png',
-                    imgWidth: '100px',
-                    imgHeight: '80px'
+                    imgWidth: '48px',
+                    imgHeight: '48px'
                 },
                 {
-                    value: 'Abandoned Building',
+                    value: 'Jugger-Nut',
                     img: 'tileimage/Jugger-Nut.png',
-                    imgWidth: '100px',
-                    imgHeight: '80px'
+                    imgWidth: '48px',
+                    imgHeight: '48px'
                 }    
             ],
         });
