@@ -5,7 +5,6 @@
   position: relative;
   width: 96px;
   user-select: none;
-  appearance: none;
 }
 .dynamic-select .dynamic-select-header {
   border: 1px solid #dee2e6;
