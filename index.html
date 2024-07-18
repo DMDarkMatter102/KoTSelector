@@ -73,8 +73,12 @@ table, th, td {
      <th style="background-color:#5ec40a">
           <select id="plant1all" name="plant1all" class="custom-select"></select>
      </th>
-     <th style="background-color:#798c65"></th>
-     <th style="background-color:#a3a3a3"></th>
+     <th style="background-color:#798c65">
+       <select id="zombie1b" name="zombie1b" class="custom-select"></select>
+     </th>
+     <th style="background-color:#a3a3a3">
+       <select id="zombie1a" name="zombie1a" class="custom-select"></select>
+     </th>
      <th style="background-color:#61c995">
        <img src="tileimage/Empty.png">
      </th>
@@ -87,7 +91,9 @@ table, th, td {
      <th style="background-color:#8375c7">
        <img src="tileimage/Empty.png">
      </th>
-     <th style="background-color:#860ac4"></th>
+     <th style="background-color:#860ac4">
+       <select id="zombie1all" name="zombie1all" class="custom-select"></select>
+     </th>
   </tr>
 </table>
   <script src="DynamicSelect.js"></script>
@@ -313,6 +319,99 @@ table, th, td {
                     imgWidth: '96px',
                     imgHeight: '96px'
                 }   
+            ],
+        });
+                    new DynamicSelect('#zombie1b', {
+            columns: 3,
+            height: '96px',
+            width: '96px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+                {
+                    value: 'Browncoat Zombie',
+                    img: 'tileimage/Browncoat Zombie.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+                {
+                    value: 'Flag Zombie',
+                    img: 'tileimage/Flag Zombie.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                }    
+            ],
+        });
+                        new DynamicSelect('#zombie1a', {
+            columns: 3,
+            height: '96px',
+            width: '96px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+                              {
+                    value: 'Conehead Zombie',
+                    img: 'tileimage/Conehead Zombie.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+                              {
+                    value: 'Buckethead Zombie',
+                    img: 'tileimage/Buckethead Zombie.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+            ],
+        });
+                        new DynamicSelect('#zombie1all', {
+            columns: 3,
+            height: '96px',
+            width: '96px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+                {
+                    value: 'Browncoat Zombie',
+                    img: 'tileimage/Browncoat Zombie.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+                {
+                    value: 'Flag Zombie',
+                    img: 'tileimage/Flag Zombie.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },    
+                              {
+                    value: 'Conehead Zombie',
+                    img: 'tileimage/Conehead Zombie.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+                              {
+                    value: 'Buckethead Zombie',
+                    img: 'tileimage/Buckethead Zombie.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
             ],
         });
         </script>
