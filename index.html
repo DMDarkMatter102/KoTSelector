@@ -14,6 +14,12 @@ table, th, td {
         font-family: "cafeteria";
         font-size: 1.5em;
       }
+.custom-select {
+  /* Hide the default arrow */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
 </style>
 <link href="DynamicSelect.css" rel="stylesheet" type="text/css">
 </head>
@@ -44,7 +50,7 @@ table, th, td {
   <tr style="height:96%">
     <th style="background-color:#87d132">Wooden<br>Kingdom</th>
     <th style="background-color:#c71616">
-        <select id="plant1" name="plant1"></select>
+        <select id="plant1" name="plant1" class="custom-select"></select>
     </th>
     <th style="background-color:#1245c7"></th>
      <th style="background-color:#e0cf0b"></th>
@@ -75,14 +81,14 @@ table, th, td {
                 {
                     value: 'Wall-Nut',
                     img: 'tileimage/Wall-Nut.png',
-                    imgWidth: '48px',
-                    imgHeight: '48px'
+                    imgWidth: '96px',
+                    imgHeight: '96px'
                 },
                 {
                     value: 'Jugger-Nut',
                     img: 'tileimage/Jugger-Nut.png',
-                    imgWidth: '48px',
-                    imgHeight: '48px'
+                    imgWidth: '96px',
+                    imgHeight: '96px'
                 }    
             ],
         });
