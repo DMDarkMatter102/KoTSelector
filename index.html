@@ -18,7 +18,6 @@ table, th, td {
 <link href="DynamicSelect.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<script src="DynamicSelect.js"></script>
 <table style="width:96%">
   <tr style="height:96%">
     <th rowspan="2" style="background-color:#fcba03">Picking</th>
@@ -46,11 +45,12 @@ table, th, td {
   <form>
 <label for="country">Country</label>
 <select id="country" name="country" data-placeholder="Select a country" data-dynamic-select>
-    <option value="United States" data-img="tileimage/Wall-Nut.png">test</option>
-    <option value="United Kingdom" data-img="tileimage/Jugger-Nut.png">test</option>
+    <option value="United States" data-img="tileimage/Wall-Nut.png">test1</option>
+    <option value="United Kingdom" data-img="tileimage/Jugger-Nut.png">test2</option>
 </select>
-<img src="tileimage/Wall-Nut.png">
   </form>
+<img src="tileimage/Wall-Nut.png">
+  <script src="DynamicSelect.js"></script>
    <script>
         // Initialize the Dynamic Selects
         new DynamicSelect('#photo', {
