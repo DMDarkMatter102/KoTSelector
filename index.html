@@ -36,7 +36,7 @@ table, th, td {
      <th style="background-color:#e0cf0b">Sun Producer</th>
      <th style="background-color:#08c70e">Support</th>
      <th style="background-color:#8509eb">Instant-use</th>
-     <th style="background-color:#f26507">Explosive</th>
+     <th style="background-color:#f26507">Trapper</th>
      <th style="background-color:#0fcedb">Staller</th>
      <th style="background-color:#5ec40a">Best Plant</th>
      <th style="background-color:#798c65">Basics</th>
@@ -48,27 +48,45 @@ table, th, td {
      <th style="background-color:#860ac4">Best Zombie</th>
   </tr>
   <tr style="height:96px; width:96px">
-    <th style="background-color:#87d132">Wooden<br>Kingdom</th>
+    <th style="background-color:#87d132">Player's<br>House</th>
     <th style="background-color:#c71616">
-        <select id="plant1" name="plant1" class="custom-select"></select>
+        <select id="plant1" name="plant1a" class="custom-select"></select>
     </th>
     <th style="background-color:#1245c7">
-      <select id="plant2" name="plant2" class="custom-select">
+      <select id="plant2" name="plant1d" class="custom-select">
     </th>
      <th style="background-color:#e0cf0b">
-       <select id="plant3" name="plant3" class="custom-select">
+       <select id="plant3" name="plant1p" class="custom-select">
      </th>
-     <th style="background-color:#08c70e"></th>
-     <th style="background-color:#8509eb"></th>
-     <th style="background-color:#f26507"></th>
-     <th style="background-color:#0fcedb"></th>
-     <th style="background-color:#5ec40a"></th>
+     <th style="background-color:#08c70e">
+       <img src="tileimage/Empty.png">
+     </th>
+     <th style="background-color:#8509eb">
+          <select id="plant3" name="plant1i" class="custom-select">
+     </th>
+     <th style="background-color:#f26507">
+          <select id="plant3" name="plant1t" class="custom-select">
+     </th>
+     <th style="background-color:#0fcedb">
+       <img src="tileimage/Empty.png">
+     </th>
+     <th style="background-color:#5ec40a">
+          <select id="plant3" name="plant1all" class="custom-select">
+     </th>
      <th style="background-color:#798c65"></th>
      <th style="background-color:#a3a3a3"></th>
-     <th style="background-color:#61c995"></th>
-     <th style="background-color:#6e4040"></th>
-     <th style="background-color:#a69855"></th>
-     <th style="background-color:#8375c7"></th>
+     <th style="background-color:#61c995">
+       <img src="tileimage/Empty.png">
+     </th>
+     <th style="background-color:#6e4040">
+       <img src="tileimage/Empty.png">
+     </th>
+     <th style="background-color:#a69855">
+       <img src="tileimage/Empty.png">
+     </th>
+     <th style="background-color:#8375c7">
+       <img src="tileimage/Empty.png">
+     </th>
      <th style="background-color:#860ac4"></th>
   </tr>
 </table>
@@ -102,7 +120,7 @@ table, th, td {
                 }    
             ],
         });
-        new DynamicSelect('#plant2', {
+        new DynamicSelect('#plant1d', {
             columns: 3,
             height: '96px',
             width: '96px',
@@ -129,7 +147,7 @@ table, th, td {
                 }    
             ],
         });
-            new DynamicSelect('#plant3', {
+            new DynamicSelect('#plant1s', {
             columns: 3,
             height: '96px',
             width: '96px',
@@ -154,6 +172,147 @@ table, th, td {
                     imgWidth: '96px',
                     imgHeight: '96px'
                 }    
+            ],
+        });
+                new DynamicSelect('#plant1i', {
+            columns: 3,
+            height: '96px',
+            width: '96px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+                {
+                    value: 'Cherry Bomb',
+                    img: 'tileimage/Cherry Bomb.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+                {
+                    value: 'Extra Cherry',
+                    img: 'tileimage/Extra Cherry.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                }    
+            ],
+        });
+                    new DynamicSelect('#plant1t', {
+            columns: 3,
+            height: '96px',
+            width: '96px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+                {
+                    value: 'Potato Mine',
+                    img: 'tileimage/Potato Mine.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+                {
+                    value: 'Hothead',
+                    img: 'tileimage/Hothead.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },    
+                              {
+                    value: 'Small Cherry',
+                    img: 'tileimage/Small Cherry.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                }   
+            ],
+        });
+                        new DynamicSelect('#plant1all', {
+            columns: 3,
+            height: '96px',
+            width: '96px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+                              {
+                    value: 'Peashooter',
+                    img: 'tileimage/Peashooter.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+                {
+                    value: 'Beeshooter',
+                    img: 'tileimage/Beeshooter.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+                              {
+                    value: 'Sunflower',
+                    img: 'tileimage/Sunflower.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+                {
+                    value: 'Power Flower',
+                    img: 'tileimage/Power Flower.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+                              {
+                    value: 'Wall-Nut',
+                    img: 'tileimage/Wall-Nut.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+                {
+                    value: 'Jugger-Nut',
+                    img: 'tileimage/Jugger-Nut.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+                {
+                    value: 'Potato Mine',
+                    img: 'tileimage/Potato Mine.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+                {
+                    value: 'Hothead',
+                    img: 'tileimage/Hothead.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },    
+                              {
+                    value: 'Cherry Bomb',
+                    img: 'tileimage/Cherry Bomb.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },
+                {
+                    value: 'Extra Cherry',
+                    img: 'tileimage/Extra Cherry.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                },    
+                              {
+                    value: 'Small Cherry',
+                    img: 'tileimage/Small Cherry.png',
+                    imgWidth: '96px',
+                    imgHeight: '96px'
+                }   
             ],
         });
         </script>
