@@ -8,7 +8,7 @@
 }
 .dynamic-select .dynamic-select-header {
   border: 0px solid #dee2e6;
-  padding: 7px 30px 7px 12px;
+  padding: 96px 96px;
 }
 .dynamic-select .dynamic-select-header::after {
   content: "";
@@ -37,7 +37,7 @@
   display: none;
   box-sizing: border-box;
   flex-flow: wrap;
-  position: absolute;
+  position: relative;
   top: 100%;
   left: 0;
   right: 0;
