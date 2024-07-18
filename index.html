@@ -36,7 +36,7 @@ table, th, td {
      <th style="background-color:#1245c7">Defender</th>
      <th style="background-color:#e0cf0b">Sun<br>Producer</th>
      <th style="background-color:#08c70e">Support</th>
-     <th style="background-color:#8509eb">Instant-use</th>
+     <th style="background-color:#8509eb">Single-use</th>
      <th style="background-color:#f26507">Trapper</th>
      <th style="background-color:#0fcedb">Staller</th>
      <th style="background-color:#5ec40a">Best Plant</th>
@@ -64,7 +64,7 @@ table, th, td {
        <img src="tileimage/Empty.png" width="72px" height="72px">
      </th>
      <th style="background-color:#8509eb">
-          <select id="plant1i" name="plant1i" class="custom-select"></select>
+          <select id="plant1u" name="plant1u" class="custom-select"></select>
      </th>
      <th style="background-color:#f26507">
           <select id="plant1t" name="plant1t" class="custom-select"></select>
@@ -115,7 +115,7 @@ table, th, td {
        <select id="plant2sp" name="plant2sp" class="custom-select"></select>
      </th>
      <th style="background-color:#8509eb">
-                 <img src="tileimage/Empty.png" width="72px" height="72px">
+        <select id="plant2u" name="plant2u" class="custom-select"></select>
      </th>
      <th style="background-color:#f26507">
           <select id="plant2t" name="plant2t" class="custom-select"></select>
@@ -149,6 +149,58 @@ table, th, td {
      </th>
      <th style="background-color:#860ac4">
        <select id="zombie2all" name="zombie2all" class="custom-select"></select>
+     </th>
+  </tr>
+  >
+  <tr style="height:72px; width:72px">
+    <th style="background-color:#a3773c">Cave<br>Kingdom</th>
+    <th style="background-color:#c71616">
+        <select id="plant3a" name="plant3a" class="custom-select"></select>
+    </th>
+    <th style="background-color:#1245c7">
+      <select id="plant3d" name="plant3d" class="custom-select"></select>
+    </th>
+     <th style="background-color:#e0cf0b">
+      <select id="plant3p" name="plant3p" class="custom-select"></select>
+     </th>
+     <th style="background-color:#08c70e">
+       <select id="plant3sp" name="plant3sp" class="custom-select"></select>
+     </th>
+     <th style="background-color:#8509eb">
+       <select id="plant3u" name="plant3u" class="custom-select"></select>
+     </th>
+     <th style="background-color:#f26507">
+              <img src="tileimage/Empty.png" width="72px" height="72px">
+     </th>
+     <th style="background-color:#0fcedb">
+          <select id="plant3st" name="plant3st" class="custom-select"></select>
+     </th>
+     <th style="background-color:#5ec40a">
+          <select id="plant3all" name="plant3all" class="custom-select"></select>
+     </th>
+     <th style="background-color:#798c65">
+       <select id="zombie3b" name="zombie3b" class="custom-select"></select>
+     </th>
+     <th style="background-color:#a3a3a3">
+       <select id="zombie3a" name="zombie3a" class="custom-select"></select>
+     </th>
+     <th style="background-color:#61c995">
+       <select id="zombie3sp" name="zombie3sp" class="custom-select"></select>
+     </th>
+     <th style="background-color:#6e4040">
+       <select id="zombie3of" name="zombie3of" class="custom-select"></select>
+     </th>
+     <th style="background-color:#a69855">
+       <select id="zombie3sw" name="zombie3sw" class="custom-select"></select>
+     </th>
+        <th style="background-color:#915030">
+           <select id="zombie3os" name="zombie3os" class="custom-select"></select>
+        </th>
+     <th style="background-color:#8375c7">
+       <select id="zombie3boss" name="zombie3boss" class="custom-select"></select>
+     </th>
+     <th style="background-color:#860ac4">
+       <select id="zombie3all" name="zombie3all" class="custom-select"></select>
      </th>
   </tr>
 </table>
@@ -236,7 +288,7 @@ table, th, td {
                 }    
             ],
         });
-                new DynamicSelect('#plant1i', {
+                new DynamicSelect('#plant1u', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -249,6 +301,24 @@ table, th, td {
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
+                              {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                {
+                    value: 'Potato Mine',
+                    img: 'tileimage/Potato Mine.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                {
+                    value: 'Hothead',
+                    img: 'tileimage/Hothead.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },    
                 {
                     value: 'Cherry Bomb',
                     img: 'tileimage/Cherry Bomb.png',
@@ -260,7 +330,13 @@ table, th, td {
                     img: 'tileimage/Extra Cherry.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
-                }    
+                },                                  
+              {
+                    value: 'Small Cherry',
+                    img: 'tileimage/Small Cherry.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }   
             ],
         });
                     new DynamicSelect('#plant1t', {
@@ -640,6 +716,57 @@ table, th, td {
                     imgHeight: '72px'
                 },
                 {
+                    value: 'Battle-mint',
+                    img: 'tileimage/Battle-mint.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                                    new DynamicSelect('#plant2u', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                              {
+                    value: 'Iceberg Lettuce',
+                    img: 'tileimage/Iceberg Lettuce.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                {
+                    value: 'Frostburn',
+                    img: 'tileimage/Frostburn.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                              {
+                    value: 'Stallia',
+                    img: 'tileimage/Stallia.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                              {
+                    value: 'Pounding Pollen',
+                    img: 'tileimage/Pounding Pollen.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                              {
+                    value: 'Appease-mint',
+                    img: 'tileimage/Appease-mint.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                              {
                     value: 'Battle-mint',
                     img: 'tileimage/Battle-mint.png',
                     imgWidth: '72px',
@@ -1176,6 +1303,777 @@ table, th, td {
                                             {
                     value: 'Chainsaw Zombie',
                     img: 'tileimage/Chainsaw Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                new DynamicSelect('#plant3a', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                {
+                    value: 'Puff-Shroom',
+                    img: 'tileimage/Puff-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                {
+                    value: 'Shroom for Two More',
+                    img: 'tileimage/Shroom for Two More.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },    
+                              {
+                    value: 'Scaredy-Shroom',
+                    img: 'tileimage/Scaredy-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                {
+                    value: 'Brave-Shroom',
+                    img: 'tileimage/Brave-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },    
+                              {
+                    value: 'Fume-Shroom',
+                    img: 'tileimage/Fume-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                {
+                    value: 'Goop-Shroom',
+                    img: 'tileimage/Goop-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },    
+                              {
+                    value: 'Split Pea',
+                    img: 'tileimage/Split Pea.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },   
+                              {
+                    value: 'Artillepea',
+                    img: 'tileimage/Artillepea.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },   
+                                            {
+                    value: 'Repulshroom',
+                    img: 'tileimage/Repulshroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },   
+                                            {
+                    value: 'Knight in Shining Armorel',
+                    img: 'tileimage/Knight in Shining Armorel.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },   
+                                                          {
+                    value: 'Spore-Shroom',
+                    img: 'tileimage/Spore-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },   
+                                                          {
+                    value: 'More Spore',
+                    img: 'tileimage/More Spore.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },   
+                                                                        {
+                    value: 'Blooming Heart',
+                    img: 'tileimage/Blooming Heart.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },   
+                                                                        {
+                    value: 'Toxic Love',
+                    img: 'tileimage/Toxic Love.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }   
+            ],
+        });
+                   new DynamicSelect('#plant3d', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Umbrella Leaf',
+                    img: 'tileimage/Umbrella Leaf.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Leaflector',
+                    img: 'tileimage/Leaflector.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                          {
+                    value: 'Armorel',
+                    img: 'tileimage/Armorel.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                          {
+                    value: 'Knight in Shining Armorel',
+                    img: 'tileimage/Knight in Shining Armorel.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                       new DynamicSelect('#plant3p', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Sun-Shroom',
+                    img: 'tileimage/Sun-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Sunnier-Shroom',
+                    img: 'tileimage/Sunnier-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                           new DynamicSelect('#plant3sp', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Umbrella Leaf',
+                    img: 'tileimage/Umbrella Leaf.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Leaflector',
+                    img: 'tileimage/Leaflector.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                          {
+                    value: 'Magnet-Shroom',
+                    img: 'tileimage/Magnet-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Repulshroom',
+                    img: 'tileimage/Repulshroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                          {
+                    value: 'Blooming Heart',
+                    img: 'tileimage/Blooming Heart.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Toxic Love',
+                    img: 'tileimage/Toxic Love.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Reinforce-mint',
+                    img: 'tileimage/Reinforce-mint.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Refine-mint',
+                    img: 'tileimage/Refine-mint.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                           new DynamicSelect('#plant3u', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Ice-Shroom',
+                    img: 'tileimage/Ice-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Coldstool',
+                    img: 'tileimage/Coldstool.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Reinforce-mint',
+                    img: 'tileimage/Reinforce-mint.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Refine-mint',
+                    img: 'tileimage/Refine-mint.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                               new DynamicSelect('#plant3st', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Ice-Shroom',
+                    img: 'tileimage/Ice-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Coldstool',
+                    img: 'tileimage/Coldstool.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Blew-it',
+                    img: 'tileimage/Blew-it.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Webcap',
+                    img: 'tileimage/Webcap.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                    new DynamicSelect('#plant3all', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                {
+                    value: 'Puff-Shroom',
+                    img: 'tileimage/Puff-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                {
+                    value: 'Shroom for Two More',
+                    img: 'tileimage/Shroom for Two More.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },    
+                                                          {
+                    value: 'Sun-Shroom',
+                    img: 'tileimage/Sun-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Sunnier-Shroom',
+                    img: 'tileimage/Sunnier-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                              {
+                    value: 'Scaredy-Shroom',
+                    img: 'tileimage/Scaredy-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                {
+                    value: 'Brave-Shroom',
+                    img: 'tileimage/Brave-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },    
+                              {
+                    value: 'Fume-Shroom',
+                    img: 'tileimage/Fume-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                {
+                    value: 'Goop-Shroom',
+                    img: 'tileimage/Goop-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },    
+                                  {
+                    value: 'Umbrella Leaf',
+                    img: 'tileimage/Umbrella Leaf.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Leaflector',
+                    img: 'tileimage/Leaflector.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                              {
+                    value: 'Split Pea',
+                    img: 'tileimage/Split Pea.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },   
+                              {
+                    value: 'Artillepea',
+                    img: 'tileimage/Artillepea.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },   
+                           {
+                    value: 'Magnet-Shroom',
+                    img: 'tileimage/Magnet-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Repulshroom',
+                    img: 'tileimage/Repulshroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },   
+                                       {
+                    value: 'Armorel',
+                    img: 'tileimage/Armorel.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },   
+                                            {
+                    value: 'Knight in Shining Armorel',
+                    img: 'tileimage/Knight in Shining Armorel.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },   
+                                                          {
+                    value: 'Spore-Shroom',
+                    img: 'tileimage/Spore-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },   
+                                                          {
+                    value: 'More Spore',
+                    img: 'tileimage/More Spore.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },   
+                                                          {
+                    value: 'Ice-Shroom',
+                    img: 'tileimage/Ice-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Coldstool',
+                    img: 'tileimage/Coldstool.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Blew-it',
+                    img: 'tileimage/Blew-it.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Webcap',
+                    img: 'tileimage/Webcap.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                                        {
+                    value: 'Blooming Heart',
+                    img: 'tileimage/Blooming Heart.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },   
+                                                                        {
+                    value: 'Toxic Love',
+                    img: 'tileimage/Toxic Love.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },   
+                                                                  {
+                    value: 'Reinforce-mint',
+                    img: 'tileimage/Reinforce-mint.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Refine-mint',
+                    img: 'tileimage/Refine-mint.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#zombie3b', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Pillar Zombie',
+                    img: 'tileimage/Pillar Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Stalacbite',
+                    img: 'tileimage/Stalacbite.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Column Carrier',
+                    img: 'tileimage/Column Carrier.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                   new DynamicSelect('#zombie3a', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Pillar Zombie',
+                    img: 'tileimage/Pillar Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Digger Zombie',
+                    img: 'tileimage/Digger Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                           {
+                    value: 'Iron Imp',
+                    img: 'tileimage/Iron Imp.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Column Carrier',
+                    img: 'tileimage/Column Carrier.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                       new DynamicSelect('#zombie3sp', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Digger Zombie',
+                    img: 'tileimage/Digger Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                           {
+                    value: 'Furnace Zombie',
+                    img: 'tileimage/Furnace Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Zombie Mole',
+                    img: 'tileimage/Zombie Mole.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                           new DynamicSelect('#zombie3of', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Stalacbite',
+                    img: 'tileimage/Stalacbite.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                           {
+                    value: 'Furnace Zombie',
+                    img: 'tileimage/Furnace Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Zombie Mole',
+                    img: 'tileimage/Zombie Mole.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                               new DynamicSelect('#zombie3sw', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Zombie Mole',
+                    img: 'tileimage/Zombie Mole.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                                   new DynamicSelect('#zombie3ob', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Skeleton Zombie',
+                    img: 'tileimage/Skeleton Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Stalacbite',
+                    img: 'tileimage/Stalacbite.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                          {
+                    value: 'Column Carrier',
+                    img: 'tileimage/Column Carrier.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                      new DynamicSelect('#zombie3boss', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                                  {
+                    value: 'Cave Troll Zombie',
+                    img: 'tileimage/Cave Troll Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Zombot Drill Sergeant',
+                    img: 'tileimage/Zombot Drill Sergeant.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                   new DynamicSelect('#zombie3all', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '400px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                                  {
+                    value: 'Skeleton Zombie',
+                    img: 'tileimage/Skeleton Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                          {
+                    value: 'Pillar Zombie',
+                    img: 'tileimage/Pillar Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                  {
+                    value: 'Stalacbite',
+                    img: 'tileimage/Stalacbite.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
+                    value: 'Digger Zombie',
+                    img: 'tileimage/Digger Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                           {
+                    value: 'Iron Imp',
+                    img: 'tileimage/Iron Imp.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                         {
+                    value: 'Furnace Zombie',
+                    img: 'tileimage/Furnace Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                                  {
+                    value: 'Cave Troll Zombie',
+                    img: 'tileimage/Cave Troll Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Zombot Drill Sergeant',
+                    img: 'tileimage/Zombot Drill Sergeant.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                                  {
+                    value: 'Zombie Mole',
+                    img: 'tileimage/Zombie Mole.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                                {
+                    value: 'Column Carrier',
+                    img: 'tileimage/Column Carrier.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 }
