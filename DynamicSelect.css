@@ -3,12 +3,12 @@
   box-sizing: border-box;
   flex-direction: column;
   position: relative;
-  width: 96px;
+  width: 0px;
   user-select: none;
 }
 .dynamic-select .dynamic-select-header {
-  border: 1px solid #dee2e6;
-  padding: 96px 96px;
+  border: 0px solid #dee2e6;
+  padding: 0px 0px;
 }
 .dynamic-select .dynamic-select-header::after {
   content: "";
@@ -17,8 +17,8 @@
   top: 50%;
   right: 15px;
   transform: translateY(-50%);
-  height: 96px;
-  width: 96px;
+  height: 0px;
+  width: 0px;
 }
 .dynamic-select .dynamic-select-header.dynamic-select-header-active {
   border-color: #c1c9d0;
