@@ -202,6 +202,57 @@ table, th, td {
        <select id="zombie3all" name="zombie3all" class="custom-select"></select>
      </th>
   </tr>
+  <tr style="height:72px; width:72px">
+    <th style="background-color:#15c2ed"><img src="tileimage/Riverside Kingdom Icon KoT.png" width="72px" height="72px"></th>
+    <th style="background-color:#c71616">
+        <select id="plant4a" name="plant4a" class="custom-select"></select>
+    </th>
+    <th style="background-color:#1245c7">
+      <select id="plant4d" name="plant4d" class="custom-select"></select>
+    </th>
+     <th style="background-color:#e0cf0b">
+      <img src="tileimage/Empty.png" width="72px" height="72px">
+     </th>
+     <th style="background-color:#08c70e">
+       <select id="plant4sp" name="plant4sp" class="custom-select"></select>
+     </th>
+     <th style="background-color:#8509eb">
+       <select id="plant4u" name="plant4u" class="custom-select"></select>
+     </th>
+     <th style="background-color:#f26507">
+       <select id="plant4t" name="plant4t" class="custom-select"></select>
+     </th>
+     <th style="background-color:#0fcedb">
+       <select id="plant4st" name="plant4st" class="custom-select"></select>
+     </th>
+     <th style="background-color:#5ec40a">
+          <select id="plant4all" name="plant4all" class="custom-select"></select>
+     </th>
+     <th style="background-color:#798c65">
+       <select id="zombie4b" name="zombie4b" class="custom-select"></select>
+     </th>
+     <th style="background-color:#a3a3a3">
+       <select id="zombie4a" name="zombie4a" class="custom-select"></select>
+     </th>
+     <th style="background-color:#61c995">
+       <select id="zombie4sp" name="zombie4sp" class="custom-select"></select>
+     </th>
+     <th style="background-color:#6e4040">
+       <select id="zombie4of" name="zombie4of" class="custom-select"></select>
+     </th>
+     <th style="background-color:#a69855">
+       <select id="zombie4sw" name="zombie4sw" class="custom-select"></select>
+     </th>
+        <th style="background-color:#915030">
+           <select id="zombie4os" name="zombie4os" class="custom-select"></select>
+        </th>
+     <th style="background-color:#8375c7">
+       <select id="zombie4boss" name="zombie4boss" class="custom-select"></select>
+     </th>
+     <th style="background-color:#860ac4">
+       <select id="zombie4all" name="zombie4all" class="custom-select"></select>
+     </th>
+  </tr>
 </table>
   <script src="DynamicSelect.js"></script>
   <script>
@@ -470,7 +521,19 @@ table, th, td {
                     img: 'tileimage/Flag Zombie.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
-                }    
+                },    
+                              {
+                    value: 'Conehead Zombie',
+                    img: 'tileimage/Conehead Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                              {
+                    value: 'Buckethead Zombie',
+                    img: 'tileimage/Buckethead Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
             ],
         });
                         new DynamicSelect('#zombie1a', {
@@ -536,7 +599,7 @@ table, th, td {
                     img: 'tileimage/Buckethead Zombie.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
-                },
+                }
             ],
         });
                     new DynamicSelect('#plant2a', {
@@ -2067,6 +2130,851 @@ table, th, td {
                                                                 {
                     value: 'Column Carrier',
                     img: 'tileimage/Column Carrier.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                          new DynamicSelect('#plant4a', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '350px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                           {
+                    value: 'Snapdragon',
+                    img: 'tileimage/Snapdragon.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Wyvferno',
+                    img: 'tileimage/Wyvferno.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                              },
+                                  {
+                    value: 'Guacodile',
+                    img: 'tileimage/Guacodile.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Guacosuchus',
+                    img: 'tileimage/Guacosuchus.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                        {
+                    value: 'Homing Thistle',
+                    img: 'tileimage/Homing Thistle.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Heat-Seeking Thistle',
+                    img: 'tileimage/Heat-Seeking Thistle.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Threepeater',
+                    img: 'tileimage/Threepeater.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Smartshooter',
+                    img: 'tileimage/Smartshooter.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                 {
+                    value: 'Chomper',
+                    img: 'tileimage/Chomper.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Ambush Chomper',
+                    img: 'tileimage/Ambush Chomper.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Baberries',
+                    img: 'tileimage/Baberries.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Jammed Jam',
+                    img: 'tileimage/Jammed Jam.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Lightning Reed',
+                    img: 'tileimage/Lightning Reed.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Forked Lightning Reed',
+                    img: 'tileimage/Forked Lightning Reed.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Banana Battleship',
+                    img: 'tileimage/Banana Battleship.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Electric Currant',
+                    img: 'tileimage/Electric Currant.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Thermal Currant',
+                    img: 'tileimage/Thermal Currant.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                              new DynamicSelect('#plant4d', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '350px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                           {
+                    value: 'Tall-Nut',
+                    img: 'tileimage/Tall-Nut.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Tallpaz',
+                    img: 'tileimage/Tallpaz.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                           {
+                    value: 'Banana Boat',
+                    img: 'tileimage/Banana Boat.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Banana Battleship',
+                    img: 'tileimage/Banana Battleship.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                                  new DynamicSelect('#plant4sp', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '350px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                           {
+                    value: 'Lily Pad',
+                    img: 'tileimage/Lily Pad.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Lily Boost',
+                    img: 'tileimage/Lily Boost.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                           {
+                    value: 'Banana Boat',
+                    img: 'tileimage/Banana Boat.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Banana Battleship',
+                    img: 'tileimage/Banana Battleship.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                           {
+                    value: 'Fila-mint',
+                    img: 'tileimage/Fila-mint.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Vehe-mint',
+                    img: 'tileimage/Vehe-mint.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                                  new DynamicSelect('#plant4u', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '350px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                           {
+                    value: 'Tangle Kelp',
+                    img: 'tileimage/Tangle Kelp.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Stangle Kelp',
+                    img: 'tileimage/Stangle Kelp.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                           {
+                    value: 'Fila-mint',
+                    img: 'tileimage/Fila-mint.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Vehe-mint',
+                    img: 'tileimage/Vehe-mint.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                                  new DynamicSelect('#plant4t', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '350px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                           {
+                    value: 'Tangle Kelp',
+                    img: 'tileimage/Tangle Kelp.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Stangle Kelp',
+                    img: 'tileimage/Stangle Kelp.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                           {
+                    value: 'Ambush Chomper',
+                    img: 'tileimage/Ambush Chomper.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Electric Currant',
+                    img: 'tileimage/Electric Currant.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Thermal Currant',
+                    img: 'tileimage/Thermal Currant.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                                  new DynamicSelect('#plant4st', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '350px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Jammed Jam',
+                    img: 'tileimage/Jammed Jam.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Electric Currant',
+                    img: 'tileimage/Electric Currant.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Thermal Currant',
+                    img: 'tileimage/Thermal Currant.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                                  new DynamicSelect('#plant4all', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '350px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                         {
+                    value: 'Lily Pad',
+                    img: 'tileimage/Lily Pad.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Lily Boost',
+                    img: 'tileimage/Lily Boost.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                           {
+                    value: 'Tangle Kelp',
+                    img: 'tileimage/Tangle Kelp.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Stangle Kelp',
+                    img: 'tileimage/Stangle Kelp.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                           {
+                    value: 'Snapdragon',
+                    img: 'tileimage/Snapdragon.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Wyvferno',
+                    img: 'tileimage/Wyvferno.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                           {
+                    value: 'Tall-Nut',
+                    img: 'tileimage/Tall-Nut.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Tallpaz',
+                    img: 'tileimage/Tallpaz.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                              },
+                                  {
+                    value: 'Guacodile',
+                    img: 'tileimage/Guacodile.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Guacosuchus',
+                    img: 'tileimage/Guacosuchus.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                        {
+                    value: 'Homing Thistle',
+                    img: 'tileimage/Homing Thistle.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Heat-Seeking Thistle',
+                    img: 'tileimage/Heat-Seeking Thistle.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Threepeater',
+                    img: 'tileimage/Threepeater.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Smartshooter',
+                    img: 'tileimage/Smartshooter.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                 {
+                    value: 'Chomper',
+                    img: 'tileimage/Chomper.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Ambush Chomper',
+                    img: 'tileimage/Ambush Chomper.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Baberries',
+                    img: 'tileimage/Baberries.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Jammed Jam',
+                    img: 'tileimage/Jammed Jam.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Lightning Reed',
+                    img: 'tileimage/Lightning Reed.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Forked Lightning Reed',
+                    img: 'tileimage/Forked Lightning Reed.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Banana Boat',
+                    img: 'tileimage/Banana Boat.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Banana Battleship',
+                    img: 'tileimage/Banana Battleship.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Electric Currant',
+                    img: 'tileimage/Electric Currant.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Thermal Currant',
+                    img: 'tileimage/Thermal Currant.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                           {
+                    value: 'Fila-mint',
+                    img: 'tileimage/Fila-mint.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Vehe-mint',
+                    img: 'tileimage/Vehe-mint.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                                      new DynamicSelect('#zombie4b', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '350px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Ducky Tube Zombie',
+                    img: 'tileimage/Ducky Tube Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Ducky Tube Conehead',
+                    img: 'tileimage/Ducky Tube Conehead.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Ducky Tube Buckethead',
+                    img: 'tileimage/Ducky Tube Buckethead.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Snorkel Zombie',
+                    img: 'tileimage/Snorkel Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Brickhead Zombie',
+                    img: 'tileimage/Brickhead Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Ducky Tube Brickhead',
+                    img: 'tileimage/Ducky Tube Brickhead.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                                      new DynamicSelect('#zombie4a', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '350px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Ducky Tube Conehead',
+                    img: 'tileimage/Ducky Tube Conehead.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Ducky Tube Buckethead',
+                    img: 'tileimage/Ducky Tube Buckethead.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Brickhead Zombie',
+                    img: 'tileimage/Brickhead Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Ducky Tube Brickhead',
+                    img: 'tileimage/Ducky Tube Brickhead.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                                      new DynamicSelect('#zombie4sp', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '350px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Snorkel Zombie',
+                    img: 'tileimage/Snorkel Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Pole Vaulting Zombie',
+                    img: 'tileimage/Pole Vaulting Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Crab Imp',
+                    img: 'tileimage/Crab Imp.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Balloon Zombie',
+                    img: 'tileimage/Balloon Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombie Piranha',
+                    img: 'tileimage/Zombie Piranha.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Coconut Crab Imp',
+                    img: 'tileimage/Coconut Crab Imp.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                                      new DynamicSelect('#zombie4of', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '350px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Hydro Dropper',
+                    img: 'tileimage/Hydro Dropper.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombieel',
+                    img: 'tileimage/Zombieel.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                                      new DynamicSelect('#zombie4sw', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '350px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Fishbite Zombie',
+                    img: 'tileimage/Fishbite Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombie Piranha',
+                    img: 'tileimage/Zombie Piranha.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#zombie4os', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '350px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Hydro Dropper',
+                    img: 'tileimage/Hydro Dropper.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#zombie4boss', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '350px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombieel',
+                    img: 'tileimage/Zombieel.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombot Blocky Froggy',
+                    img: 'tileimage/Zombot Blocky Froggy.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                                      new DynamicSelect('#zombie4all', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '350px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Ducky Tube Zombie',
+                    img: 'tileimage/Ducky Tube Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Ducky Tube Conehead',
+                    img: 'tileimage/Ducky Tube Conehead.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Ducky Tube Buckethead',
+                    img: 'tileimage/Ducky Tube Buckethead.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Snorkel Zombie',
+                    img: 'tileimage/Snorkel Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Pole Vaulting Zombie',
+                    img: 'tileimage/Pole Vaulting Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Crab Imp',
+                    img: 'tileimage/Crab Imp.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Balloon Zombie',
+                    img: 'tileimage/Balloon Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Brickhead Zombie',
+                    img: 'tileimage/Brickhead Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Ducky Tube Brickhead',
+                    img: 'tileimage/Ducky Tube Brickhead.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Fishbite Zombie',
+                    img: 'tileimage/Fishbite Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombie Piranha',
+                    img: 'tileimage/Zombie Piranha.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombieel',
+                    img: 'tileimage/Zombieel.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombot Blocky Froggy',
+                    img: 'tileimage/Zombot Blocky Froggy.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Hydro Dropper',
+                    img: 'tileimage/Hydro Dropper.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Coconut Crab Imp',
+                    img: 'tileimage/Coconut Crab Imp.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 }
