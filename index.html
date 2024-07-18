@@ -45,42 +45,10 @@ table, th, td {
   <form>
 <label for="country">Country</label>
 <select id="country" name="country" data-placeholder="Select a country" data-dynamic-select>
-    <option value="United States" data-img="tileimage/Wall-Nut.png">test1</option>
-    <option value="United Kingdom" data-img="tileimage/Jugger-Nut.png">test2</option>
+    <option value="United States" data-img="tileimage/Wall-Nut.png"></option>
+    <option value="United Kingdom" data-img="tileimage/Jugger-Nut.png"></option>
 </select>
   </form>
-<img src="tileimage/Wall-Nut.png">
   <script src="DynamicSelect.js"></script>
-   <script>
-        // Initialize the Dynamic Selects
-        new DynamicSelect('#photo', {
-            columns: 3,
-            height: '100px',
-            width: '160px',
-            dropdownWidth: '400px',
-            placeholder: 'Select a photo',
-            data: [
-                {
-                    value: 'Beach',
-                    img: 'tileimage/Wall-Nut.png',
-                    imgWidth: '100px',
-                    imgHeight: '80px'
-                },
-                {
-                    value: 'Abandoned Building',
-                    img: 'tileimage/Jugger-Nut.png',
-                    imgWidth: '100px',
-                    imgHeight: '80px'
-                },
-                {
-                    value: 'City',
-                    img: 'tileimage/Peashooter.png',
-                    imgWidth: '100px',
-                    imgHeight: '80px',
-                    selected: true
-                },     
-            ],
-        });
-   </script>
 </body>
 </html>
