@@ -43,11 +43,44 @@ table, th, td {
      <th style="background-color:#860ac4">Best Zombie</th>
   </tr>
 </table>
+  <form>
 <label for="country">Country</label>
 <select id="country" name="country" data-placeholder="Select a country" data-dynamic-select>
     <option value="United States" data-img="tileimage/Wall-Nut.png">test</option>
     <option value="United Kingdom" data-img="tileimage/Jugger-Nut.png">test</option>
 </select>
 <img src="tileimage/Wall-Nut.png">
+  </form>
+   <script>
+        // Initialize the Dynamic Selects
+        new DynamicSelect('#photo', {
+            columns: 3,
+            height: '100px',
+            width: '160px',
+            dropdownWidth: '400px',
+            placeholder: 'Select a photo',
+            data: [
+                {
+                    value: 'Beach',
+                    img: 'tileimage/Wall-Nut.png',
+                    imgWidth: '100px',
+                    imgHeight: '80px'
+                },
+                {
+                    value: 'Abandoned Building',
+                    img: 'tileimage/Jugger-Nut.png',
+                    imgWidth: '100px',
+                    imgHeight: '80px'
+                },
+                {
+                    value: 'City',
+                    img: 'tileimage/Peashooter.png',
+                    imgWidth: '100px',
+                    imgHeight: '80px',
+                    selected: true
+                },     
+            ],
+        });
+   </script>
 </body>
 </html>
