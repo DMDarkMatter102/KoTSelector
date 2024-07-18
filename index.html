@@ -72,5 +72,29 @@ select {
   </tr>
 </table>
   <script src="DynamicSelect.js"></script>
+  <script>
+        // Initialize the Dynamic Selects
+        new DynamicSelect('#photo', {
+            columns: 3,
+            height: '100px',
+            width: '160px',
+            dropdownWidth: '400px',
+            placeholder: 'Select a photo',
+            data: [
+                {
+                    value: 'Beach',
+                    img: 'tileimage/Wall-Nut.png',
+                    imgWidth: '100px',
+                    imgHeight: '80px'
+                },
+                {
+                    value: 'Abandoned Building',
+                    img: 'tileimage/Jugger-Nut.png',
+                    imgWidth: '100px',
+                    imgHeight: '80px'
+                }    
+            ],
+        });
+        </script>
 </body>
 </html>
