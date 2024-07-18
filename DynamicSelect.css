@@ -3,11 +3,11 @@
   box-sizing: border-box;
   flex-direction: column;
   position: relative;
-  width: 100%;
+  width: 96px;
   user-select: none;
 }
 .dynamic-select .dynamic-select-header {
-  border: 1px solid #dee2e6;
+  border: 0px solid #dee2e6;
   padding: 7px 30px 7px 12px;
 }
 .dynamic-select .dynamic-select-header::after {
@@ -18,8 +18,8 @@
   right: 15px;
   transform: translateY(-50%);
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23949ba3' viewBox='0 0 16 16'%3E%3Cpath d='M8 13.1l-8-8 2.1-2.2 5.9 5.9 5.9-5.9 2.1 2.2z'/%3E%3C/svg%3E");
-  height: 12px;
-  width: 12px;
+  height: 96px;
+  width: 96px;
 }
 .dynamic-select .dynamic-select-header.dynamic-select-header-active {
   border-color: #c1c9d0;
