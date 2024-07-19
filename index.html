@@ -135,7 +135,7 @@ table, th, td {
      </th>
   </tr>
   <tr style="height:72px; width:72px">
-    <th style="background-color:#816ca3"><img src="tileimage/Cave Kingdom Icon KoT.png" width="72px" height="72px"></th>
+    <th style="background-color:#5f4bb8"><img src="tileimage/Cave Kingdom Icon KoT.png" width="72px" height="72px"></th>
     <th style="background-color:#c71616">
         <select id="plant3a" name="plant3a" class="custom-select"></select>
     </th>
@@ -422,6 +422,53 @@ table, th, td {
      </th>
      <th style="background-color:#860ac4">
        <select id="zombie8all" name="zombie8all" class="custom-select"></select>
+     </th>
+  </tr>
+  <tr style="height:72px; width:72px">
+    <th style="background-color:#4f376b"><img src="tileimage/Haunted Kingdom Icon KoT.png" width="72px" height="72px"></th>
+    <th style="background-color:#c71616">
+        <select id="plant9a" name="plant9a" class="custom-select"></select>
+    </th>
+    <th style="background-color:#1245c7">
+      <select id="plant9d" name="plant9d" class="custom-select"></select>
+    </th>
+     <th style="background-color:#e0cf0b">N/A</th>
+     <th style="background-color:#08c70e">
+       <select id="plant9sp" name="plant9sp" class="custom-select"></select>
+     </th>
+     <th style="background-color:#8509eb">
+       <select id="plant9u" name="plant9u" class="custom-select"></select>
+     </th>
+     <th style="background-color:#f26507">
+       <select id="plant9t" name="plant9t" class="custom-select"></select>
+     </th>
+     <th style="background-color:#0fcedb">
+       <select id="plant9st" name="plant9st" class="custom-select"></select>
+     </th>
+     <th style="background-color:#5ec40a">
+       <select id="plant9all" name="plant9all" class="custom-select"></select>
+     </th>
+     <th style="background-color:#798c65">
+       <select id="zombie9b" name="zombie9b" class="custom-select"></select>
+     </th>
+     <th style="background-color:#a3a3a3">N/A</th>
+     <th style="background-color:#61c995">
+       <select id="zombie9sp" name="zombie9sp" class="custom-select"></select>
+     </th>
+     <th style="background-color:#6e4040">
+       <select id="zombie9of" name="zombie9of" class="custom-select"></select>
+     </th>
+     <th style="background-color:#a69855">
+       <select id="zombie9sw" name="zombie9sw" class="custom-select"></select>
+     </th>
+     <th style="background-color:#915030">
+       <select id="zombie9os" name="zombie9os" class="custom-select"></select>
+     </th>
+     <th style="background-color:#8375c7">
+       <select id="zombie9boss" name="zombie9boss" class="custom-select"></select>
+     </th>
+     <th style="background-color:#860ac4">
+       <select id="zombie9all" name="zombie9all" class="custom-select"></select>
      </th>
   </tr>
 </table>
@@ -6408,6 +6455,828 @@ table, th, td {
                    {
                     value: 'Zombot Chimpan-Z',
                     img: 'tileimage/Zombot Chimpan-Z.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#plant9a', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Enoki Needler',
+                    img: 'tileimage/Enoki Needler.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'AU-puncture',
+                    img: 'tileimage/AU-puncture.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Black Willow',
+                    img: 'tileimage/Black Willow.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Terrorantula',
+                    img: 'tileimage/Terrorantula.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Bat Apple',
+                    img: 'tileimage/Bat Apple.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Draculapple',
+                    img: 'tileimage/Draculapple.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Evil-Shroom',
+                    img: 'tileimage/Evil-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Mixed Brew',
+                    img: 'tileimage/Mixed Brew.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Gloom-Shroom',
+                    img: 'tileimage/Gloom-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Gloomy Grotto',
+                    img: 'tileimage/Gloomy Grotto.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Witch Hazel',
+                    img: 'tileimage/Witch Hazel.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Archwitch',
+                    img: 'tileimage/Archwitch.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#plant9d', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Pumpkin',
+                    img: 'tileimage/Pumpkin.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Potion Cauldron',
+                    img: 'tileimage/Potion Cauldron.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#plant9sp', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Grave Buster',
+                    img: 'tileimage/Grave Buster.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Grave Bomber',
+                    img: 'tileimage/Grave Bomber.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Enoki Needler',
+                    img: 'tileimage/Enoki Needler.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'AU-puncture',
+                    img: 'tileimage/AU-puncture.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Potion Cauldron',
+                    img: 'tileimage/Potion Cauldron.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Boouquet',
+                    img: 'tileimage/Boouquet.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Cerberose',
+                    img: 'tileimage/Cerberose.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: "Nec'Rose",
+                    img: "tileimage/Nec'Rose.png",
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Rose Block',
+                    img: 'tileimage/Rose Block.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: "Bat Apple",
+                    img: "tileimage/Bat Apple.png",
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Draculapple',
+                    img: 'tileimage/Draculapple.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#plant9u', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Grave Buster',
+                    img: 'tileimage/Grave Buster.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Grave Bomber',
+                    img: 'tileimage/Grave Bomber.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Hypno-Shroom',
+                    img: 'tileimage/Hypno-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: "Hypno-Stein's Monster",
+                    img: "tileimage/Hypno-Stein's Monster.png",
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Shadow-Shroom',
+                    img: 'tileimage/Shadow-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Lethal Blow',
+                    img: 'tileimage/Lethal Blow.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#plant9t', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Hypno-Shroom',
+                    img: 'tileimage/Hypno-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: "Hypno-Stein's Monster",
+                    img: "tileimage/Hypno-Stein's Monster.png",
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Boouquet',
+                    img: 'tileimage/Boouquet.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Cerberose',
+                    img: 'tileimage/Cerberose.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Shadow-Shroom',
+                    img: 'tileimage/Shadow-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Lethal Blow',
+                    img: 'tileimage/Lethal Blow.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Ghost Pepper',
+                    img: 'tileimage/Ghost Pepper.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Enduring Ember',
+                    img: 'tileimage/Enduring Ember.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#plant9st', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Black Willow',
+                    img: 'tileimage/Black Willow.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Terrorantula',
+                    img: 'tileimage/Terrorantula.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Evil-Shroom',
+                    img: 'tileimage/Evil-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Mixed Brew',
+                    img: 'tileimage/Mixed Brew.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#plant9all', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Grave Buster',
+                    img: 'tileimage/Grave Buster.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Grave Bomber',
+                    img: 'tileimage/Grave Bomber.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Hypno-Shroom',
+                    img: 'tileimage/Hypno-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: "Hypno-Stein's Monster",
+                    img: "tileimage/Hypno-Stein's Monster.png",
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Enoki Needler',
+                    img: 'tileimage/Enoki Needler.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'AU-puncture',
+                    img: 'tileimage/AU-puncture.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Pumpkin',
+                    img: 'tileimage/Pumpkin.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Potion Cauldron',
+                    img: 'tileimage/Potion Cauldron.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Boouquet',
+                    img: 'tileimage/Boouquet.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: "Cerberose",
+                    img: "tileimage/Cerberose.png",
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: "Nec'Rose",
+                    img: "tileimage/Nec'Rose.png",
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Rose Block',
+                    img: 'tileimage/Rose Block.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Black Willow',
+                    img: 'tileimage/Black Willow.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Terrorantula',
+                    img: 'tileimage/Terrorantula.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Bat Apple',
+                    img: 'tileimage/Bat Apple.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Draculapple',
+                    img: 'tileimage/Draculapple.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Shadow-Shroom',
+                    img: 'tileimage/Shadow-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Lethal Blow',
+                    img: 'tileimage/Lethal Blow.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Evil-Shroom',
+                    img: 'tileimage/Evil-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Mixed Brew',
+                    img: 'tileimage/Mixed Brew.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Ghost Pepper',
+                    img: 'tileimage/Ghost Pepper.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: "Enduring Ember",
+                    img: "tileimage/Enduring Ember.png",
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Gloom-Shroom',
+                    img: 'tileimage/Gloom-Shroom.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Gloomy Grotto',
+                    img: 'tileimage/Gloomy Grotto.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Witch Hazel',
+                    img: 'tileimage/Witch Hazel.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Archwitch',
+                    img: 'tileimage/Archwitch.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#zombie9b', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Werewolf Zombie',
+                    img: 'tileimage/Werewolf Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Haunting Zombie',
+                    img: 'tileimage/Haunting Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#zombie9sp', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Werewolf Zombie',
+                    img: 'tileimage/Werewolf Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Tengu Zombie',
+                    img: 'tileimage/Tengu Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Haunting Ghost',
+                    img: 'tileimage/Haunting Ghost.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Vimpire',
+                    img: 'tileimage/Vimpire.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zom-Bat',
+                    img: 'tileimage/Zom-Bat.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#zombie9of', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Werewolf Zombie',
+                    img: 'tileimage/Werewolf Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Vimpire',
+                    img: 'tileimage/Vimpire.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Plague Doctor',
+                    img: 'tileimage/Plague Doctor.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombie Crow',
+                    img: 'tileimage/Zombie Crow.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#zombie9sw', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Haunting Zombie',
+                    img: 'tileimage/Haunting Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Haunting Ghost',
+                    img: 'tileimage/Haunting Ghost.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zom-Bat',
+                    img: 'tileimage/Zom-Bat.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: "Zombie's Scarecrow",
+                    img: "tileimage/Zombie's Scarecrow.png",
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombie Crow',
+                    img: 'tileimage/Zombie Crow.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Soul Musician',
+                    img: 'tileimage/Soul Musician.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#zombie9os', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Gravedigger',
+                    img: 'tileimage/Gravedigger.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: "Zombie's Scarecrow",
+                    img: "tileimage/Zombie's Scarecrow.png",
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#zombie9boss', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Soul Musician',
+                    img: 'tileimage/Soul Musician.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombot Graveyard Ghoul',
+                    img: "tileimage/Zombot Graveyard Ghoul.png",
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#zombie9all', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Gravedigger',
+                    img: 'tileimage/Gravedigger.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Werewolf Zombie',
+                    img: 'tileimage/Werewolf Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Tengu Zombie',
+                    img: 'tileimage/Tengu Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Haunting Zombie',
+                    img: 'tileimage/Haunting Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Haunting Ghost',
+                    img: 'tileimage/Haunting Ghost.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Vimpire',
+                    img: 'tileimage/Vimpire.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zom-Bat',
+                    img: 'tileimage/Zom-Bat.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Plague Doctor',
+                    img: 'tileimage/Plague Doctor.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: "Zombie's Scarecrow",
+                    img: "tileimage/Zombie's Scarecrow.png",
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombie Crow',
+                    img: 'tileimage/Zombie Crow.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Soul Musician',
+                    img: 'tileimage/Soul Musician.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombot Graveyard Ghoul',
+                    img: "tileimage/Zombot Graveyard Ghoul.png",
                     imgWidth: '72px',
                     imgHeight: '72px'
                 }
