@@ -601,7 +601,9 @@ table, th, td {
      <th style="background-color:#6e4040">
        <select id="zombieSof" name="zombieSof" class="custom-select"></select>
      </th>
-     <th style="background-color:#a69855">N/A</th>
+     <th style="background-color:#a69855">
+       <select id="zombieSsw" name="zombieSsw" class="custom-select"></select>  
+     </th>
      <th style="background-color:#915030">N/A</th>
      <th style="background-color:#8375c7">N/A</th>
      <th style="background-color:#860ac4">
@@ -9645,6 +9647,33 @@ table, th, td {
                 }
             ],
         });
+               new DynamicSelect('#zombieSsw', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Tofu Turkey',
+                    img: 'tileimage/Tofu Turkey.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Turkeyzilla',
+                    img: 'tileimage/Turkeyzilla.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
                new DynamicSelect('#zombieSall', {
             columns: 3,
             height: '72px',
@@ -9655,6 +9684,18 @@ table, th, td {
                 {
                     value: 'Empty',
                     img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Tofu Turkey',
+                    img: 'tileimage/Tofu Turkey.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Turkeyzilla',
+                    img: 'tileimage/Turkeyzilla.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
@@ -16447,6 +16488,18 @@ table, th, td {
                    {
                     value: 'Zombot Steel Satellite',
                     img: 'tileimage/Zombot Steel Satellite.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Tofu Turkey',
+                    img: 'tileimage/Tofu Turkey.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Turkeyzilla',
+                    img: 'tileimage/Turkeyzilla.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
