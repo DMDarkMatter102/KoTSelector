@@ -123,7 +123,9 @@ table, th, td {
      <th style="background-color:#6e4040">
        <select id="zombie2of" name="zombie2of" class="custom-select"></select>
      </th>
-     <th style="background-color:#a69855">N/A</th>
+     <th style="background-color:#a69855">
+       <select id="zombiesw" name="zombie2sw" class="custom-select"></select>
+     </th>
         <th style="background-color:#915030">
            <select id="zombie2os" name="zombie2os" class="custom-select"></select>
         </th>
@@ -357,7 +359,9 @@ table, th, td {
      <th style="background-color:#798c65">
        <select id="zombie7b" name="zombie7b" class="custom-select"></select>
      </th>
-     <th style="background-color:#a3a3a3">N/A</th>
+     <th style="background-color:#a3a3a3">
+       <select id="zombie7a" name="zombie7a" class="custom-select"></select>  
+     </th>
      <th style="background-color:#61c995">
        <select id="zombie7sp" name="zombie7sp" class="custom-select"></select>
      </th>
@@ -509,7 +513,9 @@ table, th, td {
      <th style="background-color:#6e4040">
        <select id="zombie10of" name="zombie10of" class="custom-select"></select>
      </th>
-     <th style="background-color:#a69855">N/A</th>
+     <th style="background-color:#a69855">
+       <select id="zombie10sw" name="zombie10sw" class="custom-select"></select>
+     </th>
      <th style="background-color:#915030">
        <select id="zombie10os" name="zombie10os" class="custom-select"></select>
      </th>
@@ -1306,6 +1312,12 @@ table, th, td {
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
+                              {
+                    value: 'Iceberg Lettuce',
+                    img: 'tileimage/Iceberg Lettuce.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
                 {
                     value: 'Frostburn',
                     img: 'tileimage/Frostburn.png',
@@ -1366,6 +1378,18 @@ table, th, td {
                               {
                     value: 'Ice Queen Pea',
                     img: 'tileimage/Ice Queen Pea.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },    
+                              {
+                    value: 'Signwood',
+                    img: 'tileimage/Signwood.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                              {
+                    value: 'Arrowwood',
+                    img: 'tileimage/Arrowwood.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
@@ -1555,6 +1579,18 @@ table, th, td {
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
+                                                          {
+                    value: 'Box Zombie',
+                    img: 'tileimage/Box Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },    
+                                            {
+                    value: 'Burning Zombie',
+                    img: 'tileimage/Burning Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
                 {
                     value: 'Imp',
                     img: 'tileimage/Imp.png',
@@ -1674,6 +1710,25 @@ table, th, td {
                 }
             ],
         });
+                            new DynamicSelect('#zombie2sw', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                {
+                    value: 'Imp',
+                    img: 'tileimage/Imp.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }  
                                         new DynamicSelect('#zombie2os', {
             columns: 3,
             height: '72px',
@@ -2317,6 +2372,12 @@ table, th, td {
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
+                                                    {
+                    value: 'Skeleton Zombie',
+                    img: 'tileimage/Skeleton Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
                                             {
                     value: 'Pillar Zombie',
                     img: 'tileimage/Pillar Zombie.png',
@@ -2423,6 +2484,12 @@ table, th, td {
                     imgHeight: '72px'
                 },
                                             {
+                    value: 'Pillar Zombie',
+                    img: 'tileimage/Pillar Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
                     value: 'Stalacbite',
                     img: 'tileimage/Stalacbite.png',
                     imgWidth: '72px',
@@ -2437,6 +2504,12 @@ table, th, td {
                                                     {
                     value: 'Zombie Mole',
                     img: 'tileimage/Zombie Mole.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Column Carrier',
+                    img: 'tileimage/Column Carrier.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 }
@@ -4358,6 +4431,12 @@ table, th, td {
                     imgHeight: '72px'
                 },
                    {
+                    value: 'Flamewood',
+                    img: 'tileimage/Flamewood.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
                     value: 'Blazel',
                     img: 'tileimage/Blazel.png',
                     imgWidth: '72px',
@@ -4886,6 +4965,12 @@ table, th, td {
                     imgHeight: '72px'
                 },
                    {
+                    value: 'Zombie Bobsled Team',
+                    img: 'tileimage/Zombie Bobsled Team.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
                     value: 'Ice Block Zombie',
                     img: 'tileimage/Ice Block Zombie.png',
                     imgWidth: '72px',
@@ -4954,6 +5039,12 @@ table, th, td {
                    {
                     value: 'Ice Block Zombie',
                     img: 'tileimage/Ice Block Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Icicle Zombie',
+                    img: 'tileimage/Icicle Zombie.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
@@ -5763,6 +5854,27 @@ table, th, td {
                 }
             ],
         });
+               new DynamicSelect('#zombie7a', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Pyroduct Digger',
+                    img: 'tileimage/Pyroduct Digger.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
                new DynamicSelect('#zombie7sp', {
             columns: 3,
             height: '72px',
@@ -6422,6 +6534,18 @@ table, th, td {
                     imgHeight: '72px'
                 },
                    {
+                    value: 'Elephant Trunk',
+                    img: 'tileimage/Elephant Trunk.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Woolly Mangrove',
+                    img: 'tileimage/Woolly Mangrove.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
                     value: 'Lions Mane',
                     img: "tileimage/Lion's Mane.png",
                     imgWidth: '72px',
@@ -6850,6 +6974,18 @@ table, th, td {
                    {
                     value: 'Fraidy Cat',
                     img: 'tileimage/Fraidy Cat.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Eggshell Imp',
+                    img: 'tileimage/Eggshell Imp.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Bulldog Walker',
+                    img: 'tileimage/Bulldog Walker.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 }
@@ -8787,6 +8923,39 @@ table, th, td {
                 }
             ],
         });
+                   new DynamicSelect('#zombie10sw', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Assassin Zombie',
+                    img: 'tileimage/Assassin Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'King of Chess',
+                    img: 'tileimage/King of Chess.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Chariot Zombie',
+                    img: "tileimage/Chariot Zombie KoT.png",
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
                new DynamicSelect('#zombie10os', {
             columns: 3,
             height: '72px',
@@ -9616,6 +9785,12 @@ table, th, td {
                    {
                     value: 'Chained Prisoner',
                     img: 'tileimage/Chained Prisoner.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Heavy Metal Zombie',
+                    img: 'tileimage/Heavy Metal Zombie.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 }
@@ -11800,6 +11975,12 @@ table, th, td {
                    {
                     value: 'Bitter Burner',
                     img: 'tileimage/Bitter Burner.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Flamewood',
+                    img: 'tileimage/Flamewood.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
@@ -14002,6 +14183,12 @@ table, th, td {
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
+                              {
+                    value: 'Iceberg Lettuce',
+                    img: 'tileimage/Iceberg Lettuce.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
                 {
                     value: 'Frostburn',
                     img: 'tileimage/Frostburn.png',
@@ -14358,6 +14545,18 @@ table, th, td {
                     img: 'tileimage/Ice Queen Pea.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
+                },    
+                              {
+                    value: 'Signwood',
+                    img: 'tileimage/Signwood.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                              {
+                    value: 'Arrowwood',
+                    img: 'tileimage/Arrowwood.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
                 },
                                             {
                     value: 'Stallia',
@@ -14650,6 +14849,18 @@ table, th, td {
                    {
                     value: 'Starstruck',
                     img: 'tileimage/Starstruck.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Elephant Trunk',
+                    img: 'tileimage/Elephant Trunk.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Woolly Mangrove',
+                    img: 'tileimage/Woolly Mangrove.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
@@ -17023,9 +17234,27 @@ table, th, td {
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
+                                                          {
+                    value: 'Box Zombie',
+                    img: 'tileimage/Box Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },    
+                                            {
+                    value: 'Burning Zombie',
+                    img: 'tileimage/Burning Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
                 {
                     value: 'Imp',
                     img: 'tileimage/Imp.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Skeleton Zombie',
+                    img: 'tileimage/Skeleton Zombie.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
@@ -17321,6 +17550,12 @@ table, th, td {
                     imgHeight: '72px'
                 },
                    {
+                    value: 'Zombie Bobsled Team',
+                    img: 'tileimage/Zombie Bobsled Team.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
                     value: 'Ice Block Zombie',
                     img: 'tileimage/Ice Block Zombie.png',
                     imgWidth: '72px',
@@ -17335,6 +17570,12 @@ table, th, td {
                    {
                     value: 'Iceberg Zombie',
                     img: 'tileimage/Iceberg Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Pyroduct Digger',
+                    img: 'tileimage/Pyroduct Digger.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
@@ -17765,6 +18006,12 @@ table, th, td {
                     imgHeight: '72px'
                 },
                                             {
+                    value: 'Pillar Zombie',
+                    img: 'tileimage/Pillar Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                            {
                     value: 'Stalacbite',
                     img: 'tileimage/Stalacbite.png',
                     imgWidth: '72px',
@@ -17779,6 +18026,12 @@ table, th, td {
                                                     {
                     value: 'Zombie Mole',
                     img: 'tileimage/Zombie Mole.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                          {
+                    value: 'Column Carrier',
+                    img: 'tileimage/Column Carrier.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
@@ -17839,6 +18092,12 @@ table, th, td {
                    {
                     value: 'Ice Block Zombie',
                     img: 'tileimage/Ice Block Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Icicle Zombie',
+                    img: 'tileimage/Icicle Zombie.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
@@ -18029,6 +18288,12 @@ table, th, td {
                     imgHeight: '72px'
                 },
                    {
+                    value: 'Heavy Metal Zombie',
+                    img: 'tileimage/Heavy Metal Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
                     value: 'Solar Car Zombie',
                     img: 'tileimage/Solar Car Zombie.png',
                     imgWidth: '72px',
@@ -18070,6 +18335,12 @@ table, th, td {
                 {
                     value: 'Empty',
                     img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                                                    {
+                    value: 'Imp',
+                    img: 'tileimage/Imp.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
@@ -18158,6 +18429,18 @@ table, th, td {
                     imgHeight: '72px'
                 },
                    {
+                    value: 'Eggshell Imp',
+                    img: 'tileimage/Eggshell Imp.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Bulldog Walker',
+                    img: 'tileimage/Bulldog Walker.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
                     value: 'Haunting Zombie',
                     img: 'tileimage/Haunting Zombie.png',
                     imgWidth: '72px',
@@ -18190,6 +18473,24 @@ table, th, td {
                    {
                     value: 'Soul Musician Zombie',
                     img: 'tileimage/Soul Musician Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Assassin Zombie',
+                    img: 'tileimage/Assassin Zombie.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'King of Chess',
+                    img: 'tileimage/King of Chess.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Chariot Zombie',
+                    img: "tileimage/Chariot Zombie KoT.png",
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
