@@ -678,7 +678,7 @@ table, th, td {
      </th>
   </tr>
       <tr style="height:72px; width:72px">
-    <th style="background-color:#100699"><img src="tileimage/Extraterrestrial Kingdom Icon KoT.png" width="72px" height="72px"></th>
+    <th style="background-color:#292442"><img src="tileimage/Extraterrestrial Kingdom Icon KoT.png" width="72px" height="72px"></th>
     <th style="background-color:#c71616">
         <select id="plant14a" name="plant14a" class="custom-select"></select>
     </th>
@@ -728,6 +728,57 @@ table, th, td {
        <select id="zombie14all" name="zombie14all" class="custom-select"></select>
      </th>
   </tr>
+        <tr style="height:72px; width:72px">
+    <th style="background-color:#eba42a"><img src="tileimage/Taco Kingdom Icon KoT.png" width="72px" height="72px"></th>
+    <th style="background-color:#c71616">
+        <select id="plant15a" name="plant15a" class="custom-select"></select>
+    </th>
+    <th style="background-color:#1245c7">
+      <select id="plant15d" name="plant15d" class="custom-select"></select>
+    </th>
+     <th style="background-color:#e0cf0b">
+       <select id="plant15p" name="plant15p" class="custom-select"></select>
+     </th>
+     <th style="background-color:#08c70e">
+       <select id="plant15sp" name="plant15sp" class="custom-select"></select>
+     </th>
+     <th style="background-color:#8509eb">
+       <select id="plant15u" name="plant15u" class="custom-select"></select>
+     </th>
+     <th style="background-color:#f26507">
+       <select id="plant15t" name="plant15t" class="custom-select"></select>
+     </th>
+     <th style="background-color:#0fcedb">
+       <select id="plant15st" name="plant15st" class="custom-select"></select>
+     </th>
+     <th style="background-color:#5ec40a">
+       <select id="plant15all" name="plant15all" class="custom-select"></select>
+     </th>
+     <th style="background-color:#798c65">
+       <select id="zombie15b" name="zombie15b" class="custom-select"></select>
+     </th>
+     <th style="background-color:#a3a3a3">
+       <select id="zombie15a" name="zombie15a" class="custom-select"></select>  
+     </th>
+     <th style="background-color:#61c995">
+       <select id="zombie15sp" name="zombie15sp" class="custom-select"></select>
+     </th>
+     <th style="background-color:#6e4040">
+       <select id="zombie15of" name="zombie15of" class="custom-select"></select>
+     </th>
+     <th style="background-color:#a69855">
+       <select id="zombie15sw" name="zombie15sw" class="custom-select"></select>
+     </th>
+     <th style="background-color:#915030">
+       <select id="zombie15os" name="zombie15os" class="custom-select"></select>
+     </th>
+     <th style="background-color:#8375c7">
+       <select id="zombie15boss" name="zombie15boss" class="custom-select"></select>
+     </th>
+     <th style="background-color:#860ac4">
+       <select id="zombie15all" name="zombie15all" class="custom-select"></select>
+     </th>
+  </tr>
   <tr style="height:72px; width:72px">
     <th style="background-color:#2f00ff"><img src="tileimage/Shop Icon KoT.png" width="72px" height="72px"></th>
     <th style="background-color:#c71616">
@@ -757,7 +808,9 @@ table, th, td {
      <th style="background-color:#798c65">
        <select id="zombieSb" name="zombieSb" class="custom-select"></select>
      </th>
-     <th style="background-color:#a3a3a3">N/A</th>
+     <th style="background-color:#a3a3a3">
+       <select id="zombieSa" name="zombieSa" class="custom-select"></select>  
+     </th>
      <th style="background-color:#61c995">
        <select id="zombieSsp" name="zombieSsp" class="custom-select"></select>
      </th>
@@ -13380,6 +13433,1146 @@ table, th, td {
                 }
             ],
         });
+               new DynamicSelect('#plant15a', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Horn Beetle',
+                    img: 'tileimage/Horn Beetle KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Stab Beetle',
+                    img: 'tileimage/Stab Beetle KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zapture',
+                    img: 'tileimage/Zapture KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Chained Lightning',
+                    img: 'tileimage/Chained Lightning KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Galactic Gladitater',
+                    img: 'tileimage/Galactic Gladitater KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Spudacus',
+                    img: 'tileimage/Spudacus KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Glowdrop',
+                    img: 'tileimage/Glowdrop KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Windy’s Gold',
+                    img: 'tileimage/Windy’s Gold KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Speakermelon',
+                    img: 'tileimage/Speakermelon KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Gouyell',
+                    img: 'tileimage/Gouyell KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Civilized Spinach',
+                    img: 'tileimage/Civilized Spinach KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Savage Spinach',
+                    img: 'tileimage/Savage Spinach KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Magic-Shroom',
+                    img: 'tileimage/Magic-Shroom KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Card Illushroom',
+                    img: 'tileimage/Card Illushroom KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Flowerwork Rocket',
+                    img: 'tileimage/Flowerwork Rocket KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Tulipstic Missile',
+                    img: 'tileimage/Tulipstic Missile KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Copy-Peacock',
+                    img: 'tileimage/Copy-Peacock KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Podded Plume',
+                    img: 'tileimage/Podded Plume KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Cucumbubble',
+                    img: 'tileimage/Cucumbubble KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Still Pickle',
+                    img: 'tileimage/Still Pickle KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#plant15d', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Dough-Nut',
+                    img: 'tileimage/Dough-Nut KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Springkled',
+                    img: 'tileimage/Springkled KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Link Leek',
+                    img: 'tileimage/Link Leek KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Alliumight',
+                    img: 'tileimage/Alliumight KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Galactic Gladitater',
+                    img: 'tileimage/Galactic Gladitater KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Spudacus',
+                    img: 'tileimage/Spudacus KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Dragon’s Lens',
+                    img: 'tileimage/Dragon’s Lens KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Drawn Dragon’s Dot',
+                    img: 'tileimage/Drawn Dragon’s Dot KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Speakermelon',
+                    img: 'tileimage/Speakermelon KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Gouyell',
+                    img: 'tileimage/Gouyell KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Hard-to-Choke',
+                    img: 'tileimage/Hard-to-Choke KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Arti-Hulk',
+                    img: 'tileimage/Arti-Hulk KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombified-Nut',
+                    img: 'tileimage/Zombified-Nut KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Gigarg-Nut',
+                    img: 'tileimage/Gigarg-Nut KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#plant15p', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Glowdrop',
+                    img: 'tileimage/Glowdrop KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Windy’s Gold',
+                    img: 'tileimage/Windy’s Gold KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#plant15sp', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Dough-Nut',
+                    img: 'tileimage/Dough-Nut KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Springkled',
+                    img: 'tileimage/Springkled KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Devil’s Saddle',
+                    img: 'tileimage/Devil’s Saddle KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Immorel',
+                    img: 'tileimage/Immorel KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Dragon’s Lens',
+                    img: 'tileimage/Dragon’s Lens KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Drawn Dragon’s Dot',
+                    img: 'tileimage/Drawn Dragon’s Dot KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Cucumbubble',
+                    img: 'tileimage/Pinwheel Flower KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Still Pickle',
+                    img: 'tileimage/Bebloomed KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#plant15u', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Attach-Shroom',
+                    img: 'tileimage/Attach-Shroom KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Brain-Cap',
+                    img: 'tileimage/Brain-Cap KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#plant15t', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Attach-Shroom',
+                    img: 'tileimage/Attach-Shroom KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Brain-Cap',
+                    img: 'tileimage/Brain-Cap KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#plant15st', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Horn Beetle',
+                    img: 'tileimage/Horn Beetle KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Stab Beetle',
+                    img: 'tileimage/Stab Beetle KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zapture',
+                    img: 'tileimage/Zapture KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Chained Lightning',
+                    img: 'tileimage/Chained Lightning KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Dragon’s Lens',
+                    img: 'tileimage/Dragon’s Lens KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Drawn Dragon’s Dot',
+                    img: 'tileimage/Drawn Dragon’s Dot KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Glowdrop',
+                    img: 'tileimage/Glowdrop KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Windy’s Gold',
+                    img: 'tileimage/Windy’s Gold KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Arti-Hulk',
+                    img: 'tileimage/Arti-Hulk KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Attach-Shroom',
+                    img: 'tileimage/Attach-Shroom KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Brain-Cap',
+                    img: 'tileimage/Brain-Cap KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Pinwheel Flower',
+                    img: 'tileimage/Pinwheel Flower KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Bebloomed',
+                    img: 'tileimage/Bebloomed KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Cucumbubble',
+                    img: 'tileimage/Pinwheel Flower KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Still Pickle',
+                    img: 'tileimage/Bebloomed KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#plant15all', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Horn Beetle',
+                    img: 'tileimage/Horn Beetle KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Stab Beetle',
+                    img: 'tileimage/Stab Beetle KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zapture',
+                    img: 'tileimage/Zapture KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Chained Lightning',
+                    img: 'tileimage/Chained Lightning KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Dough-Nut',
+                    img: 'tileimage/Dough-Nut KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Springkled',
+                    img: 'tileimage/Springkled KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Link Leek',
+                    img: 'tileimage/Link Leek KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Alliumight',
+                    img: 'tileimage/Alliumight KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Galactic Gladitater',
+                    img: 'tileimage/Galactic Gladitater KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Spudacus',
+                    img: 'tileimage/Spudacus KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Devil’s Saddle',
+                    img: 'tileimage/Devil’s Saddle KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Immorel',
+                    img: 'tileimage/Immorel KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Dragon’s Lens',
+                    img: 'tileimage/Dragon’s Lens KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Drawn Dragon’s Dot',
+                    img: 'tileimage/Drawn Dragon’s Dot KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Glowdrop',
+                    img: 'tileimage/Glowdrop KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Windy’s Gold',
+                    img: 'tileimage/Windy’s Gold KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Speakermelon',
+                    img: 'tileimage/Speakermelon KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Gouyell',
+                    img: 'tileimage/Gouyell KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Civilized Spinach',
+                    img: 'tileimage/Civilized Spinach KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Savage Spinach',
+                    img: 'tileimage/Savage Spinach KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Hard-to-Choke',
+                    img: 'tileimage/Hard-to-Choke KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Arti-Hulk',
+                    img: 'tileimage/Arti-Hulk KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Magic-Shroom',
+                    img: 'tileimage/Magic-Shroom KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Card Illushroom',
+                    img: 'tileimage/Card Illushroom KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Flowerwork Rocket',
+                    img: 'tileimage/Flowerwork Rocket KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Tulipstic Missile',
+                    img: 'tileimage/Tulipstic Missile KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Copy-Peacock',
+                    img: 'tileimage/Copy-Peacock KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Podded Plume',
+                    img: 'tileimage/Podded Plume KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombified-Nut',
+                    img: 'tileimage/Zombified-Nut KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Gigarg-Nut',
+                    img: 'tileimage/Gigarg-Nut KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Attach-Shroom',
+                    img: 'tileimage/Attach-Shroom KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Brain-Cap',
+                    img: 'tileimage/Brain-Cap KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Pinwheel Flower',
+                    img: 'tileimage/Pinwheel Flower KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Bebloomed',
+                    img: 'tileimage/Bebloomed KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Cucumbubble',
+                    img: 'tileimage/Pinwheel Flower KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Still Pickle',
+                    img: 'tileimage/Bebloomed KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#zombie15b', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Garbage Imp',
+                    img: 'tileimage/Garbage Imp KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Stoplight Zombie',
+                    img: 'tileimage/Stoplight Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Giga-Imp',
+                    img: 'tileimage/Giga-Imp KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#zombie15a', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Medic Zombie',
+                    img: 'tileimage/Medic Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Robo-Bricks Zombie',
+                    img: 'tileimage/Robo-Bricks Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Stoplight Zombie',
+                    img: 'tileimage/Stoplight Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Tiny-Tomorrow-Tron',
+                    img: 'tileimage/Tiny-Tomorrow-Tron KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Shield-Star',
+                    img: 'tileimage/Shield-Star KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Dummy Shield',
+                    img: 'tileimage/Dummy Shield KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Masked Mage',
+                    img: 'tileimage/Masked Mage KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#zombie15sp', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Stoplight Zombie',
+                    img: 'tileimage/Stoplight Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Shield-Star',
+                    img: 'tileimage/Shield-Star KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Talisman Zombie',
+                    img: 'tileimage/Talisman Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#zombie15of', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Medic Zombie',
+                    img: 'tileimage/Medic Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Tiny-Tomorrow-Tron',
+                    img: 'tileimage/Tiny-Tomorrow-Tron KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Imp-cinerator',
+                    img: 'tileimage/Imp-cinerator KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Police Zombie',
+                    img: 'tileimage/Police Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Shield-Star',
+                    img: 'tileimage/Shield-Star KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Ultomato Zombie',
+                    img: 'tileimage/Ultomato Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Talisman Zombie',
+                    img: 'tileimage/Talisman Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Giga-Gargantuar',
+                    img: 'tileimage/Giga-Gargantuar KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#zombie15sw', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Garbage Imp',
+                    img: 'tileimage/Garbage Imp KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Dummy Shield',
+                    img: 'tileimage/Dummy Shield KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Peacock Wrangler',
+                    img: 'tileimage/Peacock Wrangler KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombie Peacock',
+                    img: 'tileimage/Zombie Peacock KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Giga-Imp',
+                    img: 'tileimage/Giga-Imp KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#zombie15os', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Garbage Imp',
+                    img: 'tileimage/Garbage Imp KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Medic Zombie',
+                    img: 'tileimage/Medic Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Shield-Star',
+                    img: 'tileimage/Shield-Star KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Dummy Shield',
+                    img: 'tileimage/Dummy Shield KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombot Taco Tyrant of Terror',
+                    img: 'tileimage/Zombot Taco Tyrant of Terror KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#zombie15boss', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Tacoach',
+                    img: 'tileimage/Tacoach KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombot Taco Tyrant of Terror',
+                    img: 'tileimage/Zombot Taco Tyrant of Terror KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+               new DynamicSelect('#zombie15all', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Garbage Imp',
+                    img: 'tileimage/Garbage Imp KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Medic Zombie',
+                    img: 'tileimage/Medic Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Robo-Bricks Zombie',
+                    img: 'tileimage/Robo-Bricks Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Stoplight Zombie',
+                    img: 'tileimage/Stoplight Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Tiny-Tomorrow-Tron',
+                    img: 'tileimage/Tiny-Tomorrow-Tron KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Imp-cinerator',
+                    img: 'tileimage/Imp-cinerator KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Police Zombie',
+                    img: 'tileimage/Police Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Shield-Star',
+                    img: 'tileimage/Shield-Star KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Dummy Shield',
+                    img: 'tileimage/Dummy Shield KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Masked Mage',
+                    img: 'tileimage/Masked Mage KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Peacock Wrangler',
+                    img: 'tileimage/Peacock Wrangler KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombie Peacock',
+                    img: 'tileimage/Zombie Peacock KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Ultomato Zombie',
+                    img: 'tileimage/Ultomato Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Talisman Zombie',
+                    img: 'tileimage/Talisman Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Giga-Gargantuar',
+                    img: 'tileimage/Giga-Gargantuar KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Giga-Imp',
+                    img: 'tileimage/Giga-Imp KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Tacoach',
+                    img: 'tileimage/Tacoach KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombot Taco Tyrant of Terror',
+                    img: 'tileimage/Zombot Taco Tyrant of Terror KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
                new DynamicSelect('#plantSa', {
             columns: 3,
             height: '72px',
@@ -13941,6 +15134,33 @@ table, th, td {
                 }
             ],
         });
+               new DynamicSelect('#zombieSa', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Wall-Nut Zomboid',
+                    img: 'tileimage/Wall-Nut Zomboid.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Explode-O-Nut Zomboid',
+                    img: 'tileimage/Explode-O-Nut Zomboid.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
                new DynamicSelect('#zombieSsp', {
             columns: 3,
             height: '72px',
@@ -13984,6 +15204,12 @@ table, th, td {
                    {
                     value: 'Peashooter Zomboid',
                     img: 'tileimage/Peashooter Zomboid.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Explode-O-Nut Zomboid',
+                    img: 'tileimage/Explode-O-Nut Zomboid.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 }
@@ -15353,6 +16579,126 @@ table, th, td {
                     imgHeight: '72px'
                 },
                    {
+                    value: 'Horn Beetle',
+                    img: 'tileimage/Horn Beetle KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Stab Beetle',
+                    img: 'tileimage/Stab Beetle KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zapture',
+                    img: 'tileimage/Zapture KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Chained Lightning',
+                    img: 'tileimage/Chained Lightning KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Galactic Gladitater',
+                    img: 'tileimage/Galactic Gladitater KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Spudacus',
+                    img: 'tileimage/Spudacus KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Glowdrop',
+                    img: 'tileimage/Glowdrop KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Windy’s Gold',
+                    img: 'tileimage/Windy’s Gold KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Speakermelon',
+                    img: 'tileimage/Speakermelon KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Gouyell',
+                    img: 'tileimage/Gouyell KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Civilized Spinach',
+                    img: 'tileimage/Civilized Spinach KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Savage Spinach',
+                    img: 'tileimage/Savage Spinach KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Magic-Shroom',
+                    img: 'tileimage/Magic-Shroom KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Card Illushroom',
+                    img: 'tileimage/Card Illushroom KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Flowerwork Rocket',
+                    img: 'tileimage/Flowerwork Rocket KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Tulipstic Missile',
+                    img: 'tileimage/Tulipstic Missile KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Copy-Peacock',
+                    img: 'tileimage/Copy-Peacock KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Podded Plume',
+                    img: 'tileimage/Podded Plume KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Cucumbubble',
+                    img: 'tileimage/Cucumbubble KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Still Pickle',
+                    img: 'tileimage/Still Pickle KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
                     value: 'Magnifying Grass',
                     img: 'tileimage/Magnifying Grass.png',
                     imgWidth: '72px',
@@ -15848,6 +17194,90 @@ table, th, td {
                     imgHeight: '72px'
                 },
                    {
+                    value: 'Dough-Nut',
+                    img: 'tileimage/Dough-Nut KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Springkled',
+                    img: 'tileimage/Springkled KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Link Leek',
+                    img: 'tileimage/Link Leek KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Alliumight',
+                    img: 'tileimage/Alliumight KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Galactic Gladitater',
+                    img: 'tileimage/Galactic Gladitater KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Spudacus',
+                    img: 'tileimage/Spudacus KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Dragon’s Lens',
+                    img: 'tileimage/Dragon’s Lens KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Drawn Dragon’s Dot',
+                    img: 'tileimage/Drawn Dragon’s Dot KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Speakermelon',
+                    img: 'tileimage/Speakermelon KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Gouyell',
+                    img: 'tileimage/Gouyell KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Hard-to-Choke',
+                    img: 'tileimage/Hard-to-Choke KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Arti-Hulk',
+                    img: 'tileimage/Arti-Hulk KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombified-Nut',
+                    img: 'tileimage/Zombified-Nut KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Gigarg-Nut',
+                    img: 'tileimage/Gigarg-Nut KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
                     value: 'Buttercup',
                     img: 'tileimage/Buttercup.png',
                     imgWidth: '72px',
@@ -15985,6 +17415,18 @@ table, th, td {
                    {
                     value: 'Stellar Stalk',
                     img: 'tileimage/Stellar Stalk KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Glowdrop',
+                    img: 'tileimage/Glowdrop KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Windy’s Gold',
+                    img: 'tileimage/Windy’s Gold KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
@@ -16712,6 +18154,54 @@ table, th, td {
                     imgHeight: '72px'
                 },
                    {
+                    value: 'Dough-Nut',
+                    img: 'tileimage/Dough-Nut KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Springkled',
+                    img: 'tileimage/Springkled KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Devil’s Saddle',
+                    img: 'tileimage/Devil’s Saddle KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Immorel',
+                    img: 'tileimage/Immorel KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Dragon’s Lens',
+                    img: 'tileimage/Dragon’s Lens KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Drawn Dragon’s Dot',
+                    img: 'tileimage/Drawn Dragon’s Dot KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Cucumbubble',
+                    img: 'tileimage/Pinwheel Flower KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Still Pickle',
+                    img: 'tileimage/Bebloomed KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
                     value: 'Marigold',
                     img: 'tileimage/Marigold.png',
                     imgWidth: '72px',
@@ -17333,6 +18823,18 @@ table, th, td {
                     imgHeight: '72px'
                 },
                    {
+                    value: 'Attach-Shroom',
+                    img: 'tileimage/Attach-Shroom KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Brain-Cap',
+                    img: 'tileimage/Brain-Cap KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
                     value: 'Wealth Wreath',
                     img: 'tileimage/Wealth Wreath.png',
                     imgWidth: '72px',
@@ -17740,6 +19242,18 @@ table, th, td {
                    {
                     value: 'Square Roots',
                     img: 'tileimage/Square Roots KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Attach-Shroom',
+                    img: 'tileimage/Attach-Shroom KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Brain-Cap',
+                    img: 'tileimage/Brain-Cap KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
@@ -18433,6 +19947,96 @@ table, th, td {
                    {
                     value: 'Carrot Carrier',
                     img: 'tileimage/Carrot Carrier KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Horn Beetle',
+                    img: 'tileimage/Horn Beetle KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Stab Beetle',
+                    img: 'tileimage/Stab Beetle KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zapture',
+                    img: 'tileimage/Zapture KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Chained Lightning',
+                    img: 'tileimage/Chained Lightning KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Dragon’s Lens',
+                    img: 'tileimage/Dragon’s Lens KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Drawn Dragon’s Dot',
+                    img: 'tileimage/Drawn Dragon’s Dot KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Glowdrop',
+                    img: 'tileimage/Glowdrop KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Windy’s Gold',
+                    img: 'tileimage/Windy’s Gold KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Arti-Hulk',
+                    img: 'tileimage/Arti-Hulk KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Attach-Shroom',
+                    img: 'tileimage/Attach-Shroom KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Brain-Cap',
+                    img: 'tileimage/Brain-Cap KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Pinwheel Flower',
+                    img: 'tileimage/Pinwheel Flower KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Bebloomed',
+                    img: 'tileimage/Bebloomed KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Cucumbubble',
+                    img: 'tileimage/Pinwheel Flower KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Still Pickle',
+                    img: 'tileimage/Bebloomed KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
@@ -20942,6 +22546,222 @@ table, th, td {
                     imgHeight: '72px'
                 },
                    {
+                    value: 'Horn Beetle',
+                    img: 'tileimage/Horn Beetle KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Stab Beetle',
+                    img: 'tileimage/Stab Beetle KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zapture',
+                    img: 'tileimage/Zapture KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Chained Lightning',
+                    img: 'tileimage/Chained Lightning KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Dough-Nut',
+                    img: 'tileimage/Dough-Nut KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Springkled',
+                    img: 'tileimage/Springkled KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Link Leek',
+                    img: 'tileimage/Link Leek KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Alliumight',
+                    img: 'tileimage/Alliumight KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Galactic Gladitater',
+                    img: 'tileimage/Galactic Gladitater KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Spudacus',
+                    img: 'tileimage/Spudacus KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Devil’s Saddle',
+                    img: 'tileimage/Devil’s Saddle KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Immorel',
+                    img: 'tileimage/Immorel KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Dragon’s Lens',
+                    img: 'tileimage/Dragon’s Lens KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Drawn Dragon’s Dot',
+                    img: 'tileimage/Drawn Dragon’s Dot KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Glowdrop',
+                    img: 'tileimage/Glowdrop KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Windy’s Gold',
+                    img: 'tileimage/Windy’s Gold KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Speakermelon',
+                    img: 'tileimage/Speakermelon KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Gouyell',
+                    img: 'tileimage/Gouyell KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Civilized Spinach',
+                    img: 'tileimage/Civilized Spinach KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Savage Spinach',
+                    img: 'tileimage/Savage Spinach KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Hard-to-Choke',
+                    img: 'tileimage/Hard-to-Choke KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Arti-Hulk',
+                    img: 'tileimage/Arti-Hulk KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Magic-Shroom',
+                    img: 'tileimage/Magic-Shroom KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Card Illushroom',
+                    img: 'tileimage/Card Illushroom KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Flowerwork Rocket',
+                    img: 'tileimage/Flowerwork Rocket KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Tulipstic Missile',
+                    img: 'tileimage/Tulipstic Missile KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Copy-Peacock',
+                    img: 'tileimage/Copy-Peacock KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Podded Plume',
+                    img: 'tileimage/Podded Plume KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombified-Nut',
+                    img: 'tileimage/Zombified-Nut KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Gigarg-Nut',
+                    img: 'tileimage/Gigarg-Nut KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Attach-Shroom',
+                    img: 'tileimage/Attach-Shroom KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Brain-Cap',
+                    img: 'tileimage/Brain-Cap KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Pinwheel Flower',
+                    img: 'tileimage/Pinwheel Flower KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Bebloomed',
+                    img: 'tileimage/Bebloomed KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Cucumbubble',
+                    img: 'tileimage/Pinwheel Flower KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Still Pickle',
+                    img: 'tileimage/Bebloomed KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
                     value: 'Marigold',
                     img: 'tileimage/Marigold.png',
                     imgWidth: '72px',
@@ -21353,6 +23173,24 @@ table, th, td {
                     imgHeight: '72px'
                 },
                    {
+                    value: 'Garbage Imp',
+                    img: 'tileimage/Garbage Imp KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Stoplight Zombie',
+                    img: 'tileimage/Stoplight Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Giga-Imp',
+                    img: 'tileimage/Giga-Imp KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
                     value: 'Goat',
                     img: 'tileimage/Goat.png',
                     imgWidth: '72px',
@@ -21634,6 +23472,60 @@ table, th, td {
                    {
                     value: 'Meteorhead Zombie',
                     img: 'tileimage/Meteorhead Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Medic Zombie',
+                    img: 'tileimage/Medic Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Robo-Bricks Zombie',
+                    img: 'tileimage/Robo-Bricks Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Stoplight Zombie',
+                    img: 'tileimage/Stoplight Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Tiny-Tomorrow-Tron',
+                    img: 'tileimage/Tiny-Tomorrow-Tron KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Shield-Star',
+                    img: 'tileimage/Shield-Star KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Dummy Shield',
+                    img: 'tileimage/Dummy Shield KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Masked Mage',
+                    img: 'tileimage/Masked Mage KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Wall-Nut Zomboid',
+                    img: 'tileimage/Explode-O-Nut Zomboid.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Explode-O-Nut Zomboid',
+                    img: 'tileimage/Explode-O-Nut Zomboid.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 }
@@ -21967,6 +23859,24 @@ table, th, td {
                    {
                     value: 'Fastronaut Zombie',
                     img: 'tileimage/Fastronaut Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Stoplight Zombie',
+                    img: 'tileimage/Stoplight Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Shield-Star',
+                    img: 'tileimage/Shield-Star KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Talisman Zombie',
+                    img: 'tileimage/Talisman Zombie KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
@@ -22412,8 +24322,62 @@ table, th, td {
                     imgHeight: '72px'
                 },
                    {
+                    value: 'Medic Zombie',
+                    img: 'tileimage/Medic Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Tiny-Tomorrow-Tron',
+                    img: 'tileimage/Tiny-Tomorrow-Tron KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Imp-cinerator',
+                    img: 'tileimage/Imp-cinerator KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Police Zombie',
+                    img: 'tileimage/Police Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Shield-Star',
+                    img: 'tileimage/Shield-Star KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Ultomato Zombie',
+                    img: 'tileimage/Ultomato Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Talisman Zombie',
+                    img: 'tileimage/Talisman Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Giga-Gargantuar',
+                    img: 'tileimage/Giga-Gargantuar KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
                     value: 'Peashooter Zomboid',
                     img: 'tileimage/Peashooter Zomboid.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Explode-O-Nut Zomboid',
+                    img: 'tileimage/Explode-O-Nut Zomboid.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 }
@@ -22657,6 +24621,36 @@ table, th, td {
                    {
                     value: 'Space Cadet',
                     img: 'tileimage/Space Cadet KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Garbage Imp',
+                    img: 'tileimage/Garbage Imp KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Dummy Shield',
+                    img: 'tileimage/Dummy Shield KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Peacock Wrangler',
+                    img: 'tileimage/Peacock Wrangler KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombie Peacock',
+                    img: 'tileimage/Zombie Peacock KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Giga-Imp',
+                    img: 'tileimage/Giga-Imp KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
@@ -22974,6 +24968,36 @@ table, th, td {
                     img: 'tileimage/Space Racer KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
+                },
+                   {
+                    value: 'Garbage Imp',
+                    img: 'tileimage/Garbage Imp KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Medic Zombie',
+                    img: 'tileimage/Medic Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Shield-Star',
+                    img: 'tileimage/Shield-Star KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Dummy Shield',
+                    img: 'tileimage/Dummy Shield KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombot Taco Tyrant of Terror',
+                    img: 'tileimage/Zombot Taco Tyrant of Terror KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
                 }
             ],
         });
@@ -23143,6 +25167,18 @@ table, th, td {
                    {
                     value: 'Zombot Black Hole Buster',
                     img: 'tileimage/Zombot Black Hole Buster KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Tacoach',
+                    img: 'tileimage/Tacoach KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombot Taco Tyrant of Terror',
+                    img: 'tileimage/Zombot Taco Tyrant of Terror KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 }
@@ -24244,6 +26280,114 @@ table, th, td {
                    {
                     value: 'Zombot Black Hole Buster',
                     img: 'tileimage/Zombot Black Hole Buster KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Garbage Imp',
+                    img: 'tileimage/Garbage Imp KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Medic Zombie',
+                    img: 'tileimage/Medic Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Robo-Bricks Zombie',
+                    img: 'tileimage/Robo-Bricks Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Stoplight Zombie',
+                    img: 'tileimage/Stoplight Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Tiny-Tomorrow-Tron',
+                    img: 'tileimage/Tiny-Tomorrow-Tron KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Imp-cinerator',
+                    img: 'tileimage/Imp-cinerator KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Police Zombie',
+                    img: 'tileimage/Police Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Shield-Star',
+                    img: 'tileimage/Shield-Star KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Dummy Shield',
+                    img: 'tileimage/Dummy Shield KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Masked Mage',
+                    img: 'tileimage/Masked Mage KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Peacock Wrangler',
+                    img: 'tileimage/Peacock Wrangler KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombie Peacock',
+                    img: 'tileimage/Zombie Peacock KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Ultomato Zombie',
+                    img: 'tileimage/Ultomato Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Talisman Zombie',
+                    img: 'tileimage/Talisman Zombie KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Giga-Gargantuar',
+                    img: 'tileimage/Giga-Gargantuar KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Giga-Imp',
+                    img: 'tileimage/Giga-Imp KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Tacoach',
+                    img: 'tileimage/Tacoach KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Zombot Taco Tyrant of Terror',
+                    img: 'tileimage/Zombot Taco Tyrant of Terror KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
