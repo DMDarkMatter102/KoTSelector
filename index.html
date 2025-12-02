@@ -820,8 +820,12 @@ table, th, td {
      <th style="background-color:#a69855">
        <select id="zombieSsw" name="zombieSsw" class="custom-select"></select>  
      </th>
-     <th style="background-color:#915030">N/A</th>
-     <th style="background-color:#8375c7">N/A</th>
+     <th style="background-color:#915030">
+       <select id="zombieSos" name="zombieSos" class="custom-select"></select>  
+     </th>
+     <th style="background-color:#8375c7">
+       <select id="zombieSboss" name="zombieSboss" class="custom-select"></select>  
+     </th>
      <th style="background-color:#860ac4">
        <select id="zombieSall" name="zombieSall" class="custom-select"></select>
      </th>
@@ -15308,6 +15312,48 @@ table, th, td {
                 }
             ],
         });
+                   new DynamicSelect('#zombieSos', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Yeti King',
+                    img: 'tileimage/Yeti King KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
+                       new DynamicSelect('#zombieSboss', {
+            columns: 3,
+            height: '72px',
+            width: '72px',
+            dropdownWidth: '300px',
+            placeholder: '',
+            data: [
+                {
+                    value: 'Empty',
+                    img: 'tileimage/Empty.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Yeti King',
+                    img: 'tileimage/Yeti King KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                }
+            ],
+        });
                new DynamicSelect('#zombieSall', {
             columns: 3,
             height: '72px',
@@ -15384,6 +15430,12 @@ table, th, td {
                    {
                     value: 'Taco Imp',
                     img: 'tileimage/Taco Imp KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Yeti King',
+                    img: 'tileimage/Yeti King KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 }
@@ -25136,6 +25188,12 @@ table, th, td {
                     img: 'tileimage/Zombot Taco Tyrant of Terror KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
+                },
+                   {
+                    value: 'Yeti King',
+                    img: 'tileimage/Yeti King KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
                 }
             ],
         });
@@ -25317,6 +25375,12 @@ table, th, td {
                    {
                     value: 'Zombot Taco Tyrant of Terror',
                     img: 'tileimage/Zombot Taco Tyrant of Terror KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Yeti King',
+                    img: 'tileimage/Yeti King KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 }
@@ -26592,6 +26656,12 @@ table, th, td {
                    {
                     value: 'Taco Imp',
                     img: 'tileimage/Taco Imp KoT.png',
+                    imgWidth: '72px',
+                    imgHeight: '72px'
+                },
+                   {
+                    value: 'Yeti King',
+                    img: 'tileimage/Yeti King KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 }
