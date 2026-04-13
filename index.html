@@ -885,7 +885,8 @@ table, th, td {
   <script src="DynamicSelect.js"></script>
   <script>
         // Initialize the Dynamic Selects
-            const plantSelect1a = new DynamicSelect('#plant1a', {
+    const storageKey = 'selectedPlant1a';
+            const plantSelect = new DynamicSelect('#plant1a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -911,12 +912,14 @@ table, th, td {
                     imgHeight: '72px'
                 }    
             ],
-              onChange: function(value) {
-        localStorage.setItem('selectedPlant_1a', value);
-              }
+                  onChange: function(value) {
+        localStorage.setItem(storageKey, value);
+    }
         });
-    const savedPlant1a = localStorage.getItem('selectedPlant_1a') || 'Empty';
-plantSelect1a.set(savedPlant1a);
+    const savedValue = localStorage.getItem(storageKey);
+if (savedValue) {
+    plantSelect.select(savedValue); 
+}
         new DynamicSelect('#plant1d', {
             columns: 3,
             height: '72px',
