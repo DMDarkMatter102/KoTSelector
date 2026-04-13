@@ -920,7 +920,8 @@ table, th, td {
     if (savedValue) {
     plantSelect.selectedValue = savedValue;
     }
-        new DynamicSelect('#plant1d', {
+            const storageKey = 'selectedPlant1d';
+            const plantSelect = new DynamicSelect('#plant1d', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -946,7 +947,14 @@ table, th, td {
                     imgHeight: '72px'
                 }    
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey, value);
+    }
         });
+    const savedValue = localStorage.getItem(storageKey);
+    if (savedValue) {
+    plantSelect.selectedValue = savedValue;
+    }
             new DynamicSelect('#plant1p', {
             columns: 3,
             height: '72px',
