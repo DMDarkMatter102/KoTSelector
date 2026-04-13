@@ -911,13 +911,12 @@ table, th, td {
                     imgHeight: '72px'
                 }    
             ],
-              onChange: function(selectedValue) {
-        localStorage.setItem('selectedPlant_1a', selectedValue);
-        console.log("Saved to storage:", selectedValue);
-    }
+              onChange: function(value) {
+        localStorage.setItem('selectedPlant_1a', value);
+              }
         });
     const savedPlant1a = localStorage.getItem('selectedPlant_1a') || 'Empty';
-plantSelect1a.set(savedPlant);
+plantSelect1a.set(savedPlant1a);
         new DynamicSelect('#plant1d', {
             columns: 3,
             height: '72px',
