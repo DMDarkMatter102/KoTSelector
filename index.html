@@ -948,14 +948,15 @@ table, th, td {
                 }    
             ],
                   onChange: function(value) {
-        localStorage.setItem(storageKey1d, value);
+        localStorage.setItem(storageKey1a, value);
     }
         });
-    const savedValue1d = localStorage.getItem(storageKey1d);
+    const savedValue1d = localStorage.getItem(storageKey1a);
     if (savedValue1d) {
-    plantSelect1d.selectedValue = savedValue1d;
+    plantSelect1a.selectedValue = savedValue1d;
     }
-            new DynamicSelect('#plant1p', {
+                        const storageKey1p = 'selectedPlant1d';
+            const plantSelect1p = new DynamicSelect('#plant1p', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -981,8 +982,16 @@ table, th, td {
                     imgHeight: '72px'
                 }    
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey1p, value);
+    }
         });
-                new DynamicSelect('#plant1u', {
+    const savedValue1p = localStorage.getItem(storageKey1p);
+    if (savedValue1p) {
+    plantSelect1p.selectedValue = savedValue1p;
+    }
+                            const storageKey1u = 'selectedPlant1u';
+            const plantSelect1u = new DynamicSelect('#plant1u', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -1026,8 +1035,16 @@ table, th, td {
                     imgHeight: '72px'
                 }   
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey1u, value);
+    }
         });
-                    new DynamicSelect('#plant1t', {
+    const savedValue1u = localStorage.getItem(storageKey1u);
+    if (savedValue1u) {
+    plantSelect1u.selectedValue = savedValue1u;
+    }
+                                const storageKey1t = 'selectedPlant1t';
+            const plantSelect1t = new DynamicSelect('#plant1t', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -1059,8 +1076,16 @@ table, th, td {
                     imgHeight: '72px'
                 }   
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey1t, value);
+    }
         });
-                        new DynamicSelect('#plant1all', {
+    const savedValue1t = localStorage.getItem(storageKey1t);
+    if (savedValue1t) {
+    plantSelect1t.selectedValue = savedValue1t;
+    }
+                                const storageKey1all = 'selectedPlant1all';
+            const plantSelect1all = new DynamicSelect('#plant1all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -1140,8 +1165,16 @@ table, th, td {
                     imgHeight: '72px'
                 }   
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey1all, value);
+    }
         });
-                    new DynamicSelect('#zombie1b', {
+    const savedValue1all = localStorage.getItem(storageKey1all);
+    if (savedValue1all) {
+    plantSelect1all.selectedValue = savedValue1all;
+    }
+                                const storageKey1b_z = 'selectedZombie1b';
+            const plantSelect1b_z = new DynamicSelect('#zombie1b', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -1179,8 +1212,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey1b_z, value);
+    }
         });
-                        new DynamicSelect('#zombie1a', {
+    const savedValue1b_z = localStorage.getItem(storageKey1b_z);
+    if (savedValue1b_z) {
+    plantSelect1b_z.selectedValue = savedValue1b_z;
+    }
+                                    const storageKey1a_z = 'selectedZombie1a';
+            const plantSelect1a_z = new DynamicSelect('#zombie1a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -1206,8 +1247,16 @@ table, th, td {
                     imgHeight: '72px'
                 },
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey1a_z, value);
+    }
         });
-                        new DynamicSelect('#zombie1all', {
+    const savedValue1a_z = localStorage.getItem(storageKey1a_z);
+    if (savedValue1a_z) {
+    plantSelect1a_z.selectedValue = savedValue1a_z;
+    }
+                                    const storageKey1all_z = 'selectedPlant1all_z';
+            const plantSelect1all_z = new DynamicSelect('#zombie1all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -1245,8 +1294,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey1all_z, value);
+    }
         });
-                    new DynamicSelect('#plant2a', {
+    const savedValue1all_z = localStorage.getItem(storageKey1all_z);
+    if (savedValue1all_z) {
+    plantSelect1a.selectedValue = savedValue1all_z;
+    }
+                                const storageKey2a = 'selectedPlant2a';
+            const plantSelect2a = new DynamicSelect('#plant2a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -1344,8 +1401,16 @@ table, th, td {
                     imgHeight: '72px'
                 }    
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey2a, value);
+    }
         });
-                        new DynamicSelect('#plant2d', {
+    const savedValue2a = localStorage.getItem(storageKey2a);
+    if (savedValue2a) {
+    plantSelect2a.selectedValue = savedValue2a;
+    }
+                                    const storageKey2d = 'selectedPlant2d';
+            const plantSelect2d = new DynamicSelect('#plant2d', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -1395,8 +1460,16 @@ table, th, td {
                     imgHeight: '72px'
                 }    
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey2d, value);
+    }
         });
-                            new DynamicSelect('#plant2sp', {
+    const savedValue2d = localStorage.getItem(storageKey2d);
+    if (savedValue2d) {
+    plantSelect2d.selectedValue = savedValue2d;
+    }
+                                        const storageKey2sp = 'selectedPlant2sp';
+            const plantSelect2sp = new DynamicSelect('#plant2sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -1422,8 +1495,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey2sp, value);
+    }
         });
-                                    new DynamicSelect('#plant2u', {
+    const savedValue2sp = localStorage.getItem(storageKey2sp);
+    if (savedValue2sp) {
+    plantSelect2sp.selectedValue = savedValue2sp;
+    }
+                                                const storageKey2u = 'selectedPlant2u';
+            const plantSelect2u = new DynamicSelect('#plant2u', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -1473,8 +1554,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey2u, value);
+    }
         });
-                                new DynamicSelect('#plant2t', {
+    const savedValue2u = localStorage.getItem(storageKey2u);
+    if (savedValue2u) {
+    plantSelect2u.selectedValue = savedValue2u;
+    }
+                                            const storageKey2t = 'selectedPlant2t';
+            const plantSelect2t = new DynamicSelect('#plant2t', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -1512,8 +1601,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey2t, value);
+    }
         });
-                                    new DynamicSelect('#plant2st', {
+    const savedValue2t = localStorage.getItem(storageKey2t);
+    if (savedValue2t) {
+    plantSelect2t.selectedValue = savedValue2t;
+    }
+                                                const storageKey2st = 'selectedPlant2st';
+            const plantSelect2st = new DynamicSelect('#plant2st', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -1581,8 +1678,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey2st, value);
+    }
         });
-                        new DynamicSelect('#plant2all', {
+    const savedValue2st = localStorage.getItem(storageKey2st);
+    if (savedValue2st) {
+    plantSelect2st.selectedValue = savedValue2st;
+    }
+                                    const storageKey2all = 'selectedPlant2all';
+            const plantSelect2all = new DynamicSelect('#plant2all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -1740,8 +1845,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey2all, value);
+    }
         });
-                        new DynamicSelect('#zombie2b', {
+    const savedValue2all = localStorage.getItem(storageKey2all);
+    if (savedValue2all) {
+    plantSelect2all.selectedValue = savedValue2all;
+    }
+                                    const storageKey2b_z = 'selectedZombie2b';
+            const plantSelect2b_z = new DynamicSelect('#zombie2b', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -1773,8 +1886,16 @@ table, th, td {
                     imgHeight: '72px'
                 }    
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey2b_z, value);
+    }
         });
-                            new DynamicSelect('#zombie2a', {
+    const savedValue2b_z = localStorage.getItem(storageKey2b_z);
+    if (savedValue2b_z) {
+    plantSelect2b_z.selectedValue = savedValue2b_z;
+    }
+                                        const storageKey2a_z = 'selectedZombie2a';
+            const plantSelect2a_z = new DynamicSelect('#zombie2a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -1806,8 +1927,16 @@ table, th, td {
                     imgHeight: '72px'
                 }    
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey2a_z, value);
+    }
         });
-                                new DynamicSelect('#zombie2sp', {
+    const savedValue2a_z = localStorage.getItem(storageKey2a_z);
+    if (savedValue2a_z) {
+    plantSelect2a_z.selectedValue = savedValue2a_z;
+    }
+                                            const storageKey2sp_z = 'selectedZombie2sp';
+            const plantSelect2sp_z = new DynamicSelect('#zombie2sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -1839,8 +1968,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey2sp_z, value);
+    }
         });
-                                    new DynamicSelect('#zombie2of', {
+    const savedValue2sp_z = localStorage.getItem(storageKey2sp_z);
+    if (savedValue2sp_z) {
+    plantSelect2sp_z.selectedValue = savedValue2sp_z;
+    }
+                                                const storageKey2of_z = 'selectedZombie2of';
+            const plantSelect2of_z = new DynamicSelect('#zombie2of', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -1884,8 +2021,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey2of_z, value);
+    }
         });
-                            new DynamicSelect('#zombie2sw', {
+    const savedValue2of_z = localStorage.getItem(storageKey2of_z);
+    if (savedValue2of_z) {
+    plantSelect2of_z.selectedValue = savedValue2of_z;
+    }
+                                        const storageKey2sw_z = 'selectedZombie2sw';
+            const plantSelect2sw_z = new DynamicSelect('#zombie2sw', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -1905,8 +2050,16 @@ table, th, td {
                     imgHeight: '72px'
                 }  
                           ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey2sw_z, value);
+    }
         });
-                                        new DynamicSelect('#zombie2os', {
+    const savedValue2sw_z = localStorage.getItem(storageKey2sw_z);
+    if (savedValue2sw_z) {
+    plantSelect2sw_z.selectedValue = savedValue2sw_z;
+    }
+                                                    const storageKey2os_z = 'selectedZombie2os';
+            const plantSelect2os_z = new DynamicSelect('#zombie2os', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -1944,8 +2097,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey2os_z, value);
+    }
         });
-                                            new DynamicSelect('#zombie2boss', {
+    const savedValue2os_z = localStorage.getItem(storageKey2os_z);
+    if (savedValue2os_z) {
+    plantSelect2os_z.selectedValue = savedValue2os_z;
+    }
+                                                        const storageKey2boss_z = 'selectedZombie2boss';
+            const plantSelect2boss_z = new DynamicSelect('#zombie2boss', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -1971,8 +2132,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey2boss_z, value);
+    }
         });
-                                        new DynamicSelect('#zombie2all', {
+    const savedValue2boss_z = localStorage.getItem(storageKey2boss_z);
+    if (savedValue2boss_z) {
+    plantSelect2boss_z.selectedValue = savedValue2boss_z;
+    }
+                                                    const storageKey2all_z = 'selectedZombie2all';
+            const plantSelect2all_z = new DynamicSelect('#zombie2all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -2058,8 +2227,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey2all_z, value);
+    }
         });
-                new DynamicSelect('#plant3a', {
+    const savedValue2all_z = localStorage.getItem(storageKey2all_z);
+    if (savedValue2all_z) {
+    plantSelect2all_z.selectedValue = savedValue2all_z;
+    }
+                            const storageKey3a = 'selectedPlant3a';
+            const plantSelect3a = new DynamicSelect('#plant3a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -2157,8 +2334,16 @@ table, th, td {
                     imgHeight: '72px'
                 }   
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey3a, value);
+    }
         });
-                   new DynamicSelect('#plant3d', {
+    const savedValue3a = localStorage.getItem(storageKey3a);
+    if (savedValue3a) {
+    plantSelect3a.selectedValue = savedValue3a;
+    }
+                               const storageKey3d = 'selectedPlant3d';
+            const plantSelect3d = new DynamicSelect('#plant3d', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -2196,8 +2381,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey3d, value);
+    }
         });
-                       new DynamicSelect('#plant3p', {
+    const savedValue3d = localStorage.getItem(storageKey3d);
+    if (savedValue3d) {
+    plantSelect3d.selectedValue = savedValue3d;
+    }
+                                   const storageKey3p = 'selectedPlant3p';
+            const plantSelect3p = new DynamicSelect('#plant3p', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -2223,8 +2416,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey3p, value);
+    }
         });
-                           new DynamicSelect('#plant3sp', {
+    const savedValue3p = localStorage.getItem(storageKey3p);
+    if (savedValue3p) {
+    plantSelect3p.selectedValue = savedValue3p;
+    }
+                                       const storageKey3sp = 'selectedPlant3sp';
+            const plantSelect3sp = new DynamicSelect('#plant3sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -2286,8 +2487,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey3sp, value);
+    }
         });
-                           new DynamicSelect('#plant3u', {
+    const savedValue3sp = localStorage.getItem(storageKey3sp);
+    if (savedValue3sp) {
+    plantSelect3sp.selectedValue = savedValue3sp;
+    }
+                                       const storageKey3u = 'selectedPlant3u';
+            const plantSelect3u = new DynamicSelect('#plant3u', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -2325,8 +2534,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey3u, value);
+    }
         });
-                               new DynamicSelect('#plant3st', {
+    const savedValue3u = localStorage.getItem(storageKey3u);
+    if (savedValue3u) {
+    plantSelect3u.selectedValue = savedValue3u;
+    }
+                                           const storageKey3st = 'selectedPlant3st';
+            const plantSelect3st = new DynamicSelect('#plant3st', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -2364,8 +2581,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey3st, value);
+    }
         });
-                    new DynamicSelect('#plant3all', {
+    const savedValue3st = localStorage.getItem(storageKey3st);
+    if (savedValue3st) {
+    plantSelect3st.selectedValue = savedValue3st;
+    }
+                                const storageKey3all = 'selectedPlant3all';
+            const plantSelect3all = new DynamicSelect('#plant3all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -2535,8 +2760,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey3all, value);
+    }
         });
-               new DynamicSelect('#zombie3b', {
+    const savedValue3all = localStorage.getItem(storageKey3all);
+    if (savedValue3all) {
+    plantSelect3all.selectedValue = savedValue3all;
+    }
+                           const storageKey3b_z = 'selectedZombie3b';
+            const plantSelect3b_z = new DynamicSelect('#zombie3b', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -2574,8 +2807,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey3b_z, value);
+    }
         });
-                   new DynamicSelect('#zombie3a', {
+    const savedValue3b_z = localStorage.getItem(storageKey3b_z);
+    if (savedValue3b_z) {
+    plantSelect3b_z.selectedValue = savedValue3b_z;
+    }
+                               const storageKey3a_z = 'selectedZombie3a';
+            const plantSelect3a_z = new DynamicSelect('#zombie3a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -2613,8 +2854,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey3a_z, value);
+    }
         });
-                       new DynamicSelect('#zombie3sp', {
+    const savedValue3a_z = localStorage.getItem(storageKey3a_z);
+    if (savedValue3a_z) {
+    plantSelect3a_z.selectedValue = savedValue3a_z;
+    }
+                                   const storageKey3sp_z = 'selectedZombie3sp';
+            const plantSelect3sp_z = new DynamicSelect('#zombie3sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -2646,8 +2895,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey3sp_z, value);
+    }
         });
-                           new DynamicSelect('#zombie3of', {
+    const savedValue3sp_z = localStorage.getItem(storageKey3sp_z);
+    if (savedValue3sp_z) {
+    plantSelect3sp_z.selectedValue = savedValue3sp_z;
+    }
+                                       const storageKey3of_z = 'selectedZombie3of';
+            const plantSelect3of_z = new DynamicSelect('#zombie3of', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -2691,8 +2948,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey3of_z, value);
+    }
         });
-                               new DynamicSelect('#zombie3sw', {
+    const savedValue3of_z = localStorage.getItem(storageKey3of_z);
+    if (savedValue3of_z) {
+    plantSelect3of_z.selectedValue = savedValue3of_z;
+    }
+                                           const storageKey3sw_z = 'selectedZombie3sw';
+            const plantSelect3sw_z = new DynamicSelect('#zombie3sw', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -2712,8 +2977,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey3sw_z, value);
+    }
         });
-                               new DynamicSelect('#zombie3os', {
+    const savedValue3sw_z = localStorage.getItem(storageKey3sw_z);
+    if (savedValue3sw_z) {
+    plantSelect3sw_z.selectedValue = savedValue3sw_z;
+    }
+                                           const storageKey3os_z = 'selectedPlant3os';
+            const plantSelect3os_z = new DynamicSelect('#zombie3os', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -2745,8 +3018,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey3os_z, value);
+    }
         });
-                      new DynamicSelect('#zombie3boss', {
+    const savedValue3os_z = localStorage.getItem(storageKey3os_z);
+    if (savedValue3os_z) {
+    plantSelect3os_z.selectedValue = savedValue3os_z;
+    }
+                                  const storageKey3boss_z = 'selectedZombie3boss';
+            const plantSelect3boss_z = new DynamicSelect('#zombie3boss', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -2772,8 +3053,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey3boss_z, value);
+    }
         });
-                   new DynamicSelect('#zombie3all', {
+    const savedValue3boss_z = localStorage.getItem(storageKey3boss_z);
+    if (savedValue3boss_z) {
+    plantSelect3boss_z.selectedValue = savedValue3boss_z;
+    }
+                               const storageKey3all_z = 'selectedZombie3all';
+            const plantSelect3all_z = new DynamicSelect('#zombie3all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -2847,8 +3136,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey3all_z, value);
+    }
         });
-                          new DynamicSelect('#plant4a', {
+    const savedValue3all_z = localStorage.getItem(storageKey3all_z);
+    if (savedValue3all_z) {
+    plantSelect3all_z.selectedValue = savedValue3all_z;
+    }
+                                      const storageKey4a = 'selectedPlant4a';
+            const plantSelect4a = new DynamicSelect('#plant4a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -2964,8 +3261,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey4a, value);
+    }
         });
-                              new DynamicSelect('#plant4d', {
+    const savedValue4a = localStorage.getItem(storageKey4a);
+    if (savedValue4a) {
+    plantSelect4a.selectedValue = savedValue4a;
+    }
+                                          const storageKey4d = 'selectedPlant4d';
+            const plantSelect4d = new DynamicSelect('#plant4d', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -3003,8 +3308,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey4d, value);
+    }
         });
-                                  new DynamicSelect('#plant4sp', {
+    const savedValue4d = localStorage.getItem(storageKey4d);
+    if (savedValue4d) {
+    plantSelect4d.selectedValue = savedValue4d;
+    }
+                                              const storageKey4sp = 'selectedPlant4sp';
+            const plantSelect4sp = new DynamicSelect('#plant4sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -3054,8 +3367,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey4sp, value);
+    }
         });
-                                  new DynamicSelect('#plant4u', {
+    const savedValue4sp = localStorage.getItem(storageKey4sp);
+    if (savedValue4sp) {
+    plantSelect4sp.selectedValue = savedValue4sp;
+    }
+                                              const storageKey4u = 'selectedPlant4u';
+            const plantSelect4u = new DynamicSelect('#plant4u', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -3093,8 +3414,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey4u, value);
+    }
         });
-                                  new DynamicSelect('#plant4t', {
+    const savedValue4u = localStorage.getItem(storageKey4u);
+    if (savedValue4u) {
+    plantSelect4u.selectedValue = savedValue4u;
+    }
+                                              const storageKey4t= 'selectedPlant4t';
+            const plantSelect4t = new DynamicSelect('#plant4t', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -3138,8 +3467,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey4t, value);
+    }
         });
-                                  new DynamicSelect('#plant4st', {
+    const savedValue4t = localStorage.getItem(storageKey4t);
+    if (savedValue4t) {
+    plantSelect4t.selectedValue = savedValue4t;
+    }
+                                              const storageKey4st = 'selectedPlant4st';
+            const plantSelect4st = new DynamicSelect('#plant4st', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -3171,8 +3508,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey4st, value);
+    }
         });
-                                  new DynamicSelect('#plant4all', {
+    const savedValue4st = localStorage.getItem(storageKey4st);
+    if (savedValue4st) {
+    plantSelect4st.selectedValue = savedValue4st;
+    }
+                                              const storageKey4all = 'selectedPlant4all';
+            const plantSelect4all = new DynamicSelect('#plant4all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -3342,8 +3687,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey4all, value);
+    }
         });
-                                      new DynamicSelect('#zombie4b', {
+    const savedValue4all = localStorage.getItem(storageKey4all);
+    if (savedValue4all) {
+    plantSelect4all.selectedValue = savedValue4all;
+    }
+                                                  const storageKey4b_z = 'selectedZombie4b';
+            const plantSelect4b_z = new DynamicSelect('#zombie4b', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -3393,8 +3746,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey4b_z, value);
+    }
         });
-                                      new DynamicSelect('#zombie4a', {
+    const savedValue4b_z = localStorage.getItem(storageKey4b_z);
+    if (savedValue4b_z) {
+    plantSelect4b_z.selectedValue = savedValue4b_z;
+    }
+                                                  const storageKey4a_z = 'selectedZombie4a';
+            const plantSelect4a_z = new DynamicSelect('#zombie4a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -3432,8 +3793,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey4a_z, value);
+    }
         });
-                                      new DynamicSelect('#zombie4sp', {
+    const savedValue4a_z = localStorage.getItem(storageKey4a_z);
+    if (savedValue4a_z) {
+    plantSelect4a_z.selectedValue = savedValue4a_z;
+    }
+                                                  const storageKey4sp_z = 'selectedZombie4sp';
+            const plantSelect4sp_z = new DynamicSelect('#zombie4sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -3483,8 +3852,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey4sp_z, value);
+    }
         });
-                                      new DynamicSelect('#zombie4of', {
+    const savedValue4sp_z = localStorage.getItem(storageKey4sp_z);
+    if (savedValue4sp_z) {
+    plantSelect4sp_z.selectedValue = savedValue4sp_z;
+    }
+                                                  const storageKey4of_z = 'selectedZombie4of';
+            const plantSelect4of_z = new DynamicSelect('#zombie4of', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -3510,8 +3887,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey4of_z, value);
+    }
         });
-                                      new DynamicSelect('#zombie4sw', {
+    const savedValue4of_z = localStorage.getItem(storageKey4of_z);
+    if (savedValue4of_z) {
+    plantSelect4of_z.selectedValue = savedValue4of_z;
+    }
+                                                  const storageKey4sw_z = 'selectedZombie4sw';
+            const plantSelect4sw_z = new DynamicSelect('#zombie4sw', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -3537,8 +3922,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey4sw_z, value);
+    }
         });
-               new DynamicSelect('#zombie4os', {
+    const savedValue4sw_z = localStorage.getItem(storageKey4sw_z);
+    if (savedValue4sw_z) {
+    plantSelect4sw_z.selectedValue = savedValue4sw_z;
+    }
+                           const storageKeye4os_z = 'selectedZombiee4os';
+            const plantSelect4os_z = new DynamicSelect('#zombie4os', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -3558,8 +3951,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey4os_z, value);
+    }
         });
-               new DynamicSelect('#zombie4boss', {
+    const savedValue4os_z = localStorage.getItem(storageKey4os_z);
+    if (savedValue4os_z) {
+    plantSelect4os_z.selectedValue = savedValue4os_z;
+    }
+                           const storageKey4boss_z = 'selectedZombie4boss';
+            const plantSelect4boss_z = new DynamicSelect('#zombie4boss', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -3585,8 +3986,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey4boss_z, value);
+    }
         });
-                                      new DynamicSelect('#zombie4all', {
+    const savedValue4boss_z = localStorage.getItem(storageKey4boss_z);
+    if (savedValue4boss_z) {
+    plantSelect4boss_z.selectedValue = savedValue4boss_z;
+    }
+                                                  const storageKey4all_z = 'selectedZombie4all';
+            const plantSelect4all_z = new DynamicSelect('#zombie4all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -3690,8 +4099,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey4all_z, value);
+    }
         });
-               new DynamicSelect('#plant5a', {
+    const savedValue4all_z = localStorage.getItem(storageKey4all_z);
+    if (savedValue4all_z) {
+    plantSelect4all_z.selectedValue = savedValue4all_z;
+    }
+                           const storageKey5a = 'selectedPlant5a';
+            const plantSelect5a = new DynamicSelect('#plant5a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -3789,8 +4206,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey5a, value);
+    }
         });
-               new DynamicSelect('#plant5d', {
+    const savedValue5a = localStorage.getItem(storageKey5a);
+    if (savedValue5a) {
+    plantSelect5a.selectedValue = savedValue5a;
+    }
+                           const storageKey5d = 'selectedPlant5d';
+            const plantSelect5d = new DynamicSelect('#plant5d', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -3822,8 +4247,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey5d, value);
+    }
         });
-               new DynamicSelect('#plant5sp', {
+    const savedValue5d = localStorage.getItem(storageKey5d);
+    if (savedValue5d) {
+    plantSelect5d.selectedValue = savedValue5d;
+    }
+                           const storageKey5sp = 'selectedPlant5sp';
+            const plantSelect5sp = new DynamicSelect('#plant5sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -3885,8 +4318,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey5sp, value);
+    }
         });
-               new DynamicSelect('#plant5u', {
+    const savedValue5sp = localStorage.getItem(storageKey5sp);
+    if (savedValue5sp) {
+    plantSelect5sp.selectedValue = savedValue5sp;
+    }
+                           const storageKey5u = 'selectedPlant5u';
+            const plantSelect5u = new DynamicSelect('#plant5u', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -3960,8 +4401,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey5u, value);
+    }
         });
-               new DynamicSelect('#plant5t', {
+    const savedValue5u = localStorage.getItem(storageKey5u);
+    if (savedValue5u) {
+    plantSelect5u.selectedValue = savedValue5u;
+    }
+                           const storageKey5t = 'selectedPlant5t';
+            const plantSelect5t = new DynamicSelect('#plant5t', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -3999,8 +4448,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey5t, value);
+    }
         });
-               new DynamicSelect('#plant5st', {
+    const savedValue5t = localStorage.getItem(storageKey5t);
+    if (savedValue5t) {
+    plantSelect5t.selectedValue = savedValue5t;
+    }
+                           const storageKey5st = 'selectedPlant5st';
+            const plantSelect5st = new DynamicSelect('#plant5st', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -4074,8 +4531,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey5st, value);
+    }
         });
-               new DynamicSelect('#plant5all', {
+    const savedValue5st = localStorage.getItem(storageKey5st);
+    if (savedValue5st) {
+    plantSelect5st.selectedValue = savedValue5st;
+    }
+                           const storageKey5all = 'selectedPlant5all';
+            const plantSelect5all = new DynamicSelect('#plant5all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -4257,8 +4722,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey5all, value);
+    }
         });
-               new DynamicSelect('#zombie5b', {
+    const savedValue5all = localStorage.getItem(storageKey5all);
+    if (savedValue5all) {
+    plantSelect5all.selectedValue = savedValue5all;
+    }
+                           const storageKey5b_z = 'selectedZombie5b';
+            const plantSelect5b_z = new DynamicSelect('#zombie5b', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -4284,8 +4757,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey5b_z, value);
+    }
         });
-               new DynamicSelect('#zombie5a', {
+    const savedValue5b_z = localStorage.getItem(storageKey5b_z);
+    if (savedValue5b_z) {
+    plantSelect5b_z.selectedValue = savedValue5b_z;
+    }
+                           const storageKey5a_z = 'selectedZombie5a';
+            const plantSelect5a_z = new DynamicSelect('#zombie5a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -4311,8 +4792,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey5a_z, value);
+    }
         });
-               new DynamicSelect('#zombie5sp', {
+    const savedValue5a_z = localStorage.getItem(storageKey5a_z);
+    if (savedValue5a_z) {
+    plantSelect5a_z.selectedValue = savedValue5a_z;
+    }
+                           const storageKey5sp_z = 'selectedZombie5sp';
+            const plantSelect5sp_z = new DynamicSelect('#zombie5sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -4350,8 +4839,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey5sp_z, value);
+    }
         });
-               new DynamicSelect('#zombie5of', {
+    const savedValue5sp_z = localStorage.getItem(storageKey5sp_z);
+    if (savedValue5sp_z) {
+    plantSelect5sp_z.selectedValue = savedValue5sp_z;
+    }
+                           const storageKey5of_z = 'selectedZombie5of';
+            const plantSelect5of_z = new DynamicSelect('#zombie5of', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -4401,8 +4898,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey5of_z, value);
+    }
         });
-               new DynamicSelect('#zombie5sw', {
+    const savedValue5of_z = localStorage.getItem(storageKey5of_z);
+    if (savedValue5of_z) {
+    plantSelect5of_z.selectedValue = savedValue5of_z;
+    }
+                           const storageKey5sw_z = 'selectedZombie5sw';
+            const plantSelect5sw_z = new DynamicSelect('#zombie5sw', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -4434,8 +4939,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey5sw_z, value);
+    }
         });
-               new DynamicSelect('#zombie5os', {
+    const savedValue5sw_z = localStorage.getItem(storageKey5sw_z);
+    if (savedValue5sw_z) {
+    plantSelect5sw_z.selectedValue = savedValue5sw_z;
+    }
+                           const storageKey5os_z = 'selectedZombie5os';
+            const plantSelect5os_z = new DynamicSelect('#zombie5os', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -4467,8 +4980,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey5os_z, value);
+    }
         });
-               new DynamicSelect('#zombie5boss', {
+    const savedValue5os_z = localStorage.getItem(storageKey5os_z);
+    if (savedValue5os_z) {
+    plantSelect5os_z.selectedValue = savedValue5os_z;
+    }
+                           const storageKey5boss_z = 'selectedZombie5boss';
+            const plantSelect5boss_z = new DynamicSelect('#zombie5boss', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -4494,8 +5015,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey5boss_z, value);
+    }
         });
-               new DynamicSelect('#zombie5all', {
+    const savedValue5boss_z = localStorage.getItem(storageKey5boss_z);
+    if (savedValue5boss_z) {
+    plantSelect5boss_z.selectedValue = savedValue5boss_z;
+    }
+                           const storageKey5all_z = 'selectedZombie5all';
+            const plantSelecty5all_z = new DynamicSelect('#zombie5all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -4581,8 +5110,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeyy5all_z, value);
+    }
         });
-               new DynamicSelect('#plant6a', {
+    const savedValuey5all_z = localStorage.getItem(storageKeyy5all_z);
+    if (savedValuey5all_z) {
+    plantSelecty5all_z.selectedValue = savedValuey5all_z;
+    }
+                           const storageKey6a = 'selectedPlant6a';
+            const plantSelect6a = new DynamicSelect('#plant6a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -4686,8 +5223,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey6a, value);
+    }
         });
-               new DynamicSelect('#plant6d', {
+    const savedValue6a = localStorage.getItem(storageKey6a);
+    if (savedValue6a) {
+    plantSelect6a.selectedValue = savedValue6a;
+    }
+                           const storageKey6d = 'selectedPlant6d';
+            const plantSelect6d = new DynamicSelect('#plant6d', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -4725,8 +5270,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey6d, value);
+    }
         });
-               new DynamicSelect('#plant6sp', {
+    const savedValue6d = localStorage.getItem(storageKey6d);
+    if (savedValue6d) {
+    plantSelect6d.selectedValue = savedValue6d;
+    }
+                           const storageKey6sp = 'selectedPlant6sp';
+            const plantSelect6sp = new DynamicSelect('#plant6sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -4776,8 +5329,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey6sp, value);
+    }
         });
-               new DynamicSelect('#plant6u', {
+    const savedValue6sp = localStorage.getItem(storageKey6sp);
+    if (savedValue6sp) {
+    plantSelect6sp.selectedValue = savedValue6sp;
+    }
+                           const storageKey6u = 'selectedPlant6u';
+            const plantSelect6u = new DynamicSelect('#plant6u', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -4839,8 +5400,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey6u, value);
+    }
         });
-               new DynamicSelect('#plant6t', {
+    const savedValue6u = localStorage.getItem(storageKey6u);
+    if (savedValue6u) {
+    plantSelect6u.selectedValue = savedValue6u;
+    }
+                           const storageKey6t = 'selectedPlant6t';
+            const plantSelect6t = new DynamicSelect('#plant6t', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -4878,8 +5447,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey6t, value);
+    }
         });
-               new DynamicSelect('#plant6st', {
+    const savedValue6t = localStorage.getItem(storageKey6t);
+    if (savedValue6t) {
+    plantSelect6t.selectedValue = savedValue6t;
+    }
+                           const storageKey6st = 'selectedPlant6st';
+            const plantSelect6st = new DynamicSelect('#plant6st', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -4917,8 +5494,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey6st, value);
+    }
         });
-               new DynamicSelect('#plant6all', {
+    const savedValue6st = localStorage.getItem(storageKey6st);
+    if (savedValue6st) {
+    plantSelect6st.selectedValue = savedValue6st;
+    }
+                           const storageKey6all = 'selectedPlant6all';
+            const plantSelect6all = new DynamicSelect('#plant6all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -5100,8 +5685,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey6all, value);
+    }
         });
-               new DynamicSelect('#zombie6b', {
+    const savedValue6all = localStorage.getItem(storageKey6all);
+    if (savedValue6all) {
+    plantSelect6all.selectedValue = savedValue6all;
+    }
+                           const storageKey6b_z = 'selectedZombie6b';
+            const plantSelect6b_z = new DynamicSelect('#zombie6b', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -5121,8 +5714,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey6b_z, value);
+    }
         });
-               new DynamicSelect('#zombie6a', {
+    const savedValue6b_z = localStorage.getItem(storageKey6b_z);
+    if (savedValue6b_z) {
+    plantSelect6b_z.selectedValue = savedValue6b_z;
+    }
+                           const storageKey6a_z = 'selectedZombie6a';
+            const plantSelect6a_z = new DynamicSelect('#zombie6a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -5166,8 +5767,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey6a_z, value);
+    }
         });
-               new DynamicSelect('#zombie6sp', {
+    const savedValue6a_z = localStorage.getItem(storageKey6a_z);
+    if (savedValue6a_z) {
+    plantSelect6a_z.selectedValue = savedValue6a_z;
+    }
+                           const storageKey6sp_z = 'selectedZombie6sp';
+            const plantSelect6sp_z = new DynamicSelect('#zombie6sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -5193,8 +5802,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey6sp_z, value);
+    }
         });
-               new DynamicSelect('#zombie6of', {
+    const savedValue6sp_z = localStorage.getItem(storageKey6sp_z);
+    if (savedValue6sp_z) {
+    plantSelect6sp_z.selectedValue = savedValue6sp_z;
+    }
+                           const storageKey6of_z = 'selectedZombie6of';
+            const plantSelect6of_z = new DynamicSelect('#zombie6of', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -5238,8 +5855,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey6of_z, value);
+    }
         });
-               new DynamicSelect('#zombie6sw', {
+    const savedValue6of_z = localStorage.getItem(storageKey6of_z);
+    if (savedValue6of_z) {
+    plantSelect6of_z.selectedValue = savedValue6of_z;
+    }
+                           const storageKey6sw_z = 'selectedZombie6sw';
+            const plantSelect6sw_z = new DynamicSelect('#zombie6sw', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -5271,8 +5896,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey6sw_z, value);
+    }
         });
-               new DynamicSelect('#zombie6os', {
+    const savedValue6sw_z = localStorage.getItem(storageKey6sw_z);
+    if (savedValue6sw_z) {
+    plantSelect6sw_z.selectedValue = savedValue6sw_z;
+    }
+                           const storageKey6os_z = 'selectedZombie6os';
+            const plantSelect6os_z = new DynamicSelect('#zombie6os', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -5322,8 +5955,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey6os_z, value);
+    }
         });
-               new DynamicSelect('#zombie6boss', {
+    const savedValue6os_z = localStorage.getItem(storageKey6os_z);
+    if (savedValue6os_z) {
+    plantSelect6os_z.selectedValue = savedValue6os_z;
+    }
+                           const storageKey6boss_z = 'selectedZombie6boss';
+            const plantSelect6boss_z = new DynamicSelect('#zombie6boss', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -5349,8 +5990,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey6boss_z, value);
+    }
         });
-               new DynamicSelect('#zombie6all', {
+    const savedValue6boss_z = localStorage.getItem(storageKey6boss_z);
+    if (savedValue6boss_z) {
+    plantSelect6boss_z.selectedValue = savedValue6boss_z;
+    }
+                           const storageKey6all_z = 'selectedZombie6all';
+            const plantSelect6all_z = new DynamicSelect('#zombie6all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -5436,8 +6085,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey6all_z, value);
+    }
         });
-               new DynamicSelect('#plant7a', {
+    const savedValue6all_z = localStorage.getItem(storageKey6all_z);
+    if (savedValue6all_z) {
+    plantSelect6all_z.selectedValue = savedValue6all_z;
+    }
+                           const storageKey7a = 'selectedPlant7a';
+            const plantSelect7a = new DynamicSelect('#plant7a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -5499,8 +6156,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey7a, value);
+    }
         });
-               new DynamicSelect('#plant7d', {
+    const savedValue7a = localStorage.getItem(storageKey7a);
+    if (savedValue7a) {
+    plantSelect7a.selectedValue = savedValue7a;
+    }
+                           const storageKey7d = 'selectedPlant7d';
+            const plantSelect7d = new DynamicSelect('#plant7d', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -5538,8 +6203,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey7d, value);
+    }
         });
-               new DynamicSelect('#plant7sp', {
+    const savedValue7d = localStorage.getItem(storageKey7d);
+    if (savedValue7d) {
+    plantSelect7d.selectedValue = savedValue7d;
+    }
+                           const storageKey7sp = 'selectedPlant7sp';
+            const plantSelect7sp = new DynamicSelect('#plant7sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -5625,8 +6298,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey7sp, value);
+    }
         });
-               new DynamicSelect('#plant7u', {
+    const savedValue7sp = localStorage.getItem(storageKey7sp);
+    if (savedValue7sp) {
+    plantSelect7sp.selectedValue = savedValue7sp;
+    }
+                           const storageKey7u = 'selectedPlant7u';
+            const plantSelect7u = new DynamicSelect('#plant7u', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -5676,8 +6357,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey7u, value);
+    }
         });
-               new DynamicSelect('#plant7t', {
+    const savedValue7u = localStorage.getItem(storageKey7u);
+    if (savedValue7u) {
+    plantSelect7u.selectedValue = savedValue7u;
+    }
+                           const storageKey7t = 'selectedPlant7t';
+            const plantSelect7t = new DynamicSelect('#plant7t', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -5727,8 +6416,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey7t, value);
+    }
         });
-               new DynamicSelect('#plant7st', {
+    const savedValue7t = localStorage.getItem(storageKey7t);
+    if (savedValue7t) {
+    plantSelect7t.selectedValue = savedValue7t;
+    }
+                           const storageKey7st = 'selectedPlant7st';
+            const plantSelect7st = new DynamicSelect('#plant7st', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -5844,8 +6541,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey7st, value);
+    }
         });
-               new DynamicSelect('#plant7all', {
+    const savedValue7st = localStorage.getItem(storageKey7st);
+    if (savedValue7st) {
+    plantSelect7st.selectedValue = savedValue7st;
+    }
+                           const storageKey7all = 'selectedPlant7all';
+            const plantSelect7all = new DynamicSelect('#plant7all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -6003,8 +6708,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey7all, value);
+    }
         });
-               new DynamicSelect('#zombie7b', {
+    const savedValue7all = localStorage.getItem(storageKey7all);
+    if (savedValue7all) {
+    plantSelect7all.selectedValue = savedValue7all;
+    }
+                           const storageKey7b_z = 'selectedZombie7b';
+            const plantSelect7b_z = new DynamicSelect('#zombie7b', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -6030,8 +6743,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey7b_z, value);
+    }
         });
-               new DynamicSelect('#zombie7a', {
+    const savedValue7b_z = localStorage.getItem(storageKey7b_z);
+    if (savedValue7b_z) {
+    plantSelect7b_z.selectedValue = savedValue7b_z;
+    }
+                           const storageKey7a_z = 'selectedZombie7a';
+            const plantSelect7a_z = new DynamicSelect('#zombie7a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -6051,8 +6772,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey7a_z, value);
+    }
         });
-               new DynamicSelect('#zombie7sp', {
+    const savedValue7a_z = localStorage.getItem(storageKey7a_z);
+    if (savedValue7a_z) {
+    plantSelect7a_z.selectedValue = savedValue7a_z;
+    }
+                           const storageKey7sp_z = 'selectedZombie7sp';
+            const plantSelect7sp_z = new DynamicSelect('#zombie7sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -6090,8 +6819,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey7sp_z, value);
+    }
         });
-               new DynamicSelect('#zombie7of', {
+    const savedValue7sp_z = localStorage.getItem(storageKey7sp_z);
+    if (savedValue7sp_z) {
+    plantSelect7sp_z.selectedValue = savedValue7sp_z;
+    }
+                           const storageKey7of_z = 'selectedZombie7of';
+            const plantSelect7of_z = new DynamicSelect('#zombie7of', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -6153,8 +6890,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey7of_z, value);
+    }
         });
-               new DynamicSelect('#zombie7sw', {
+    const savedValue7of_z = localStorage.getItem(storageKey7of_z);
+    if (savedValue7of_z) {
+    plantSelect7of_z.selectedValue = savedValue7of_z;
+    }
+                           const storageKey7sw_z = 'selectedZombie7sw';
+            const plantSelect7sw_z = new DynamicSelect('#zombie7sw', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -6180,8 +6925,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey7sw_z, value);
+    }
         });
-               new DynamicSelect('#zombie7os', {
+    const savedValue7sw_z = localStorage.getItem(storageKey7sw_z);
+    if (savedValue7sw_z) {
+    plantSelect7sw_z.selectedValue = savedValue7sw_z;
+    }
+                           const storageKey7os_z = 'selectedZombie7os';
+            const plantSelect7os_z = new DynamicSelect('#zombie7os', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -6213,8 +6966,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey7os_z, value);
+    }
         });
-               new DynamicSelect('#zombie7boss', {
+    const savedValue7os_z = localStorage.getItem(storageKey7os_z);
+    if (savedValue7os_z) {
+    plantSelect7os_z.selectedValue = savedValue7os_z;
+    }
+                           const storageKey7boss_z = 'selectedZombie7boss';
+            const plantSelect7boss_z = new DynamicSelect('#zombie7boss', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -6240,8 +7001,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKe7boss_z, value);
+    }
         });
-               new DynamicSelect('#zombie7all', {
+    const savedValue7boss_z = localStorage.getItem(storageKey7boss_z);
+    if (savedValue7boss_z) {
+    plantSelect7boss_z.selectedValue = savedValue7boss_z;
+    }
+                           const storageKey7all_z = 'selectedZombie7all';
+            const plantSelect7all_z = new DynamicSelect('#zombie7all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -6321,8 +7090,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey7all_z, value);
+    }
         });
-               new DynamicSelect('#plant8a', {
+    const savedValue7all_z = localStorage.getItem(storageKey7all_z);
+    if (savedValue7all_z) {
+    plantSelect7all_z.selectedValue = savedValue7all_z;
+    }
+                           const storageKey8a = 'selectedPlant8a';
+            const plantSelect8a = new DynamicSelect('#plant8a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -6432,8 +7209,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey8a, value);
+    }
         });
-               new DynamicSelect('#plant8d', {
+    const savedValue8a = localStorage.getItem(storageKey8a);
+    if (savedValue8a) {
+    plantSelect8a.selectedValue = savedValue8a;
+    }
+                           const storageKey8d = 'selectedPlant8d';
+            const plantSelect8d = new DynamicSelect('#plant8d', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -6483,8 +7268,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey8d, value);
+    }
         });
-               new DynamicSelect('#plant8sp', {
+    const savedValue8d = localStorage.getItem(storageKey8d);
+    if (savedValue8d) {
+    plantSelect8d.selectedValue = savedValue8d;
+    }
+                           const storageKey8sp = 'selectedPlant8sp';
+            const plantSelect8sp = new DynamicSelect('#plant8sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -6534,8 +7327,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey8sp, value);
+    }
         });
-               new DynamicSelect('#plant8u', {
+    const savedValue8sp = localStorage.getItem(storageKey8sp);
+    if (savedValue8sp) {
+    plantSelect8sp.selectedValue = savedValue8sp;
+    }
+                           const storageKey8u = 'selectedPlant8u';
+            const plantSelect8u = new DynamicSelect('#plant8u', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -6585,8 +7386,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey8u, value);
+    }
         });
-               new DynamicSelect('#plant8t', {
+    const savedValue8u = localStorage.getItem(storageKey8u);
+    if (savedValue8u) {
+    plantSelect8u.selectedValue = savedValue8u;
+    }
+                           const storageKey8t = 'selectedPlant8t';
+            const plantSelect8t = new DynamicSelect('#plant8t', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -6642,8 +7451,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey8t, value);
+    }
         });
-               new DynamicSelect('#plant8st', {
+    const savedValue8t = localStorage.getItem(storageKey8t);
+    if (savedValue8t) {
+    plantSelect8t.selectedValue = savedValue8t;
+    }
+                           const storageKey8st = 'selectedPlant8st';
+            const plantSelect8st = new DynamicSelect('#plant8st', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -6747,8 +7564,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey8st, value);
+    }
         });
-               new DynamicSelect('#plant8all', {
+    const savedValue8st = localStorage.getItem(storageKey8st);
+    if (savedValue8st) {
+    plantSelect8st.selectedValue = savedValue8st;
+    }
+                           const storageKey8all = 'selectedPlant8all';
+            const plantSelect8all = new DynamicSelect('#plant8all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -6954,8 +7779,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey8all, value);
+    }
         });
-               new DynamicSelect('#zombie8b', {
+    const savedValue8all = localStorage.getItem(storageKey8all);
+    if (savedValue8all) {
+    plantSelect8all.selectedValue = savedValue8all;
+    }
+                           const storageKey8b_z = 'selectedZombie8b';
+            const plantSelect8b_z = new DynamicSelect('#zombie8b', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -6993,8 +7826,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey8b_z, value);
+    }
         });
-               new DynamicSelect('#zombie8a', {
+    const savedValue8b_z = localStorage.getItem(storageKey8b_z);
+    if (savedValue8b_z) {
+    plantSelect8b_z.selectedValue = savedValue8b_z;
+    }
+                           const storageKey8a_z = 'selectedZombie8a';
+            const plantSelect8a_z = new DynamicSelect('#zombie8a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -7032,8 +7873,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey8a_z, value);
+    }
         });
-               new DynamicSelect('#zombie8sp', {
+    const savedValue8a_z = localStorage.getItem(storageKey8a_z);
+    if (savedValue8a_z) {
+    plantSelect8a_z.selectedValue = savedValue8a_z;
+    }
+                           const storageKey8sp_z = 'selectedZombie8sp';
+            const plantSelect8sp_z = new DynamicSelect('#zombie8sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -7077,8 +7926,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey8sp_z, value);
+    }
         });
-               new DynamicSelect('#zombie8of', {
+    const savedValue8sp_z = localStorage.getItem(storageKey8sp_z);
+    if (savedValue8sp_z) {
+    plantSelect8sp_z.selectedValue = savedValue8sp_z;
+    }
+                           const storageKey8of_z = 'selectedZombie8of';
+            const plantSelect8of_z = new DynamicSelect('#zombie8of', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -7122,8 +7979,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey8of_z, value);
+    }
         });
-               new DynamicSelect('#zombie8sw', {
+    const savedValue8of_z = localStorage.getItem(storageKey8of_z);
+    if (savedValue8of_z) {
+    plantSelect8of_z.selectedValue = savedValue8of_z;
+    }
+                           const storageKey8sw_z = 'selectedZombie8sw';
+            const plantSelect8sw_z = new DynamicSelect('#zombie8sw', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -7167,8 +8032,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey8sw_z, value);
+    }
         });
-               new DynamicSelect('#zombie8boss', {
+    const savedValue8sw_z = localStorage.getItem(storageKey8sw_z);
+    if (savedValue8sw_z) {
+    plantSelect8sw_z.selectedValue = savedValue8sw_z;
+    }
+                           const storageKey8boss_z = 'selectedZombie8boss';
+            const plantSelect8boss_z = new DynamicSelect('#zombie8boss', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -7194,8 +8067,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey8boss_z, value);
+    }
         });
-               new DynamicSelect('#zombie8all', {
+    const savedValue8boss_z = localStorage.getItem(storageKey8boss_z);
+    if (savedValue8boss_z) {
+    plantSelect8boss_z.selectedValue = savedValue8boss_z;
+    }
+                           const storageKey8all_z = 'selectedZombie8all';
+            const plantSelect8all_z = new DynamicSelect('#zombie8all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -7299,8 +8180,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey8all_z, value);
+    }
         });
-               new DynamicSelect('#plant9a', {
+    const savedValue8all_z = localStorage.getItem(storageKey8all_z);
+    if (savedValue8all_z) {
+    plantSelect8all_z.selectedValue = savedValue8all_z;
+    }
+                           const storageKey9a = 'selectedPlant9a';
+            const plantSelect9a = new DynamicSelect('#plant9a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -7398,8 +8287,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey9a, value);
+    }
         });
-               new DynamicSelect('#plant9d', {
+    const savedValue9a = localStorage.getItem(storageKey9a);
+    if (savedValue9a) {
+    plantSelect9a.selectedValue = savedValue9a;
+    }
+                           const storageKey9d = 'selectedPlant9d';
+            const plantSelect9d = new DynamicSelect('#plant9d', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -7425,8 +8322,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey9d, value);
+    }
         });
-               new DynamicSelect('#plant9sp', {
+    const savedValue9d = localStorage.getItem(storageKey9d);
+    if (savedValue9d) {
+    plantSelect9d.selectedValue = savedValue9d;
+    }
+                           const storageKey9sp = 'selectedPlant9sp';
+            const plantSelect9sp = new DynamicSelect('#plant9sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -7530,8 +8435,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey9sp, value);
+    }
         });
-               new DynamicSelect('#plant9u', {
+    const savedValue9sp = localStorage.getItem(storageKey9sp);
+    if (savedValue9sp) {
+    plantSelect9sp.selectedValue = savedValue9sp;
+    }
+                           const storageKey9u = 'selectedPlant9u';
+            const plantSelect9u = new DynamicSelect('#plant9u', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -7593,8 +8506,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey9u, value);
+    }
         });
-               new DynamicSelect('#plant9t', {
+    const savedValue9u = localStorage.getItem(storageKey9u);
+    if (savedValue9u) {
+    plantSelect9u.selectedValue = savedValue9u;
+    }
+                           const storageKey9t = 'selectedPlant9t';
+            const plantSelect9t = new DynamicSelect('#plant9t', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -7656,8 +8577,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey9t, value);
+    }
         });
-               new DynamicSelect('#plant9st', {
+    const savedValue9t = localStorage.getItem(storageKey9t);
+    if (savedValue9t) {
+    plantSelect9t.selectedValue = savedValue9t;
+    }
+                           const storageKey9st = 'selectedPlant9st';
+            const plantSelect9st = new DynamicSelect('#plant9st', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -7701,8 +8630,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey9st, value);
+    }
         });
-               new DynamicSelect('#plant9all', {
+    const savedValue9st = localStorage.getItem(storageKey9st);
+    if (savedValue9st) {
+    plantSelect9st.selectedValue = savedValue9st;
+    }
+                           const storageKey9all = 'selectedPlant9all';
+            const plantSelect9all = new DynamicSelect('#plant9all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -7908,8 +8845,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey9all, value);
+    }
         });
-               new DynamicSelect('#zombie9b', {
+    const savedValue9all = localStorage.getItem(storageKey9all);
+    if (savedValue9all) {
+    plantSelect9all.selectedValue = savedValue9all;
+    }
+                           const storageKey9b_z = 'selectedZombie9b';
+            const plantSelect9b_z = new DynamicSelect('#zombie9b', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -7935,8 +8880,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey9b_z, value);
+    }
         });
-               new DynamicSelect('#zombie9sp', {
+    const savedValue9b_z = localStorage.getItem(storageKey9b_z);
+    if (savedValue9b_z) {
+    plantSelect9b_z.selectedValue = savedValue9b_z;
+    }
+                           const storageKey9sp_z = 'selectedZombie9sp';
+            const plantSelect9sp_z = new DynamicSelect('#zombie9sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -7980,8 +8933,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey9sp_z, value);
+    }
         });
-               new DynamicSelect('#zombie9of', {
+    const savedValue9sp_z = localStorage.getItem(storageKey9sp_z);
+    if (savedValue9sp_z) {
+    plantSelect9sp_z.selectedValue = savedValue9sp_z;
+    }
+                           const storageKey9of_z = 'selectedZombie9of';
+            const plantSelect9of_z = new DynamicSelect('#zombie9of', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -8025,8 +8986,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey9of_z, value);
+    }
         });
-               new DynamicSelect('#zombie9sw', {
+    const savedValue9of_z = localStorage.getItem(storageKey9of_z);
+    if (savedValue9of_z) {
+    plantSelect9of_z.selectedValue = savedValue9of_z;
+    }
+                           const storageKey9sw_z = 'selectedZombie9sw';
+            const plantSelect9sw_z = new DynamicSelect('#zombie9sw', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -8076,8 +9045,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey9sw_z, value);
+    }
         });
-               new DynamicSelect('#zombie9os', {
+    const savedValue9sw_z = localStorage.getItem(storageKey9sw_z);
+    if (savedValue9sw_z) {
+    plantSelect9sw_z.selectedValue = savedValue9sw_z;
+    }
+                           const storageKey9os_z = 'selectedZombie9os';
+            const plantSelect9os_z = new DynamicSelect('#zombie9os', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -8109,8 +9086,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey9os_z, value);
+    }
         });
-               new DynamicSelect('#zombie9boss', {
+    const savedValue9os_z = localStorage.getItem(storageKey9os_z);
+    if (savedValue9os_z) {
+    plantSelect9os_z.selectedValue = savedValue9os_z;
+    }
+                           const storageKey9boss_z = 'selectedZombie9boss';
+            const plantSelect9boss_z = new DynamicSelect('#zombie9boss', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -8136,8 +9121,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey9boss_z, value);
+    }
         });
-               new DynamicSelect('#zombie9all', {
+    const savedValue9boss_z = localStorage.getItem(storageKey9boss_z);
+    if (savedValue9boss_z) {
+    plantSelect9boss_z.selectedValue = savedValue9boss_z;
+    }
+                           const storageKey9all_z = 'selectedZombie9all';
+            const plantSelect9all_z = new DynamicSelect('#zombie9all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -8235,8 +9228,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey9all_z, value);
+    }
         });
-               new DynamicSelect('#plant10a', {
+    const savedValue9all_z = localStorage.getItem(storageKey9all_z);
+    if (savedValue9all_z) {
+    plantSelect9all_z.selectedValue = savedValue9all_z;
+    }
+                           const storageKey10a = 'selectedPlant10a';
+            const plantSelect10a = new DynamicSelect('#plant10a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -8370,8 +9371,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey10a, value);
+    }
         });
-               new DynamicSelect('#plant10d', {
+    const savedValue10a = localStorage.getItem(storageKey10a);
+    if (savedValue10a) {
+    plantSelect10a.selectedValue = savedValue10a;
+    }
+                           const storageKey10d = 'selectedPlant10d';
+            const plantSelect10d = new DynamicSelect('#plant10d', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -8445,8 +9454,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey10d, value);
+    }
         });
-               new DynamicSelect('#plant10p', {
+    const savedValue10d = localStorage.getItem(storageKey10d);
+    if (savedValue10d) {
+    plantSelect10d.selectedValue = savedValue10d;
+    }
+                           const storageKey10p = 'selectedPlant10p';
+            const plantSelect10p = new DynamicSelect('#plant10p', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -8472,8 +9489,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey10p, value);
+    }
         });
-               new DynamicSelect('#plant10sp', {
+    const savedValue10p = localStorage.getItem(storageKey10p);
+    if (savedValue10p) {
+    plantSelect10p.selectedValue = savedValue10p;
+    }
+                           const storageKey10sp = 'selectedPlant10sp';
+            const plantSelect10sp = new DynamicSelect('#plant10sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -8529,8 +9554,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey10sp, value);
+    }
         });
-               new DynamicSelect('#plant10u', {
+    const savedValue10sp = localStorage.getItem(storageKey10sp);
+    if (savedValue10sp) {
+    plantSelect10sp.selectedValue = savedValue10sp;
+    }
+                           const storageKey10u = 'selectedPlant10u';
+            const plantSelect10u = new DynamicSelect('#plant10u', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -8580,8 +9613,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey10u, value);
+    }
         });
-               new DynamicSelect('#plant10t', {
+    const savedValue10u = localStorage.getItem(storageKey10u);
+    if (savedValue10u) {
+    plantSelect10u.selectedValue = savedValue10u;
+    }
+                           const storageKey10t = 'selectedPlant10t';
+            const plantSelect10t = new DynamicSelect('#plant10t', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -8625,8 +9666,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey10t, value);
+    }
         });
-               new DynamicSelect('#plant10st', {
+    const savedValue10t = localStorage.getItem(storageKey10t);
+    if (savedValue10t) {
+    plantSelect10t.selectedValue = savedValue10t;
+    }
+                           const storageKey10st = 'selectedPlant10st';
+            const plantSelect10st = new DynamicSelect('#plant10st', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -8700,8 +9749,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey10st, value);
+    }
         });
-               new DynamicSelect('#plant10all', {
+    const savedValue10st = localStorage.getItem(storageKey10st);
+    if (savedValue10st) {
+    plantSelect10st.selectedValue = savedValue10st;
+    }
+                           const storageKey10all = 'selectedPlant10all';
+            const plantSelect10all = new DynamicSelect('#plant10all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -8931,8 +9988,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey10all, value);
+    }
         });
-               new DynamicSelect('#zombie10b', {
+    const savedValue10all = localStorage.getItem(storageKey10all);
+    if (savedValue10all) {
+    plantSelect10all.selectedValue = savedValue10all;
+    }
+                           const storageKey10b_z = 'selectedZombie10b';
+            const plantSelect10b_z = new DynamicSelect('#zombie10b', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -8970,8 +10035,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey10b_z, value);
+    }
         });
-               new DynamicSelect('#zombie10a', {
+    const savedValue10b_z = localStorage.getItem(storageKey10b_z);
+    if (savedValue10b_z) {
+    plantSelect10b_z.selectedValue = savedValue10b_z;
+    }
+                           const storageKey10a_z = 'selectedZombie10a';
+            const plantSelect10a_z = new DynamicSelect('#zombie10a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -9015,8 +10088,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey10a_z, value);
+    }
         });
-               new DynamicSelect('#zombie10sp', {
+    const savedValue10a_z = localStorage.getItem(storageKey10a_z);
+    if (savedValue10a_z) {
+    plantSelect10a_z.selectedValue = savedValue10a_z;
+    }
+                           const storageKey10sp_z = 'selectedZombie10sp';
+            const plantSelect10sp_z = new DynamicSelect('#zombie10sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -9054,8 +10135,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey10sp_z, value);
+    }
         });
-               new DynamicSelect('#zombie10of', {
+    const savedValue10sp_z = localStorage.getItem(storageKey10sp_z);
+    if (savedValue110sp_z) {
+    plantSelect10sp_z.selectedValue = savedValue10sp_z;
+    }
+                           const storageKey10of_z = 'selectedZombie10of';
+            const plantSelect10of_z = new DynamicSelect('#zombie10of', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -9111,8 +10200,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey10of_z, value);
+    }
         });
-                   new DynamicSelect('#zombie10sw', {
+    const savedValue10of_z = localStorage.getItem(storageKey10of_z);
+    if (savedValue10of_z) {
+    plantSelect10of_z.selectedValue = savedValue10of_z;
+    }
+                               const storageKey10sw_z = 'selectedZombie10sw';
+            const plantSelect10sw_z = new DynamicSelect('#zombie10sw', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -9144,8 +10241,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey10sw_z, value);
+    }
         });
-               new DynamicSelect('#zombie10os', {
+    const savedValue10sw_z = localStorage.getItem(storageKey10sw_z);
+    if (savedValue10sw_z) {
+    plantSelect10sw_z.selectedValue = savedValue10sw_z;
+    }
+                           const storageKey10os_z = 'selectedZombie10os';
+            const plantSelect10os_z = new DynamicSelect('#zombie10os', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -9183,8 +10288,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey10os_z, value);
+    }
         });
-               new DynamicSelect('#zombie10boss', {
+    const savedValue10os_z = localStorage.getItem(storageKey10os_z);
+    if (savedValue10os_z) {
+    plantSelect10os_z.selectedValue = savedValue10os_z;
+    }
+                           const storageKey10boss_z = 'selectedZombie10boss';
+            const plantSelect10boss_z = new DynamicSelect('#zombie10boss', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -9210,8 +10323,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey10boss_z, value);
+    }
         });
-               new DynamicSelect('#zombie10all', {
+    const savedValue10boss_z = localStorage.getItem(storageKey10boss_z);
+    if (savedValue10boss_z) {
+    plantSelect10boss_z.selectedValue = savedValue10boss_z;
+    }
+                           const storageKey10all_z = 'selectedZombie10all';
+            const plantSelect10all_z = new DynamicSelect('#zombie10all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -9321,8 +10442,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey10all_z, value);
+    }
         });
-               new DynamicSelect('#plant11a', {
+    const savedValue10all_z = localStorage.getItem(storageKey10all_z);
+    if (savedValue10all_z) {
+    plantSelect10all_z.selectedValue = savedValue10all_z;
+    }
+                           const storageKey11a = 'selectedPlant11a';
+            const plantSelect11a = new DynamicSelect('#plant11a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -9480,8 +10609,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey11a, value);
+    }
         });
-               new DynamicSelect('#plant11d', {
+    const savedValue11a = localStorage.getItem(storageKey11a);
+    if (savedValue11a) {
+    plantSelect11a.selectedValue = savedValue11a;
+    }
+                           const storageKey11d = 'selectedPlant11d';
+            const plantSelect11d = new DynamicSelect('#plant11d', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -9555,8 +10692,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey11d, value);
+    }
         });
-               new DynamicSelect('#plant11sp', {
+    const savedValue11d = localStorage.getItem(storageKey11d);
+    if (savedValue11d) {
+    plantSelect11d.selectedValue = savedValue11d;
+    }
+                           const storageKey11sp = 'selectedPlant11sp';
+            const plantSelect11sp = new DynamicSelect('#plant11sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -9618,8 +10763,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey11sp, value);
+    }
         });
-               new DynamicSelect('#plant11u', {
+    const savedValue11sp = localStorage.getItem(storageKey11sp);
+    if (savedValue11sp) {
+    plantSelect11sp.selectedValue = savedValue11sp;
+    }
+                           const storageKey11u = 'selectedPlant11u';
+            const plantSelect11u = new DynamicSelect('#plant11u', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -9657,8 +10810,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey11u, value);
+    }
         });
-               new DynamicSelect('#plant11t', {
+    const savedValue11u = localStorage.getItem(storageKey11u);
+    if (savedValue11u) {
+    plantSelect11u.selectedValue = savedValue11u;
+    }
+                           const storageKey11t = 'selectedPlant11t';
+            const plantSelect11t = new DynamicSelect('#plant11t', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -9684,8 +10845,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey11t, value);
+    }
         });
-               new DynamicSelect('#plant11st', {
+    const savedValue11t = localStorage.getItem(storageKey11t);
+    if (savedValue11t) {
+    plantSelect11t.selectedValue = savedValue11t;
+    }
+                           const storageKey11st = 'selectedPlant11st';
+            const plantSelect11st = new DynamicSelect('#plant11st', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -9729,8 +10898,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey11st, value);
+    }
         });
-               new DynamicSelect('#plant11all', {
+    const savedValue11st = localStorage.getItem(storageKey11st);
+    if (savedValue11st) {
+    plantSelect11st.selectedValue = savedValue11st;
+    }
+                           const storageKey11all = 'selectedPlant11all';
+            const plantSelect11all = new DynamicSelect('#plant11all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -9960,8 +11137,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey11all, value);
+    }
         });
-               new DynamicSelect('#zombie11b', {
+    const savedValue11all = localStorage.getItem(storageKey11all);
+    if (savedValue11all) {
+    plantSelect11all.selectedValue = savedValue11all;
+    }
+                           const storageKey11b_z = 'selectedZombie11b';
+            const plantSelect11b_z = new DynamicSelect('#zombie11b', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -9987,8 +11172,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey11b_z, value);
+    }
         });
-               new DynamicSelect('#zombie11a', {
+    const savedValue11b_z = localStorage.getItem(storageKey11b_z);
+    if (savedValue11b_z) {
+    plantSelect11b_z.selectedValue = savedValue11b_z;
+    }
+                           const storageKey11a_z = 'selectedZombie11a';
+            const plantSelect11a_z = new DynamicSelect('#zombie11a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -10014,8 +11207,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey11a_z, value);
+    }
         });
-               new DynamicSelect('#zombie11sp', {
+    const savedValue11a_z = localStorage.getItem(storageKey11a_z);
+    if (savedValue11a_z) {
+    plantSelect11a_z.selectedValue = savedValue11a_z;
+    }
+                           const storageKey11sp_z = 'selectedZombie11sp';
+            const plantSelect11sp_z = new DynamicSelect('#zombie11sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -10059,8 +11260,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey11sp_z, value);
+    }
         });
-               new DynamicSelect('#zombie11of', {
+    const savedValue11sp_z = localStorage.getItem(storageKey11sp_z);
+    if (savedValue11sp_z) {
+    plantSelect11sp_z.selectedValue = savedValue11sp_z;
+    }
+                           const storageKey11of_z = 'selectedZombie11of';
+            const plantSelect11of_z = new DynamicSelect('#zombie11of', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -10110,8 +11319,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey11of_z, value);
+    }
         });
-               new DynamicSelect('#zombie11sw', {
+    const savedValue11of_z = localStorage.getItem(storageKey11of_z);
+    if (savedValue11of_z) {
+    plantSelect11of_z.selectedValue = savedValue11of_z;
+    }
+                           const storageKey11sw_z = 'selectedZombie11sw';
+            const plantSelect11sw_z = new DynamicSelect('#zombie11sw', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -10143,8 +11360,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey11sw_z, value);
+    }
         });
-               new DynamicSelect('#zombie11os', {
+    const savedValue11sw_z = localStorage.getItem(storageKey11sw_z);
+    if (savedValue11sw_z) {
+    plantSelect11sw_z.selectedValue = savedValue11sw_z;
+    }
+                           const storageKey11os_z = 'selectedZombie11os';
+            const plantSelect11os_z = new DynamicSelect('#zombie11os', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -10200,8 +11425,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey11os_z, value);
+    }
         });
-               new DynamicSelect('#zombie11boss', {
+    const savedValue11os_z = localStorage.getItem(storageKey11os_z);
+    if (savedValue11os_z) {
+    plantSelect11os_z.selectedValue = savedValue11os_z;
+    }
+                           const storageKey11boss_z = 'selectedZombie11boss';
+            const plantSelect11boss_z = new DynamicSelect('#zombie11boss', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -10227,8 +11460,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey11boss_z, value);
+    }
         });
-               new DynamicSelect('#zombie11all', {
+    const savedValue11boss_z = localStorage.getItem(storageKey11boss_z);
+    if (savedValue11boss_z) {
+    plantSelect11boss_z.selectedValue = savedValue11boss_z;
+    }
+                           const storageKey11all_z = 'selectedZombie11all';
+            const plantSelect11all_z = new DynamicSelect('#zombie11all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -10332,8 +11573,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey11all_z, value);
+    }
         });
-               new DynamicSelect('#plant12a', {
+    const savedValue11all_z = localStorage.getItem(storageKey11all_z);
+    if (savedValue11all_z) {
+    plantSelect11all_z.selectedValue = savedValue11all_z;
+    }
+                           const storageKey12a = 'selectedPlant12a';
+            const plantSelect12a = new DynamicSelect('#plant12a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -10467,8 +11716,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey12a, value);
+    }
         });
-               new DynamicSelect('#plant12d', {
+    const savedValue12a = localStorage.getItem(storageKey12a);
+    if (savedValue12a) {
+    plantSelect12a.selectedValue = savedValue12a;
+    }
+                           const storageKey12d = 'selectedPlant12d';
+            const plantSelect12d = new DynamicSelect('#plant12d', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -10536,8 +11793,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey12d, value);
+    }
         });
-               new DynamicSelect('#plant12p', {
+    const savedValue12d = localStorage.getItem(storageKey12d);
+    if (savedValue12d) {
+    plantSelect12d.selectedValue = savedValue12d;
+    }
+                           const storageKey12p = 'selectedPlant12p';
+            const plantSelect12p = new DynamicSelect('#plant12p', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -10563,8 +11828,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey12p, value);
+    }
         });
-               new DynamicSelect('#plant12sp', {
+    const savedValue12p = localStorage.getItem(storageKey12p);
+    if (savedValue12p) {
+    plantSelect12p.selectedValue = savedValue12p;
+    }
+                           const storageKey12sp = 'selectedPlant12sp';
+            const plantSelect12sp = new DynamicSelect('#plant12sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -10614,8 +11887,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey12sp, value);
+    }
         });
-               new DynamicSelect('#plant12u', {
+    const savedValue12sp = localStorage.getItem(storageKey12sp);
+    if (savedValue12sp) {
+    plantSelect12sp.selectedValue = savedValue12sp;
+    }
+                           const storageKey12u = 'selectedPlant12u';
+            const plantSelect12u = new DynamicSelect('#plant12u', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -10689,8 +11970,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey12u, value);
+    }
         });
-               new DynamicSelect('#plant12t', {
+    const savedValue12u = localStorage.getItem(storageKey12u);
+    if (savedValue12u) {
+    plantSelect12u.selectedValue = savedValue12u;
+    }
+                           const storageKey12t = 'selectedPlant12t';
+            const plantSelect12t = new DynamicSelect('#plant12t', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -10740,8 +12029,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey12t, value);
+    }
         });
-               new DynamicSelect('#plant12st', {
+    const savedValue12t = localStorage.getItem(storageKey12t);
+    if (savedValue12t) {
+    plantSelect12t.selectedValue = savedValue12t;
+    }
+                           const storageKey12st = 'selectedPlant12st';
+            const plantSelect12st = new DynamicSelect('#plant12st', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -10839,8 +12136,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey12st, value);
+    }
         });
-               new DynamicSelect('#plant12all', {
+    const savedValue12st = localStorage.getItem(storageKey12st);
+    if (savedValue12st) {
+    plantSelect12st.selectedValue = savedValue12st;
+    }
+                           const storageKey12all = 'selectedPlant12all';
+            const plantSelect12all = new DynamicSelect('#plant12all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -11082,8 +12387,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey12all, value);
+    }
         });
-               new DynamicSelect('#zombie12b', {
+    const savedValue12all = localStorage.getItem(storageKey12all);
+    if (savedValue12all) {
+    plantSelect12all.selectedValue = savedValue12all;
+    }
+                           const storageKey12b_z = 'selectedZombie12b';
+            const plantSelect12b_z = new DynamicSelect('#zombie12b', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -11109,8 +12422,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey12b_z, value);
+    }
         });
-               new DynamicSelect('#zombie12a', {
+    const savedValue12b_z = localStorage.getItem(storageKey12b_z);
+    if (savedValue12b_z) {
+    plantSelect12b_z.selectedValue = savedValue12b_z;
+    }
+                           const storageKey12a_z = 'selectedZombie12a';
+            const plantSelect12a_z = new DynamicSelect('#zombie12a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -11136,8 +12457,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey12a_z, value);
+    }
         });
-               new DynamicSelect('#zombie12sp', {
+    const savedValue12a_z = localStorage.getItem(storageKey12a_z);
+    if (savedValue12a_z) {
+    plantSelect12a_z.selectedValue = savedValue12a_z;
+    }
+                           const storageKey12sp_z = 'selectedZombie12sp';
+            const plantSelect12sp_z = new DynamicSelect('#zombie12sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -11181,8 +12510,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey12sp_z, value);
+    }
         });
-               new DynamicSelect('#zombie12of', {
+    const savedValue12sp_z = localStorage.getItem(storageKey12sp_z);
+    if (savedValue12sp_z) {
+    plantSelect12sp_z.selectedValue = savedValue12sp_z;
+    }
+                           const storageKey12of_z = 'selectedZombie12of';
+            const plantSelect12of_z = new DynamicSelect('#zombie12of', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -11226,8 +12563,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey12of_z, value);
+    }
         });
-               new DynamicSelect('#zombie12sw', {
+    const savedValue12of_z = localStorage.getItem(storageKey12of_z);
+    if (savedValue12of_z) {
+    plantSelect12of_z.selectedValue = savedValue12of_z;
+    }
+                           const storageKey12sw_z = 'selectedZombie12sw';
+            const plantSelect12sw_z = new DynamicSelect('#zombie12sw', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -11259,8 +12604,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey12sw_z, value);
+    }
         });
-               new DynamicSelect('#zombie12os', {
+    const savedValue12sw_z = localStorage.getItem(storageKey12sw_z);
+    if (savedValue12sw_z) {
+    plantSelect12sw_z.selectedValue = savedValue12sw_z;
+    }
+                           const storageKey12os_z = 'selectedZombie12os';
+            const plantSelect12os_z = new DynamicSelect('#zombie12os', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -11322,8 +12675,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey12os_z, value);
+    }
         });
-               new DynamicSelect('#zombie12boss', {
+    const savedValue12os_z = localStorage.getItem(storageKey12os_z);
+    if (savedValue12os_z) {
+    plantSelect12os_z.selectedValue = savedValue12os_z;
+    }
+                           const storageKey12boss_z = 'selectedZombie12boss';
+            const plantSelect12boss_z = new DynamicSelect('#zombie12boss', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -11349,8 +12710,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey12boss_z, value);
+    }
         });
-               new DynamicSelect('#zombie12all', {
+    const savedValue12boss_z = localStorage.getItem(storageKey12boss_z);
+    if (savedValue12boss_z) {
+    plantSelect12boss_z.selectedValue = savedValue12boss_z;
+    }
+                           const storageKey12all_z = 'selectedZombie12all';
+            const plantSelect12all_z = new DynamicSelect('#zombie12all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -11460,8 +12829,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey12all_z, value);
+    }
         });
-            new DynamicSelect('#plant13a', {
+    const savedValue12all_z = localStorage.getItem(storageKey12all_z);
+    if (savedValue12all_z) {
+    plantSelect12all_z.selectedValue = savedValue12all_z;
+    }
+                        const storageKey13a = 'selectedPlant13a';
+            const plantSelect13a = new DynamicSelect('#plant13a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -11565,8 +12942,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey13a, value);
+    }
         });
-                   new DynamicSelect('#plant13d', {
+    const savedValue13a = localStorage.getItem(storageKey13a);
+    if (savedValue13a) {
+    plantSelect13a.selectedValue = savedValue13a;
+    }
+                               const storageKey13d = 'selectedPlant13d';
+            const plantSelect13d = new DynamicSelect('#plant13d', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -11616,8 +13001,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey13d, value);
+    }
         });
-                       new DynamicSelect('#plant13p', {
+    const savedValue13d = localStorage.getItem(storageKey13d);
+    if (savedValue13d) {
+    plantSelect13d.selectedValue = savedValue13d;
+    }
+                                   const storageKey13p = 'selectedPlant13p';
+            const plantSelect13p = new DynamicSelect('#plant13p', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -11649,8 +13042,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey13p, value);
+    }
         });
-                           new DynamicSelect('#plant13sp', {
+    const savedValue13p = localStorage.getItem(storageKey13p);
+    if (savedValue13p) {
+    plantSelect13p.selectedValue = savedValue13p;
+    }
+                                       const storageKey13sp = 'selectedPlant13sp';
+            const plantSelect13sp = new DynamicSelect('#plant13sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -11754,8 +13155,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey13sp, value);
+    }
         });
-                           new DynamicSelect('#plant13u', {
+    const savedValue13sp = localStorage.getItem(storageKey13sp);
+    if (savedValue13sp) {
+    plantSelect13sp.selectedValue = savedValue13sp;
+    }
+                                       const storageKey13u = 'selectedPlant13u';
+            const plantSelect13u = new DynamicSelect('#plant13u', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -11817,8 +13226,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey13u, value);
+    }
         });
-                               new DynamicSelect('#plant13t', {
+    const savedValue13u = localStorage.getItem(storageKey13u);
+    if (savedValue13u) {
+    plantSelect13u.selectedValue = savedValue13u;
+    }
+                                           const storageKey13t = 'selectedPlant13t';
+            const plantSelect13t = new DynamicSelect('#plant13t', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -11856,8 +13273,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey13t, value);
+    }
         });
-                                   new DynamicSelect('#plant13st', {
+    const savedValue13t = localStorage.getItem(storageKey13t);
+    if (savedValue13t) {
+    plantSelect13t.selectedValue = savedValue13t;
+    }
+                                               const storageKey13st = 'selectedPlant13st';
+            const plantSelect13st = new DynamicSelect('#plant13st', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -11907,8 +13332,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey13st, value);
+    }
         });
-                                       new DynamicSelect('#plant13all', {
+    const savedValue13st = localStorage.getItem(storageKey13st);
+    if (savedValue13st) {
+    plantSelect13st.selectedValue = savedValue13st;
+    }
+                                                   const storageKey13all = 'selectedPlant13all';
+            const plantSelect13all = new DynamicSelect('#plant13all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -12150,8 +13583,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey13all, value);
+    }
         });
-                   new DynamicSelect('#zombie13b', {
+    const savedValue13all = localStorage.getItem(storageKey13all);
+    if (savedValue13all) {
+    plantSelect13all.selectedValue = savedValue13all;
+    }
+                               const storageKey13b_z = 'selectedZombie13b';
+            const plantSelect13b_z = new DynamicSelect('#zombie13b', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -12177,8 +13618,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey13b_z, value);
+    }
         });
-                       new DynamicSelect('#zombie13a', {
+    const savedValue13b_z = localStorage.getItem(storageKey13b_z);
+    if (savedValue13b_z) {
+    plantSelect13b_z.selectedValue = savedValue13b_z;
+    }
+                                   const storageKey13a_z = 'selectedZombie13a';
+            const plantSelect13a_z = new DynamicSelect('#zombie13a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -12216,8 +13665,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey13a_z, value);
+    }
         });
-                           new DynamicSelect('#zombie13sp', {
+    const savedValue13a_z = localStorage.getItem(storageKey13a_z);
+    if (savedValue13a_z) {
+    plantSelect13a_z.selectedValue = savedValue13a_z;
+    }
+                                       const storageKey13sp_z = 'selectedZombie13sp';
+            const plantSelect13sp_z = new DynamicSelect('#zombie13sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -12243,8 +13700,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey13sp_z, value);
+    }
         });
-                               new DynamicSelect('#zombie13of', {
+    const savedValue13sp_z = localStorage.getItem(storageKey13sp_z);
+    if (savedValue13sp_z) {
+    plantSelect13sp_z.selectedValue = savedValue13sp_z;
+    }
+                                           const storageKey13of_z = 'selectedZombie13of';
+            const plantSelect13of_z = new DynamicSelect('#zombie13of', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -12300,8 +13765,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey13of_z, value);
+    }
         });
-                       new DynamicSelect('#zombie13sw', {
+    const savedValue13of_z = localStorage.getItem(storageKey13of_z);
+    if (savedValue13of_z) {
+    plantSelect13of_z.selectedValue = savedValue13of_z;
+    }
+                                   const storageKey13sw_z = 'selectedZombie13sw';
+            const plantSelect13sw_z = new DynamicSelect('#zombie13sw', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -12327,8 +13800,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey13sw_z, value);
+    }
         });
-                           new DynamicSelect('#zombie13os', {
+    const savedValue13sw_z = localStorage.getItem(storageKey13sw_z);
+    if (savedValue13sw_z) {
+    plantSelect13sw_z.selectedValue = savedValue13sw_z;
+    }
+                                       const storageKey13os_z = 'selectedZombie13os';
+            const plantSelect13os_z = new DynamicSelect('#zombie13os', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -12354,8 +13835,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey13os_z, value);
+    }
         });
-                               new DynamicSelect('#zombie13boss', {
+    const savedValue13os_z = localStorage.getItem(storageKey13os_z);
+    if (savedValue13os_z) {
+    plantSelect13os_z.selectedValue = savedValue13os_z;
+    }
+                                           const storageKey13boss_z = 'selectedZombie13boss';
+            const plantSelect13boss_z = new DynamicSelect('#zombie13boss', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -12381,8 +13870,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey13boss_z, value);
+    }
         });
-                                   new DynamicSelect('#zombie13all', {
+    const savedValue13boss_z = localStorage.getItem(storageKey13boss_z);
+    if (savedValue13boss_z) {
+    plantSelect13boss_z.selectedValue = savedValue13boss_z;
+    }
+                                               const storageKey13all_z = 'selectedZombie13all';
+            const plantSelect13all_z = new DynamicSelect('#zombie13all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -12486,8 +13983,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey13all_z, value);
+    }
         });
-                               new DynamicSelect('#plant14a', {
+    const savedValue13all_z = localStorage.getItem(storageKey13all_z);
+    if (savedValue13all_z) {
+    plantSelect13all_z.selectedValue = savedValue13all_z;
+    }
+                                           const storageKey14a = 'selectedPlant14a';
+            const plantSelect14a = new DynamicSelect('#plant14a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -12621,8 +14126,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey14a, value);
+    }
         });
-               new DynamicSelect('#plant14d', {
+    const savedValue14a = localStorage.getItem(storageKey14a);
+    if (savedValue14a) {
+    plantSelect14a.selectedValue = savedValue14a;
+    }
+                           const storageKey14d = 'selectedPlant14d';
+            const plantSelect14d = new DynamicSelect('#plant14d', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -12684,8 +14197,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey14d, value);
+    }
         });
-               new DynamicSelect('#plant14p', {
+    const savedValue14d = localStorage.getItem(storageKey14d);
+    if (savedValue14d) {
+    plantSelect14d.selectedValue = savedValue14d;
+    }
+                           const storageKey14p = 'selectedPlant14p';
+            const plantSelect14p = new DynamicSelect('#plant14p', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -12711,8 +14232,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey14p, value);
+    }
         });
-               new DynamicSelect('#plant14sp', {
+    const savedValue14p = localStorage.getItem(storageKey14p);
+    if (savedValue14p) {
+    plantSelect14p.selectedValue = savedValue14p;
+    }
+                           const storageKey14sp = 'selectedPlant14sp';
+            const plantSelect14sp = new DynamicSelect('#plant14sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -12810,8 +14339,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey14sp, value);
+    }
         });
-               new DynamicSelect('#plant14u', {
+    const savedValue14sp = localStorage.getItem(storageKey14sp);
+    if (savedValue14sp) {
+    plantSelect14sp.selectedValue = savedValue14sp;
+    }
+                           const storageKey14u = 'selectedPlant14u';
+            const plantSelect14u = new DynamicSelect('#plant14u', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -12885,8 +14422,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey14u, value);
+    }
         });
-               new DynamicSelect('#plant14t', {
+    const savedValue14u = localStorage.getItem(storageKey14u);
+    if (savedValue14u) {
+    plantSelect14u.selectedValue = savedValue14u;
+    }
+                           const storageKey14t = 'selectedPlant14t';
+            const plantSelect14t = new DynamicSelect('#plant14t', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -12936,8 +14481,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey14t, value);
+    }
         });
-               new DynamicSelect('#plant14st', {
+    const savedValue14t = localStorage.getItem(storageKey14t);
+    if (savedValue14t) {
+    plantSelect14t.selectedValue = savedValue14t;
+    }
+                           const storageKey14st = 'selectedPlant14st';
+            const plantSelect14st = new DynamicSelect('#plant14st', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -13029,8 +14582,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey14st, value);
+    }
         });
-                               new DynamicSelect('#plant14all', {
+    const savedValue14st = localStorage.getItem(storageKey14st);
+    if (savedValue14st) {
+    plantSelect14st.selectedValue = savedValue14st;
+    }
+                                           const storageKey14all = 'selectedPlant14all';
+            const plantSelect14all = new DynamicSelect('#plant14all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -13296,8 +14857,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey14all, value);
+    }
         });
-               new DynamicSelect('#zombie14b', {
+    const savedValue14all = localStorage.getItem(storageKey14all);
+    if (savedValue14all) {
+    plantSelect14all.selectedValue = savedValue14all;
+    }
+                           const storageKey14b_z = 'selectedZombie14b';
+            const plantSelect14b_z = new DynamicSelect('#zombie14b', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -13335,8 +14904,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey14b_z, value);
+    }
         });
-               new DynamicSelect('#zombie14a', {
+    const savedValue14b_z = localStorage.getItem(storageKey14b_z);
+    if (savedValue14b_z) {
+    plantSelect14b_z.selectedValue = savedValue14b_z;
+    }
+                           const storageKey14a_z = 'selectedZombie14a';
+            const plantSelect14a_z = new DynamicSelect('#zombie14a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -13386,8 +14963,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey14a_z, value);
+    }
         });
-               new DynamicSelect('#zombie14sp', {
+    const savedValue14a_z = localStorage.getItem(storageKey14a_z);
+    if (savedValue14a_z) {
+    plantSelect14a_z.selectedValue = savedValue14a_z;
+    }
+                           const storageKey14sp_z = 'selectedZombie14sp';
+            const plantSelect14sp_z = new DynamicSelect('#zombie14sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -13431,8 +15016,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey14sp_z, value);
+    }
         });
-               new DynamicSelect('#zombie14of', {
+    const savedValue14sp_z = localStorage.getItem(storageKey14sp_z);
+    if (savedValue14sp_z) {
+    plantSelect14sp_z.selectedValue = savedValue14sp_z;
+    }
+                           const storageKey14of_z = 'selectedZombie14of';
+            const plantSelect14of_z = new DynamicSelect('#zombie14of', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -13476,8 +15069,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey14of_z, value);
+    }
         });
-               new DynamicSelect('#zombie14sw', {
+    const savedValue14of_z = localStorage.getItem(storageKey14of_z);
+    if (savedValue14of_z) {
+    plantSelect14of_z.selectedValue = savedValue14of_z;
+    }
+                           const storageKey14sw_z = 'selectedZombie14sw';
+            const plantSelect14sw_z = new DynamicSelect('#zombie14sw', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -13521,8 +15122,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey14sw_z, value);
+    }
         });
-               new DynamicSelect('#zombie14os', {
+    const savedValue14sw_z = localStorage.getItem(storageKey14sw_z);
+    if (savedValue14sw_z) {
+    plantSelect14sw_z.selectedValue = savedValue14sw_z;
+    }
+                           const storageKey14os_z = 'selectedZombie14os';
+            const plantSelect14os_z = new DynamicSelect('#zombie14os', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -13560,8 +15169,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey14os_z, value);
+    }
         });
-               new DynamicSelect('#zombie14boss', {
+    const savedValue14os_z = localStorage.getItem(storageKey14os_z);
+    if (savedValue14os_z) {
+    plantSelect14os_z.selectedValue = savedValue14os_z;
+    }
+                           const storageKey14boss_z = 'selectedZombie14boss';
+            const plantSelect14boss_z = new DynamicSelect('#zombie14boss', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -13587,8 +15204,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey14boss_z, value);
+    }
         });
-               new DynamicSelect('#zombie14all', {
+    const savedValue14boss_z = localStorage.getItem(storageKey14boss_z);
+    if (savedValue14boss_z) {
+    plantSelect14boss_z.selectedValue = savedValue14boss_z;
+    }
+                           const storageKey14all_z = 'selectedZombie14all';
+            const plantSelect14all_z = new DynamicSelect('#zombie14all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -13710,8 +15335,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey14all_z, value);
+    }
         });
-               new DynamicSelect('#plant15a', {
+    const savedValue14all_z = localStorage.getItem(storageKey14all_z);
+    if (savedValue14all_z) {
+    plantSelect14all_z.selectedValue = savedValue14all_z;
+    }
+                           const storageKey15a = 'selectedPlant15a';
+            const plantSelect15a = new DynamicSelect('#plant15a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -13863,32 +15496,40 @@ table, th, td {
                     imgHeight: '72px'
                 },
                    {
-                    value: 'Cobliterator',
+                    value: 'Cobliterator 1',
                     img: 'tileimage/Cobliterator Tier 1 KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
                    {
-                    value: 'Cobliterator',
+                    value: 'Cobliterator 2',
                     img: 'tileimage/Cobliterator Tier 2 KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
                    {
-                    value: 'Cobliterator',
+                    value: 'Cobliterator 3',
                     img: 'tileimage/Cobliterator Tier 3 KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
                    {
-                    value: 'Cobliterator',
+                    value: 'Cobliterator 4',
                     img: 'tileimage/Cobliterator Tier 4 KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey15a, value);
+    }
         });
-               new DynamicSelect('#plant15d', {
+    const savedValue15a = localStorage.getItem(storageKey15a);
+    if (savedValue15a) {
+    plantSelect15a.selectedValue = savedValue15a;
+    }
+                           const storageKey15d = 'selectedPlant15d';
+            const plantSelect15d = new DynamicSelect('#plant15d', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -13986,8 +15627,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey15d, value);
+    }
         });
-               new DynamicSelect('#plant15p', {
+    const savedValue15d = localStorage.getItem(storageKey15d);
+    if (savedValue15d) {
+    plantSelect15d.selectedValue = savedValue15d;
+    }
+                           const storageKey15p = 'selectedPlant15p';
+            const plantSelect15p = new DynamicSelect('#plant15p', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -14013,8 +15662,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey15p, value);
+    }
         });
-               new DynamicSelect('#plant15sp', {
+    const savedValue15p = localStorage.getItem(storageKey15p);
+    if (savedValue15p) {
+    plantSelect15p.selectedValue = savedValue15p;
+    }
+                           const storageKey15sp = 'selectedPlant15sp';
+            const plantSelect15sp = new DynamicSelect('#plant15sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -14088,8 +15745,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey15sp, value);
+    }
         });
-               new DynamicSelect('#plant15u', {
+    const savedValue15sp = localStorage.getItem(storageKey15sp);
+    if (savedValue15sp) {
+    plantSelect15sp.selectedValue = savedValue15sp;
+    }
+                           const storageKey15u = 'selectedPlant15u';
+            const plantSelect15u = new DynamicSelect('#plant15u', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -14127,8 +15792,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey15u, value);
+    }
         });
-               new DynamicSelect('#plant15t', {
+    const savedValue15u = localStorage.getItem(storageKey15u);
+    if (savedValue15u) {
+    plantSelect15u.selectedValue = savedValue15u;
+    }
+                           const storageKey15t = 'selectedPlant15t';
+            const plantSelect15t = new DynamicSelect('#plant15t', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -14154,8 +15827,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey15t, value);
+    }
         });
-               new DynamicSelect('#plant15st', {
+    const savedValue15t = localStorage.getItem(storageKey15t);
+    if (savedValue15t) {
+    plantSelect15t.selectedValue = savedValue15t;
+    }
+                           const storageKey15st = 'selectedPlant15st';
+            const plantSelect15st = new DynamicSelect('#plant15st', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -14259,8 +15940,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey15st, value);
+    }
         });
-               new DynamicSelect('#plant15all', {
+    const savedValue15st = localStorage.getItem(storageKey15st);
+    if (savedValue15st) {
+    plantSelect15st.selectedValue = savedValue15st;
+    }
+                           const storageKey15all = 'selectedPlant15all';
+            const plantSelect15all = new DynamicSelect('#plant15all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -14508,25 +16197,25 @@ table, th, td {
                     imgHeight: '72px'
                 },
                    {
-                    value: 'Cobliterator',
+                    value: 'Cobliterator 1',
                     img: 'tileimage/Cobliterator Tier 1 KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
                    {
-                    value: 'Cobliterator',
+                    value: 'Cobliterator 2',
                     img: 'tileimage/Cobliterator Tier 2 KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
                    {
-                    value: 'Cobliterator',
+                    value: 'Cobliterator 3',
                     img: 'tileimage/Cobliterator Tier 3 KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
                    {
-                    value: 'Cobliterator',
+                    value: 'Cobliterator 4',
                     img: 'tileimage/Cobliterator Tier 4 KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
@@ -14544,8 +16233,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey15all, value);
+    }
         });
-               new DynamicSelect('#zombie15b', {
+    const savedValue15all = localStorage.getItem(storageKey15all);
+    if (savedValue15all) {
+    plantSelect15all.selectedValue = savedValue15all;
+    }
+                           const storageKey15b_z = 'selectedZombie15b';
+            const plantSelect15b_z = new DynamicSelect('#zombie15b', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -14583,8 +16280,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey15b_z, value);
+    }
         });
-               new DynamicSelect('#zombie15a', {
+    const savedValue15b_z = localStorage.getItem(storageKey15b_z);
+    if (savedValue15b_z) {
+    plantSelect15b_z.selectedValue = savedValue15b_z;
+    }
+                           const storageKey15a_z = 'selectedZombie15a';
+            const plantSelect15a_z = new DynamicSelect('#zombie15a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -14646,8 +16351,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey15a_z, value);
+    }
         });
-               new DynamicSelect('#zombie15sp', {
+    const savedValue15a_z = localStorage.getItem(storageKey15a_z);
+    if (savedValue15a_z) {
+    plantSelect15a_z.selectedValue = savedValue15a_z;
+    }
+                           const storageKey15sp_z = 'selectedZombie15sp';
+            const plantSelect15sp_z = new DynamicSelect('#zombie15sp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -14679,8 +16392,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey15sp_z, value);
+    }
         });
-               new DynamicSelect('#zombie15of', {
+    const savedValue15sp_z = localStorage.getItem(storageKey15sp_z);
+    if (savedValue15sp_z) {
+    plantSelect15sp_z.selectedValue = savedValue15sp_z;
+    }
+                           const storageKey15of_z = 'selectedZombie15of';
+            const plantSelect15of_z = new DynamicSelect('#zombie15of', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -14748,8 +16469,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey15of_z, value);
+    }
         });
-               new DynamicSelect('#zombie15sw', {
+    const savedValue15of_z = localStorage.getItem(storageKey15of_z);
+    if (savedValue15of_z) {
+    plantSelect15of_z.selectedValue = savedValue15of_z;
+    }
+                           const storageKey15sw_z = 'selectedZombie15sw';
+            const plantSelect15sw_z = new DynamicSelect('#zombie15sw', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -14793,8 +16522,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey15sw_z, value);
+    }
         });
-               new DynamicSelect('#zombie15os', {
+    const savedValue15sw_z = localStorage.getItem(storageKey15sw_z);
+    if (savedValue15sw_z) {
+    plantSelect15sw_z.selectedValue = savedValue15sw_z;
+    }
+                           const storageKey15os_z = 'selectedZombie15os';
+            const plantSelect15os_z = new DynamicSelect('#zombie15os', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -14838,8 +16575,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey15os_z, value);
+    }
         });
-               new DynamicSelect('#zombie15boss', {
+    const savedValue15os_z = localStorage.getItem(storageKey15os_z);
+    if (savedValue15os_z) {
+    plantSelect15os_z.selectedValue = savedValue15os_z;
+    }
+                           const storageKey15boss_z = 'selectedZombie15boss';
+            const plantSelect15boss_z = new DynamicSelect('#zombie15boss', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -14865,8 +16610,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey15boss_z, value);
+    }
         });
-               new DynamicSelect('#zombie15all', {
+    const savedValue15boss_z = localStorage.getItem(storageKey15boss_z);
+    if (savedValue15boss_z) {
+    plantSelect15boss_z.selectedValue = savedValue15boss_z;
+    }
+                           const storageKey15all_z = 'selectedZombie15all';
+            const plantSelect15all_z = new DynamicSelect('#zombie15all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -15000,8 +16753,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKey15all_z, value);
+    }
         });
-               new DynamicSelect('#plantSa', {
+    const savedValue15all_z = localStorage.getItem(storageKey15all_z);
+    if (savedValue15all_z) {
+    plantSelect15all_z.selectedValue = savedValue15all_z;
+    }
+                           const storageKeySa = 'selectedPlantSa';
+            const plantSelectSa = new DynamicSelect('#plantSa', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -15051,8 +16812,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeySa, value);
+    }
         });
-               new DynamicSelect('#plantSd', {
+    const savedValueSa = localStorage.getItem(storageKeySa);
+    if (savedValueSa) {
+    plantSelectSa.selectedValue = savedValueSa;
+    }
+                           const storageKeySd = 'selectedPlantSd';
+            const plantSelectSd = new DynamicSelect('#plantSd', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -15114,8 +16883,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeySd, value);
+    }
         });
-               new DynamicSelect('#plantSp', {
+    const savedValueSd = localStorage.getItem(storageKeySd);
+    if (savedValueSd) {
+    plantSelectSd.selectedValue = savedValueSd;
+    }
+                           const storageKeySp = 'selectedPlantSp';
+            const plantSelectSp = new DynamicSelect('#plantSp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -15189,8 +16966,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeySp, value);
+    }
         });
-               new DynamicSelect('#plantSsp', {
+    const savedValueSp = localStorage.getItem(storageKeySp);
+    if (savedValueSp) {
+    plantSelectSp.selectedValue = savedValueSp;
+    }
+                           const storageKeySsp = 'selectedPlantSsp';
+            const plantSelectSsp = new DynamicSelect('#plantSsp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -15288,8 +17073,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeySsp, value);
+    }
         });
-               new DynamicSelect('#plantSu', {
+    const savedValueSsp = localStorage.getItem(storageKeySsp);
+    if (savedValueSsp) {
+    plantSelectSsp.selectedValue = savedValueSsp;
+    }
+                           const storageKeySu = 'selectedPlantSu';
+            const plantSelectSu = new DynamicSelect('#plantSu', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -15321,8 +17114,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeySu, value);
+    }
         });
-               new DynamicSelect('#plantSt', {
+    const savedValueSu = localStorage.getItem(storageKeySu);
+    if (savedValueSu) {
+    plantSelectSu.selectedValue = savedValueSu;
+    }
+                           const storageKeySt = 'selectedPlantSt';
+            const plantSelectSt = new DynamicSelect('#plantSt', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -15348,8 +17149,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeySt, value);
+    }
         });
-               new DynamicSelect('#plantSst', {
+    const savedValueSt = localStorage.getItem(storageKeySt);
+    if (savedValueSt) {
+    plantSelectSt.selectedValue = savedValueSt;
+    }
+                           const storageKeySst = 'selectedPlantSst';
+            const plantSelectSst = new DynamicSelect('#plantSst', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -15399,8 +17208,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeySst, value);
+    }
         });
-               new DynamicSelect('#plantSall', {
+    const savedValueSst = localStorage.getItem(storageKeySst);
+    if (savedValueSst) {
+    plantSelectSst.selectedValue = savedValueSst;
+    }
+                           const storageKeySall = 'selectedPlantSall';
+            const plantSelectSall = new DynamicSelect('#plantSall', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -15582,8 +17399,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeySall, value);
+    }
         });
-               new DynamicSelect('#zombieSb', {
+    const savedValueSall = localStorage.getItem(storageKeySall);
+    if (savedValueSall) {
+    plantSelectSall.selectedValue = savedValueSall;
+    }
+                           const storageKeySb_z = 'selectedZombieSb';
+            const plantSelectSb_z = new DynamicSelect('#zombieSb', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -15669,8 +17494,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeySb_z, value);
+    }
         });
-               new DynamicSelect('#zombieSa', {
+    const savedValueSb_z = localStorage.getItem(storageKeySb_z);
+    if (savedValueSb_z) {
+    plantSelectSb_z.selectedValue = savedValueSb_z;
+    }
+                           const storageKeySa_z = 'selectedZombieSa';
+            const plantSelectSa_z = new DynamicSelect('#zombieSa', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -15792,8 +17625,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeySa_z, value);
+    }
         });
-               new DynamicSelect('#zombieSsp', {
+    const savedValueSa_z = localStorage.getItem(storageKeySa_z);
+    if (savedValueSa_z) {
+    plantSelectSa_z.selectedValue = savedValueSa_z;
+    }
+                           const storageKeySsp_z = 'selectedZombieSsp';
+            const plantSelectSsp_z = new DynamicSelect('#zombieSsp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -15855,8 +17696,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeySsp_z, value);
+    }
         });
-               new DynamicSelect('#zombieSof', {
+    const savedValueSsp_z = localStorage.getItem(storageKeySsp_z);
+    if (savedValueSsp_z) {
+    plantSelectSsp_z.selectedValue = savedValueSsp_z;
+    }
+                           const storageKeySof_z = 'selectedZombieSof';
+            const plantSelectSof_z = new DynamicSelect('#zombieSof', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -16110,8 +17959,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeySof_z, value);
+    }
         });
-               new DynamicSelect('#zombieSsw', {
+    const savedValueSof_z = localStorage.getItem(storageKeySof_z);
+    if (savedValueSof_z) {
+    plantSelectSof_z.selectedValue = savedValueSof_z;
+    }
+                           const storageKeySsw_z = 'selectedZombieSsw';
+            const plantSelectSsw_z = new DynamicSelect('#zombieSsw', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -16203,8 +18060,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeySsw_z, value);
+    }
         });
-                   new DynamicSelect('#zombieSos', {
+    const savedValueSsw_z = localStorage.getItem(storageKeySsw_z);
+    if (savedValueSsw_z) {
+    plantSelectSsw_z.selectedValue = savedValueSsw_z;
+    }
+                               const storageKeySos_z = 'selectedZombieSos';
+            const plantSelectSos_z = new DynamicSelect('#zombieSos', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -16254,8 +18119,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeySos_z, value);
+    }
         });
-                       new DynamicSelect('#zombieSboss', {
+    const savedValueSos_z = localStorage.getItem(storageKeySos_z);
+    if (savedValueSos_z) {
+    plantSelectSos_z.selectedValue = savedValueSos_z;
+    }
+                                   const storageKeySboss_z = 'selectedZombieSboss';
+            const plantSelectSboss_z = new DynamicSelect('#zombieSboss', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -16275,8 +18148,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeySboss_z, value);
+    }
         });
-               new DynamicSelect('#zombieSall', {
+    const savedValueSboss_z = localStorage.getItem(storageKeySboss_z);
+    if (savedValueSboss_z) {
+    plantSelectSboss_z.selectedValue = savedValueSboss_z;
+    }
+                           const storageKeySall_z = 'selectedZombieSall';
+            const plantSelectSall_z = new DynamicSelect('#zombieSall', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -16722,8 +18603,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeySall_z, value);
+    }
         });
-            new DynamicSelect('#plantALLa', {
+    const savedValueSall_z = localStorage.getItem(storageKey1Sall_z);
+    if (savedValueSall_z) {
+    plantSelectSall_z.selectedValue = savedValueSall_z;
+    }
+                        const storageKeyALLa = 'selectedPlantALLa';
+            const plantSelectALLa = new DynamicSelect('#plantALLa', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -18153,25 +20042,25 @@ table, th, td {
                     imgHeight: '72px'
                 },
                    {
-                    value: 'Cobliterator',
+                    value: 'Cobliterator 1',
                     img: 'tileimage/Cobliterator Tier 1 KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
                    {
-                    value: 'Cobliterator',
+                    value: 'Cobliterator 2',
                     img: 'tileimage/Cobliterator Tier 2 KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
                    {
-                    value: 'Cobliterator',
+                    value: 'Cobliterator 3',
                     img: 'tileimage/Cobliterator Tier 3 KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
                    {
-                    value: 'Cobliterator',
+                    value: 'Cobliterator 4',
                     img: 'tileimage/Cobliterator Tier 4 KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
@@ -18213,8 +20102,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeyALLa, value);
+    }
         });
-        new DynamicSelect('#plantALLd', {
+    const savedValueALLa = localStorage.getItem(storageKeyALLa);
+    if (savedValueALLa) {
+    plantSelectALLa.selectedValue = savedValueALLa;
+    }
+                    const storageKeyALLd = 'selectedPlantALLd';
+            const plantSelectALLd = new DynamicSelect('#plantALLd', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -18828,8 +20725,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeyALLd, value);
+    }
         });
-            new DynamicSelect('#plantALLp', {
+    const savedValueALLd = localStorage.getItem(storageKeyALLd);
+    if (savedValueALLd) {
+    plantSelectALLd.selectedValue = savedValueALLd;
+    }
+                        const storageKeyALLp = 'selectedPlantALLp';
+            const plantSelectALLp = new DynamicSelect('#plantALLp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -18993,8 +20898,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeyALLp, value);
+    }
         });
-                            new DynamicSelect('#plantALLsp', {
+    const savedValueALLp = localStorage.getItem(storageKeyALLp);
+    if (savedValueALLp) {
+    plantSelectALLp.selectedValue = savedValueALLp;
+    }
+                                        const storageKeyALLsp = 'selectedPlantALLsp';
+            const plantSelectALLsp = new DynamicSelect('#plantALLsp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -19830,8 +21743,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeyALLsp, value);
+    }
         });
-                new DynamicSelect('#plantALLu', {
+    const savedValueALLsp = localStorage.getItem(storageKeyALLsp);
+    if (savedValueALLsp) {
+    plantSelectALLsp.selectedValue = savedValueALLsp;
+    }
+                            const storageKeyALLu = 'selectedPlantALLu';
+            const plantSelectALLu = new DynamicSelect('#plantALLu', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -20457,8 +22378,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeyALLu, value);
+    }
         });
-                    new DynamicSelect('#plantALLt', {
+    const savedValueALLu = localStorage.getItem(storageKeyALLu);
+    if (savedValueALLu) {
+    plantSelectALLu.selectedValue = savedValueALLu;
+    }
+                                const storageKeyALLt = 'selectedPlantALLt';
+            const plantSelectALLt = new DynamicSelect('#plantALLt', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -20880,8 +22809,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeyALLt, value);
+    }
         });
-                                    new DynamicSelect('#plantALLst', {
+    const savedValueALLt = localStorage.getItem(storageKeyALLt);
+    if (savedValueALLt) {
+    plantSelectALLt.selectedValue = savedValueALLt;
+    }
+                                                const storageKeyALLst = 'selectedPlantALLst';
+            const plantSelectALLst = new DynamicSelect('#plantALLst', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -21711,8 +23648,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeyALLst, value);
+    }
         });
-                        new DynamicSelect('#plantALLall', {
+    const savedValueALLst = localStorage.getItem(storageKeyALLst);
+    if (savedValueALLst) {
+    plantSelectALLst.selectedValue = savedValueALLst;
+    }
+                                    const storageKeyALLall = 'selectedPlantALLall';
+            const plantSelectALLall = new DynamicSelect('#plantALLall', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -24486,25 +26431,25 @@ table, th, td {
                     imgHeight: '72px'
                 },
                    {
-                    value: 'Cobliterator',
+                    value: 'Cobliterator 1',
                     img: 'tileimage/Cobliterator Tier 1 KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
                    {
-                    value: 'Cobliterator',
+                    value: 'Cobliterator 2',
                     img: 'tileimage/Cobliterator Tier 2 KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
                    {
-                    value: 'Cobliterator',
+                    value: 'Cobliterator 3',
                     img: 'tileimage/Cobliterator Tier 3 KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
                 },
                    {
-                    value: 'Cobliterator',
+                    value: 'Cobliterator 4',
                     img: 'tileimage/Cobliterator Tier 4 KoT.png',
                     imgWidth: '72px',
                     imgHeight: '72px'
@@ -24690,8 +26635,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeyALLall, value);
+    }
         });
-                    new DynamicSelect('#zombieALLb', {
+    const savedValueALLall = localStorage.getItem(storageKeyALLall);
+    if (savedValueALLall) {
+    plantSelectALLall.selectedValue = savedValueALLall;
+    }
+                                const storageKeyALLb_z = 'selectedZombieALLb';
+            const plantSelectALLb_z = new DynamicSelect('#zombieALLb', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -25053,8 +27006,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeyALLb_z, value);
+    }
         });
-                        new DynamicSelect('#zombieALLa', {
+    const savedValueALLb_z = localStorage.getItem(storageKeyALLb_z);
+    if (savedValueALLb_z) {
+    plantSelectALLb_z.selectedValue = savedValueALLb_z;
+    }
+                                    const storageKeyALLa_z = 'selectedZombieALLa';
+            const plantSelectALLa_z = new DynamicSelect('#zombieALLa', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -25488,8 +27449,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeyALLa_z, value);
+    }
         });
-                                new DynamicSelect('#zombieALLsp', {
+    const savedValueALLa_z = localStorage.getItem(storageKeyALLa_z);
+    if (savedValueALLa_z) {
+    plantSelectALLa_z.selectedValue = savedValueALLa_z;
+    }
+                                            const storageKeyALLsp_z = 'selectedZombieALLsp';
+            const plantSelectALLsp_z = new DynamicSelect('#zombieALLsp', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -25887,8 +27856,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeyALLsp_z, value);
+    }
         });
-                                    new DynamicSelect('#zombieALLof', {
+    const savedValueALLsp_z = localStorage.getItem(storageKeyALLsp_z);
+    if (savedValueALLsp_z) {
+    plantSelectALLsp_z.selectedValue = savedValueALLsp_z;
+    }
+                                                const storageKeyALLof_z = 'selectedZombieALLof';
+            const plantSelectALLof_z = new DynamicSelect('#zombieALLof', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -26622,8 +28599,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeyALLof_z, value);
+    }
         });
-                               new DynamicSelect('#zombieALLsw', {
+    const savedValueALLof_z = localStorage.getItem(storageKeyALLof_z);
+    if (savedValueALLof_z) {
+    plantSelectALLof_z.selectedValue = savedValueALLof_z;
+    }
+                                           const storageKeyALLsw_z = 'selectedZombieALLsw';
+            const plantSelectALLsw_z = new DynamicSelect('#zombieALLsw', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -26979,8 +28964,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeyALLsw_z, value);
+    }
         });
-                                        new DynamicSelect('#zombieALLos', {
+    const savedValueALLsw_z = localStorage.getItem(storageKeyALLsw_z);
+    if (savedValueALLsw_z) {
+    plantSelectALLsw_z.selectedValue = savedValueALLsw_z;
+    }
+                                                    const storageKeyALLos_z = 'selectedZombieALLos';
+            const plantSelectALLos_z = new DynamicSelect('#zombieALLos', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -27348,8 +29341,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeyALLos_z, value);
+    }
         });
-                                            new DynamicSelect('#zombieALLboss', {
+    const savedValueALLos_z = localStorage.getItem(storageKeyALLos_z);
+    if (savedValueALLos_z) {
+    plantSelectALLos_z.selectedValue = savedValueALLos_z;
+    }
+                                                        const storageKeyALLboss_z = 'selectedZombieALLboss';
+            const plantSelectALLboss_z = new DynamicSelect('#zombieALLboss', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -27537,8 +29538,16 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeyALLboss_z, value);
+    }
         });
-                        new DynamicSelect('#zombieALLall', {
+    const savedValueALLboss_z = localStorage.getItem(storageKeyALLboss_z);
+    if (savedValueALLboss_z) {
+    plantSelectALLboss_z.selectedValue = savedValueALLboss_z;
+    }
+                                    const storageKeyALLall_z = 'selectedZombieALLall';
+            const plantSelectALLall_z = new DynamicSelect('#zombieALLall', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -29214,7 +31223,14 @@ table, th, td {
                     imgHeight: '72px'
                 }
             ],
+                  onChange: function(value) {
+        localStorage.setItem(storageKeyALLall_z, value);
+    }
         });
+    const savedValueALLall_z = localStorage.getItem(storageKeyALLall_z);
+    if (savedValueALLall_z) {
+    plantSelectALLall_z.selectedValue = savedValueALLall_z;
+    }
             </script>
 </body>
 </html>
