@@ -29203,13 +29203,13 @@ table, th, td {
     // On refresh check if there are values selected
     if (localStorage.selectVal) {
             // Select the value stored
-        $('select').val( localStorage.selectVal );
+        $('select').value( localStorage.selectVal );
     }
 });
 
 // On change store the value
 $('select').on('change', function(){
-    var currentVal = $(this).val();
+    var currentVal = $(this).value();
     localStorage.setItem('selectVal', currentVal );
 });
         </script>
