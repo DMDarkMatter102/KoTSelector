@@ -916,9 +916,12 @@ table, th, td {
         localStorage.setItem(storageKey, value);
     }
         });
+setTimeout(() => {
     const savedValue = localStorage.getItem(storageKey);
-if (savedValue) {
-    plantSelect.value = savedValue;
+    if (savedValue) {
+        plantSelect.set(savedValue); // or .value = savedValue
+    }
+}, 50); 
 }
         new DynamicSelect('#plant1d', {
             columns: 3,
