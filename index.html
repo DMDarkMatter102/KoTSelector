@@ -885,8 +885,8 @@ table, th, td {
   <script src="DynamicSelect.js"></script>
   <script>
         // Initialize the Dynamic Selects
-    const storageKey = 'selectedPlant1a';
-            const plantSelect = new DynamicSelect('#plant1a', {
+    const storageKey1a = 'selectedPlant1a';
+            const plantSelect1a = new DynamicSelect('#plant1a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -913,15 +913,15 @@ table, th, td {
                 }    
             ],
                   onChange: function(value) {
-        localStorage.setItem(storageKey, value);
+        localStorage.setItem(storageKey1a, value);
     }
         });
-    const savedValue = localStorage.getItem(storageKey);
-    if (savedValue) {
-    plantSelect.selectedValue = savedValue;
+    const savedValue1a = localStorage.getItem(storageKey1a);
+    if (savedValue1a) {
+    plantSelect1a.selectedValue = savedValue1a;
     }
-            const storageKey = 'selectedPlant1d';
-            const plantSelect = new DynamicSelect('#plant1d', {
+            const storageKey1d = 'selectedPlant1d';
+            const plantSelect1d = new DynamicSelect('#plant1d', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -948,12 +948,12 @@ table, th, td {
                 }    
             ],
                   onChange: function(value) {
-        localStorage.setItem(storageKey, value);
+        localStorage.setItem(storageKey1d, value);
     }
         });
-    const savedValue = localStorage.getItem(storageKey);
-    if (savedValue) {
-    plantSelect.selectedValue = savedValue;
+    const savedValue1d = localStorage.getItem(storageKey1d);
+    if (savedValue1d) {
+    plantSelect1d.selectedValue = savedValue1d;
     }
             new DynamicSelect('#plant1p', {
             columns: 3,
