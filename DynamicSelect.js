@@ -115,6 +115,24 @@ class DynamicSelect {
         return selected;
     }
 
+    set selectedValue(value) {
+    // 1. Update the internal data array
+    this.data.forEach(d => d.selected = (d.value == value));
+
+    // 2. Find the option element in the DOM
+    const optionEl = this.element.querySelector(`.dynamic-select-option[data-value="${value}"]`);
+    
+    if (optionEl) {
+        // 3. Update the UI styles
+        this.element.querySelectorAll('.dynamic-select-selected').forEach(s => s.classList.remove('dynamic-select-selected'));
+        optionEl.classList.add('dynamic-select-selected');
+        
+        // 4. Update the Header and Hidden Input
+        this.element.querySelector('.dynamic-select-header').innerHTML = optionEl.innerHTML;
+        this.element.querySelector('input').value = value;
+    }
+}
+
     set data(value) {
         this.options.data = value;
     }
