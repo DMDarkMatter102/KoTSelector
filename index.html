@@ -29199,19 +29199,21 @@ table, th, td {
                 }
             ],
         });
+            </script>
+<script>
     $(document).ready(function() {
     // On refresh check if there are values selected
     if (localStorage.selectVal) {
             // Select the value stored
-        $('select').value( localStorage.selectVal );
+        $('select').val( localStorage.selectVal );
     }
 });
 
 // On change store the value
 $('select').on('change', function(){
-    var currentVal = $(this).value();
+    var currentVal = $(this).val();
     localStorage.setItem('selectVal', currentVal );
 });
-        </script>
+</script>
 </body>
 </html>
