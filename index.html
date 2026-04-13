@@ -5024,7 +5024,7 @@ table, th, td {
     plantSelect5boss_z.selectedValue = savedValue5boss_z;
     }
                            const storageKey5all_z = 'selectedZombie5all';
-            const plantSelecty5all_z = new DynamicSelect('#zombie5all', {
+            const plantSelect5all_z = new DynamicSelect('#zombie5all', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -5111,12 +5111,12 @@ table, th, td {
                 }
             ],
                   onChange: function(value) {
-        localStorage.setItem(storageKeyy5all_z, value);
+        localStorage.setItem(storageKey5all_z, value);
     }
         });
-    const savedValuey5all_z = localStorage.getItem(storageKeyy5all_z);
-    if (savedValuey5all_z) {
-    plantSelecty5all_z.selectedValue = savedValuey5all_z;
+    const savedValue5all_z = localStorage.getItem(storageKey5all_z);
+    if (savedValue5all_z) {
+    plantSelect5all_z.selectedValue = savedValue5all_z;
     }
                            const storageKey6a = 'selectedPlant6a';
             const plantSelect6a = new DynamicSelect('#plant6a', {
