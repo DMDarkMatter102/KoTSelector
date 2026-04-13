@@ -885,7 +885,7 @@ table, th, td {
   <script src="DynamicSelect.js"></script>
   <script>
         // Initialize the Dynamic Selects
-            new DynamicSelect('#plant1a', {
+            const plantSelect1a = new DynamicSelect('#plant1a', {
             columns: 3,
             height: '72px',
             width: '72px',
@@ -911,7 +911,13 @@ table, th, td {
                     imgHeight: '72px'
                 }    
             ],
+              onChange: function(selectedValue) {
+        localStorage.setItem('selectedPlant_1a', selectedValue);
+        console.log("Saved to storage:", selectedValue);
+    }
         });
+    const savedPlant1a = localStorage.getItem('selectedPlant_1a') || 'Empty';
+plantSelect1a.set(savedPlant);
         new DynamicSelect('#plant1d', {
             columns: 3,
             height: '72px',
@@ -29200,19 +29206,5 @@ table, th, td {
             ],
         });
             </script>
-<script>
-    $(document).ready(function() {
-    // On refresh check if there are values selected
-    if (localStorage.selectVal) {
-            // Select the value stored
-        $('select').data[0].value( localStorage.selectVal );
-    }
-});
-// On change store the value
-$('select').on('change', function(){
-    var currentVal = $(this).data[0].value();
-    localStorage.setItem('selectVal', currentVal );
-});
-</script>
 </body>
 </html>
