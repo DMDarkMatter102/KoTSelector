@@ -912,13 +912,13 @@ table, th, td {
                     imgHeight: '72px'
                 }    
             ],
-                  onChange: function(value) {
+                  afterChange: function(value) {
         localStorage.setItem(storageKey, value);
     }
         });
     const savedValue = localStorage.getItem(storageKey);
 if (savedValue) {
-    plantSelect.select(savedValue); 
+    plantSelect.Value = savedValue;
 }
         new DynamicSelect('#plant1d', {
             columns: 3,
