@@ -919,7 +919,7 @@ table, th, td {
 setTimeout(() => {
     const savedValue = localStorage.getItem(storageKey);
     if (savedValue) {
-        plantSelect.set(savedValue); // or .value = savedValue
+    plantSelect.value = savedValue;
     }
 }, 50); 
 }
